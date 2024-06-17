@@ -54,7 +54,10 @@ yarn add hexo-all-minifier@0.5.7
 npm run dev
 ```
 
-## 🚀Bug
+## 🚀 部署
+
+采用 CICD 部署,暂时不想/lucky-blog 结尾，所以 GitHub 上的 page 页面是没有样式的，它能推送到云服务器就行
+其他就不弄了
 
 部署到服务器文档密码有问题
 
