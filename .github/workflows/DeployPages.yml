@@ -48,7 +48,7 @@ jobs:
       - name: 上传打包文件
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./public/*"
+          path: public
   deploy:
     environment:
       name: github-pages
