@@ -28,7 +28,7 @@ jobs:
       - name: 安装依赖
         run: yarn install
 
-      - name: 使用VitePress构建
+      - name: 使用Hexo构建
         run: yarn build
 
       # 清空目标服务器上的目录内容
