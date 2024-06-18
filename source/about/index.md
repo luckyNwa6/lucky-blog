@@ -88,6 +88,7 @@ _5-10 年_
 {% endnote %}
 
 {% flink %}
+
 - class_name:
   class_desc:
   link_list:
@@ -96,9 +97,9 @@ _5-10 年_
     avatar: https://luckynwa.top/mypic/blog/luckyTools.png
     descr: '个人工具站'
   - name: Lucky_Vue
-    link: https://myvue.luckynwa.top/lucky-vue-study/
+    link: https://myvue.luckynwa.top/lucky-vue/
     avatar: https://luckynwa.top/mypic/blog/luckyTools.png
-    descr: '个人Vue总结'
+    descr: '个人 Vue 总结'
   - name: Lucky_UI
     link: https://myui.luckynwa.top/
     avatar: https://luckynwa.top/mypic/blog/codeGen.png
@@ -112,4 +113,4 @@ _5-10 年_
     avatar: https://luckynwa.top/mypic/blog/codeGen.png
     descr: '个人代码生成'
     {% endflink %}
-{% flink %}
+    {% flink %}
