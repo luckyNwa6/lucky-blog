@@ -64,3 +64,7 @@ npm run dev
 ```shell
 yarn add hexo-blog-encrypt@3.1.9
 ```
+
+## 迭代
+
+开启 V2.0 新 UI 时代，采用开源框架，进行配置修改
