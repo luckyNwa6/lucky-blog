@@ -20,16 +20,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+          cache: npm
 
       - name: 设置Pages
         uses: actions/configure-pages@v4
 
       - name: 安装依赖
-        run: yarn install
+        run: npm install
 
       - name: 使用Hexo构建
-        run: yarn build
+        run: npm run build
 
       # 清空目标服务器上的目录内容
       - name: 清空目标服务器该文件夹下内容

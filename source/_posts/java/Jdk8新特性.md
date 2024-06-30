@@ -8,6 +8,8 @@ sticky: 99
 comments: false
 abbrlink: 34077
 date: 2023-07-18 13:32:28
+swiper_index: 66
+swiper_description: "Lambda和Stream流相关的学习笔记"
 ---
 
 # 常用
@@ -20,9 +22,9 @@ date: 2023-07-18 13:32:28
 # Lambda
 
 1. 使用 Lambda 必须**有且仅有一个抽象方法的接口(函数式接口)**
-　　 2. lambda 体中调用方法的参数列表与返回值类型，要与函数式接口中抽象方法的函数列表和返回值类型保持一致！
-　　 3. 若 lambda 参数列表中的第一个参数是实例方法的调用者，而第二个参数是实例方法的参数时，可以使用 ClassName::method 看案 4
-　　 4. JDK 里的 Runnable 、Comparator、Consumer、BiConsumer 接口满足 1 的条件，自定义接口要是满足也可以使用它
+   　　 2. lambda 体中调用方法的参数列表与返回值类型，要与函数式接口中抽象方法的函数列表和返回值类型保持一致！
+   　　 3. 若 lambda 参数列表中的第一个参数是实例方法的调用者，而第二个参数是实例方法的参数时，可以使用 ClassName::method 看案 4
+   　　 4. JDK 里的 Runnable 、Comparator、Consumer、BiConsumer 接口满足 1 的条件，自定义接口要是满足也可以使用它
 
 ## 案例 1(Runnable )
 
