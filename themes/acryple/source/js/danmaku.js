@@ -10,7 +10,7 @@
 // //我用的是Vercel部署，这里链接就是Vercel的链接，腾讯云的自己琢磨一下哈，应该也差不多
 // const twikooUrl = "https://tkapi.yisous.xyz";
 // //token要手动获取（反正我是开发者工具里获取的，教程在下面
-// const accessToken = "1059857c25a2ce9fba9cff298f4f33ee";
+// const accessToken = "03a693948ee84985b3ff2036f26bd527";
 // const pageUrl = "/messageboard/"
 
 // //同屏密度限制
@@ -64,10 +64,6 @@
 // 		}
 // 	},danmakuTime)
 // })
-
-
-
-
 
 // function toggleDanmaku(){
 // 	$("#danmaku-container").toggle()

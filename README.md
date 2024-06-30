@@ -73,4 +73,8 @@ yarn add hexo-blog-encrypt@3.1.9
 
 https://blog.yaria.top/
 
+https://github.com/LYXOfficial/Hexo-theme-Acryple
+
+https://butterfly.zhheo.com/create.html
+
 进行的二次开发 Node18
