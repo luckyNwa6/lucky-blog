@@ -18,7 +18,7 @@ function startbarrage() {
     //twikoo部署地址（Vercel、私有部署），腾讯云的为环境ID
     twikooUrl: "https://twikoo.luckynwa.top",
     //token获取见前文
-    accessToken: "03a693948ee84985b3ff2036f26bd527",
+    accessToken: "2aa74465a1029922a636f279268d9c14",
     pageUrl: window.location.pathname,
     barrageTimer: [],
     barrageList: [],

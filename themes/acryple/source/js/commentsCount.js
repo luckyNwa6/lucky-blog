@@ -11,7 +11,7 @@ function comCount() {
       method: "POST",
       body: JSON.stringify({
         event: "COMMENT_GET_FOR_ADMIN",
-        accessToken: "03a693948ee84985b3ff2036f26bd527", // 此处更换accessToken
+        accessToken: "2aa74465a1029922a636f279268d9c14", // 此处更换accessToken
         per: 1,
         page: 1,
       }),
@@ -19,8 +19,12 @@ function comCount() {
     })
       .then((res) => res.json())
       .then((data) => {
+        console.log('data的值是', data);
+        data.count = 66
+        //有bug，accessToken拿不到里面的数据
         document.querySelectorAll(".card_comment").forEach((i) => {
           i.innerHTML = data.count;
+
         });
         document.getElementsByClassName("card_comment").innerText = data.count;
         saveData("comCount", data.count);

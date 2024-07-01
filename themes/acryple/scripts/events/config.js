@@ -7,7 +7,7 @@
 'use strict'
 
 const { version } = require('../../package.json')
-console.log('当前version为:' + version);
+// console.log('当前version为:' + version);
 const path = require('path')
 
 hexo.extend.filter.register('before_generate', () => {
@@ -72,7 +72,8 @@ hexo.extend.filter.register('before_generate', () => {
     medium_zoom: 'https://luckynwa.top/mypic/jscss/medium-zoom.min.js',
     snackbar_css: 'https://luckynwa.top/mypic/jscss/snackbar.min.css',
     snackbar: 'https://luckynwa.top/mypic/jscss/snackbar.min.js',
-    fontawesomeV6: 'https://luckynwa.top/mypic/jscss/all.min.css',
+    //下面是图标，需要去阿里那重新找下载到服务器才能用自己的
+    fontawesomeV6: 'https://jsd.onmicrosoft.cn/npm/@fortawesome/fontawesome-free@6/css/all.min.css',
     flickr_justified_gallery_js: 'https://luckynwa.top/mypic/jscss/fjGallery.min.js',
     flickr_justified_gallery_css: 'https://luckynwa.top/mypic/jscss/fjGallery.min.css',
     aplayer_css: 'https://luckynwa.top/mypic/jscss/APlayer.min.css',
