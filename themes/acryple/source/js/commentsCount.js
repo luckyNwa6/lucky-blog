@@ -19,8 +19,8 @@ function comCount() {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log('data的值是', data);
-        data.count = 66
+        // console.log('data的值是', data);//本地登录后拿到值直接关闭网站，还能用这个token
+        // data.count = 66
         //有bug，accessToken拿不到里面的数据
         document.querySelectorAll(".card_comment").forEach((i) => {
           i.innerHTML = data.count;
