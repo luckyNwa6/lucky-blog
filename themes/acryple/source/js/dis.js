@@ -5,11 +5,12 @@ function todis() {
     type: "get",
     url: "https://apis.map.qq.com/ws/location/v1/ip",
     data: {
-      key: "T3EBZ-TJ7LI-YRBG2-5ZLUR-KD3OS-U6BJO",
+      key: "L7HBZ-DAHKZ-MX7XQ-7MX7V-EHC6J-SPBHF",//https://lbs.qq.com/dev/console/application/mine
       output: "jsonp",
     },
     dataType: "jsonp",
     success: function (res) {
+      console.log('当前地址：', res);
       ipLoacation = res;
       function getDistance(e1, n1, e2, n2) {
         const R = 6371;
@@ -30,12 +31,12 @@ function todis() {
 
       function showWelcome() {
         let dist = getDistance(
-          118.058866,
-          24.601594,
+          118.06432,
+          24.610079,
           ipLoacation.result.location.lng,
           ipLoacation.result.location.lat
         );
-
+        //经纬度
         let pos = ipLoacation.result.ad_info.nation;
         let posdesc;
         switch (ipLoacation.result.ad_info.nation) {

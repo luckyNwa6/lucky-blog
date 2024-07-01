@@ -1,9 +1,6 @@
 
-console.log(
-    "Codes uses GPL Licence"
-)
-function setMask(){//设置遮罩层
-    if(document.getElementsByClassName("rmMask")[0]!=undefined){
+function setMask() {//设置遮罩层
+    if (document.getElementsByClassName("rmMask")[0] != undefined) {
         return document.getElementsByClassName("rmMask")[0];
     }
     mask = document.createElement('div');
@@ -17,7 +14,7 @@ function setMask(){//设置遮罩层
     mask.style.left = '0';
     mask.style.zIndex = 998;
     document.body.appendChild(mask);
-    document.getElementById("rightMenu").style.zIndex=19198;
+    document.getElementById("rightMenu").style.zIndex = 19198;
     return mask;
 }
 
@@ -79,12 +76,12 @@ rmf.switchDarkMode = function () {
     typeof FB === 'object' && window.loadFBComment()
     window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
 };
-rmf.yinyong=function(){
+rmf.yinyong = function () {
     var e = document.getElementsByClassName("el-textarea__inner")[0],
         t = document.createEvent("HTMLEvents");
-    t.initEvent("input", !0, !0), e.value = d.value = "> "+getSelection().toString()+"\n\n", e.dispatchEvent(t);
+    t.initEvent("input", !0, !0), e.value = d.value = "> " + getSelection().toString() + "\n\n", e.dispatchEvent(t);
     console.log(getSelection().toString());
-    document.getElementsByClassName("el-textarea__inner")[0].value="> "+getSelection().toString()+"\n\n";
+    document.getElementsByClassName("el-textarea__inner")[0].value = "> " + getSelection().toString() + "\n\n";
     Snackbar.show({
         text: '为保证最佳评论阅读体验，建议不要删除空行',
         pos: 'top-center',
@@ -130,26 +127,26 @@ rmf.copySelect = function () {
 
 //回到顶部
 rmf.scrollToTop = function () {
-    document.getElementsByClassName("menus_items")[1].setAttribute("style","");
-    document.getElementById("name-container").setAttribute("style","display:none");
+    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");
+    document.getElementById("name-container").setAttribute("style", "display:none");
     btf.scrollToDest(0, 500);
 }
 rmf.translate = function () {
     document.getElementById("translateLink").click();
 }
-rmf.searchinThisPage=()=>{
-    document.getElementsByClassName("local-search-box--input")[0].value=window.getSelection().toString()
+rmf.searchinThisPage = () => {
+    document.getElementsByClassName("local-search-box--input")[0].value = window.getSelection().toString()
     document.getElementsByClassName("search")[0].click()
-    var evt = document.createEvent("HTMLEvents");evt.initEvent("input", false, false);document.getElementsByClassName("local-search-box--input")[0].dispatchEvent(evt);
+    var evt = document.createEvent("HTMLEvents"); evt.initEvent("input", false, false); document.getElementsByClassName("local-search-box--input")[0].dispatchEvent(evt);
     // try{document.body.removeChild(mask);}catch(err){}
 }
-rmf.downloadImage=function(imgsrc, name) { //下载图片地址和图片名
-    btf.snackbarShow('正在下载中，请稍后',false,10000)
-    setTimeout(function(){
+rmf.downloadImage = function (imgsrc, name) { //下载图片地址和图片名
+    btf.snackbarShow('正在下载中，请稍后', false, 10000)
+    setTimeout(function () {
         let image = new Image();
         // 解决跨域 Canvas 污染问题
         image.setAttribute("crossOrigin", "anonymous");
-        image.onload = function() {
+        image.onload = function () {
             let canvas = document.createElement("canvas");
             canvas.width = image.width;
             canvas.height = image.height;
@@ -167,14 +164,14 @@ rmf.downloadImage=function(imgsrc, name) { //下载图片地址和图片名
         rm.downloadimging = false;
     }, "10000");
 }
-document.body.addEventListener('touchmove', function(e){
-    
+document.body.addEventListener('touchmove', function (e) {
+
 }, { passive: false });
 function popupMenu() {
     //window.oncontextmenu=function(){return false;}
     window.oncontextmenu = function (event) {
-        if(event.ctrlKey)return true;
-        
+        if (event.ctrlKey) return true;
+
         $('.rightMenu-group.hide').hide();
         if (document.getSelection().toString()) {
             $('#menu-text').show();
@@ -188,17 +185,17 @@ function popupMenu() {
         }
         var el = window.document.body;
         el = event.target;
-        var a=/^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\*\+,;=.]+$/
-        if (a.test(window.getSelection().toString())&&el.tagName!="A"){
+        var a = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\*\+,;=.]+$/
+        if (a.test(window.getSelection().toString()) && el.tagName != "A") {
             $('#menu-too').show()
         }
         if (el.tagName == 'A') {
             $('#menu-to').show()
             rmf.open = function () {
-                if(el.href.indexOf("http://")==-1&&el.href.indexOf("https://")==-1||el.href.indexOf("yisous.xyz")!=-1){
+                if (el.href.indexOf("http://") == -1 && el.href.indexOf("https://") == -1 || el.href.indexOf("yisous.xyz") != -1) {
                     pjax.loadUrl(el.href)
                 }
-                else{
+                else {
                     location.href = el.href
                 }
             }
@@ -234,7 +231,7 @@ function popupMenu() {
                 document.execCommand("Copy");
                 document.body.removeChild(txa);
             }
-            rmf.saveAs=function(){
+            rmf.saveAs = function () {
                 var url = el.src;
                 var filename = url.split("/")[-1];
                 rmf.downloadImage(url, filename);
@@ -280,20 +277,20 @@ function popupMenu() {
         if (pageY + rmHeight > window.innerHeight) {
             pageY -= pageY + rmHeight - window.innerHeight;
         }
-        mask=setMask();
-        window.onscroll=()=>{
+        mask = setMask();
+        window.onscroll = () => {
             rmf.showRightMenu(false);
-            window.onscroll=()=>{}
+            window.onscroll = () => { }
             document.body.removeChild(mask);
         }
-        $(".rightMenu-item").click(()=>{
+        $(".rightMenu-item").click(() => {
             document.body.removeChild(mask);
         })
-        $(window).resize(()=>{
+        $(window).resize(() => {
             rmf.showRightMenu(false);
             document.body.removeChild(mask);
         })
-        mask.onclick=()=>{
+        mask.onclick = () => {
             document.body.removeChild(mask);
         }
         rmf.showRightMenu(true, pageY, pageX);
