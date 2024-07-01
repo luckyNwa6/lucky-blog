@@ -126,8 +126,9 @@ deploy:
   - type: git
     repo: git@github.com:luckyNwa/luckyNwa.github.io.git
     branch: main
+ # 看板娘
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
