@@ -5,28 +5,21 @@
 menu:
   首页: / ||fa fa-home
   文章 ||  fa fa-newspaper:
-    随便逛逛: javascript:toRandomPost() || fa fa-paper-plane
     归档: /archives/ || fa fa-archive
     分类: /categories/ || fas fa-folder-open
     标签: /tags/ || fas fa-tags
   本站 || fa fa-sitemap:
-    说说: /speaks/ || fa fa-comments
-    友链: /links/ || fas fa-link
-    朋友圈: /fcircle/ || fab fa-galactic-republic
     分站: /othersite/ || fa fa-tasks
-    # 日志: /update/ || fa fa-bell
     留言板: /messageboard/ || fa fa-blackboard
+    友情链接: /links/ || fas fa-link
   我的 || fa-fw fas fa-address-card:
-    # 电影: /movies/ || fa fa-photo-video
-    追番: /bangumis/ || fa-fw fas fa fa-film
-    音乐: /musics/ || fa fa-music
     关于我: /about/ || fa fa-info-circle
     声明: /license/ || fas fa-balance-scale
   工具 || fa-fw fas fa-tools:
     木鱼: /muyu/ || fa fa-cog
   线路 || fas fa-link:
     主站（阿里云）: https://luckynwa.top/
-    备站（Github）: https://luckynwa.github.io/
+    备站（Other）: https://luckynwa.github.io/
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -151,7 +144,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: false
-  subtitle: "Page Not Found"
+  subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 post_meta:
@@ -509,7 +502,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(https://xxxxxx.com/xxx.jpg)
-background: "#f7f9fe"
+background: '#f7f9fe'
 
 # Footer Background
 footer_bg: transparent
@@ -542,7 +535,7 @@ canvas_fluttering_ribbon:
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest: #背景特效线的那种
   enable: false
-  color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
@@ -648,7 +641,7 @@ aside:
       enable: false
       icon: fab fa-github
       text: 看看博主的Github
-      link: https://github.com/lyxofficial
+      link: https://github.com/luckyNwa
   card_announcement:
     enable: true
     content: 本网站的Twikoo评论系统使用Cravatar头像系统，请自行绑定邮箱配置
@@ -722,9 +715,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: "简"
+  msgToTraditionalChinese: '简'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: "繁"
+  msgToSimplifiedChinese: '繁'
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -812,8 +805,8 @@ aplayerInject:
 snackbar:
   enable: true
   position: top-right
-  bg_light: "#49b1f5" # The background color of Toast Notification in light mode
-  bg_dark: "#1f1f1f" # The background color of Toast Notification in dark mode
+  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
@@ -857,7 +850,7 @@ inject:
     - <link rel="stylesheet" href="/css/ariasakablog.css">
     - <link id="css" rel="stylesheet" href="/css/stylessimple.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
-    - "<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
+    - '<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>'
     - <style id="barragesColor"></style>
     - <style id="settingStyle"></style>
     - <style id="yjjs"></style>
@@ -954,8 +947,8 @@ categoryBar:
     - rgba(112, 235, 12,0.6)
     - rgba(235, 146, 12,0.6)
     - rgba(12, 135, 235,0.6)
-    - "#425aef88"
-    - "#ed709b88"
+    - '#425aef88'
+    - '#ed709b88'
 
 # tag-plugins-plus
 # see https://akilar.top/posts/615e2dec/

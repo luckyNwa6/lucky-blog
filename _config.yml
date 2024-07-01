@@ -4,12 +4,12 @@
 
 # Site
 title: 小维的博客园
-subtitle: ""
-description: ""
-keywords: "Java,MySQL,代码,博客,Butterfly,Hexo"
+subtitle: ''
+description: ''
+keywords: 'Java,MySQL,代码,博客,Butterfly,Hexo'
 author: LuckyNwa
 language: zh-CN
-timezone: "Asia/Shanghai"
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -46,7 +46,7 @@ admin:
   username: luckyNwa
   password_hash: $2a$10$8hX8N9xUIZ620QZF.vyizurma6ylRUUc8xkeuvxuR14y5t8GbF2me
   secret: lucky
-  deployCommand: "/admin_script.bat"
+  deployCommand: '/admin_script.bat'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -55,7 +55,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ""
+  exclude: ''
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -65,21 +65,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: "    "
+  tab_replace: '    '
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ""
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ""
+  path: ''
   per_page: 20
   order_by: -date
 
@@ -99,7 +99,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -126,7 +126,7 @@ deploy:
   - type: git
     repo: git@github.com:luckyNwa/luckyNwa.github.io.git
     branch: main
- # 看板娘
+  # 看板娘
 live2d:
   enable: false
   scriptFrom: local
@@ -175,14 +175,7 @@ butterfly_article_double_row:
 nofollow:
   enable: true
   field: site
-# hexo-douban
-douban:
-  user: lyxoff2233 # 你的豆瓣ID
-  builtin: true
-  movie:
-    title: "电影列表"
-    quote: "好看的电影！(实际上看过很多，不过忘了，就只能扔一些印象深刻一点的电影上去)"
-  timeout: 10000
+
 # history_calendar:
 #   priority: 4
 #   enable: true
@@ -197,12 +190,12 @@ feed:
   path: atom.xml
   limit: false
 bangumi:
-  enable: true
+  enable: false
   vmid: 369280472
-  title: "追番列表"
-  quote: "君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！"
+  title: '追番列表'
+  quote: '君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！'
   show: 1
-  loading: "/assets/douban-loading.gif"
+  loading: '/assets/douban-loading.gif'
 
 hexo_submit_urls_to_search_engine:
   submit_condition: count
@@ -242,7 +235,7 @@ markdown:
   plugins:
   anchors:
     level: 1
-    collisionSuffix: ""
+    collisionSuffix: ''
 
 aplayer:
   meting: true

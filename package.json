@@ -1,5 +1,5 @@
 {
-  "name": "ariasaka-blog",
+  "name": "lucky-blog",
   "version": "1.0.1",
   "private": true,
   "scripts": {
@@ -83,13 +83,7 @@
     "type": "git",
     "url": "git+https://github.com/LYXOfficial/blog.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LYXOfficial/blog/issues"
-  },
-  "homepage": "https://github.com/LYXOfficial/blog#readme",
-  "description": "",
+  "author": "luckyNwa",
   "devDependencies": {
     "gulp-clean-css": "^4.3.0",
     "gulp-fontmin": "^0.7.4",
