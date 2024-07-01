@@ -37,7 +37,7 @@ l = [
   '微软垮了！',
   '？！',
 ]
-console.log(m, dd)
+// console.log(m, dd)
 if (m == 4 && dd == 1) {
   //愚人节，随机谎话
   console.log(l[randomNum(0, l.length - 1)])
