@@ -6,7 +6,7 @@ function comCount() {
       i.innerHTML = d
     })
   else {
-    fetch('http://47.98.230.128:3737/', {
+    fetch('https://twikoo.luckynwa.top/', {
       // 此处更换url
       method: 'POST',
       body: JSON.stringify({

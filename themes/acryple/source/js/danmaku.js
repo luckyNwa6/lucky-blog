@@ -6,7 +6,7 @@ const maxdanmakuHeight = 100
 //每个弹幕的间隔时间
 const danmakuTime = 1000
 //Vercel部署，http://twikoo.luckynwa.top
-const twikooUrl = 'http://47.98.230.128:3737'
+const twikooUrl = 'https://twikoo.luckynwa.top'
 //token要手动获取（反正我是开发者工具里获取的，教程在下面
 const accessToken = '2aa74465a1029922a636f279268d9c14'
 const pageUrl = '/messageboard/'

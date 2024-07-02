@@ -6,7 +6,7 @@ function startbarrage() {
     clearInterval(timer)
     document.querySelector('.comment-barrage').innerHTML = ''
     delete sw
-  } catch (err) {}
+  } catch (err) { }
   const commentBarrageConfig = {
     //浅色模式和深色模式颜色，务必保持一致长度，前面是背景颜色，后面是字体，随机选择，默认这个颜色还好
     lightColors: [['#ffffffaa!important', 'var(--lyx-black)']],
@@ -16,7 +16,7 @@ function startbarrage() {
     //弹幕显示间隔时间，单位ms
     barrageTime: 3000,
     //twikoo部署地址（Vercel、私有部署），腾讯云的为环境ID
-    twikooUrl: 'http://47.98.230.128:3737',
+    twikooUrl: 'https://twikoo.luckynwa.top',
     //token获取见前文
     accessToken: '2aa74465a1029922a636f279268d9c14',
     pageUrl: window.location.pathname,
