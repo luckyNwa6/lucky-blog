@@ -2,7 +2,9 @@
 title: 敲木鱼
 date: 2022-11-25 08:16:09
 ---
+
 {% raw %}
+
 <div class="muyu-layout">
         <div id="jishu-box">
              <p id="jishu">功德：0</p>
@@ -45,13 +47,13 @@ date: 2022-11-25 08:16:09
         var gongde = document.getElementById("gongde");
         var muyu = document.getElementById("muyu");
         var jishu = document.getElementById("jishu-box");
-        var mp3Url = "/music/muyu.mp3";
-        var player = new Audio(mp3Url);
+        // var mp3Url = "/music/muyu.mp3";
+        // var player = new Audio(mp3Url);
         var num = 0;
         muyu.addEventListener("click", function () {
             num+=100;
-            player.load();
-            player.play();
+            // player.load();
+            // player.play();
             muyu.animate([{ transform: 'scale(0.85)' }, { transform: 'scale(1.03)' }, { transform: 'scale(1)' }], 500);
             gongde.animate([{ opacity: 0, transform: 'translateY(0)' },{ opacity: 0.3, transform: 'translateY(-10px)' },{ opacity: 0.8, transform: 'translateY(-20px)' }, { opacity: 1, transform: 'translateY(-30px)' }, { opacity: 0.8, transform: 'translateY(-35px)' }, { opacity: 0, transform: 'translateY(-40px)' }], 600);
             jishu.innerHTML = "<p id='jishu'>功德："+num+"</p>";
@@ -59,4 +61,3 @@ date: 2022-11-25 08:16:09
     </script>
 
 {% endraw %}
-

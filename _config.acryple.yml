@@ -88,7 +88,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://luckynwa.top/mypic/favicon.png
+favicon: https://luckynwa.top/mypic/blog/63103c75da20e.webp
 
 # Avatar (頭像)
 avatar:
@@ -98,13 +98,13 @@ avatar:
 # Disable all banner image
 disable_top_img: false
 # The banner image of home page
-index_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+index_img: https://luckynwa.top/mypic/blog/63103c8a03a24.webp
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+default_top_img: https://luckynwa.top/mypic/blog/63103c8a03a24.webp
 
 # The banner image of archive page
-archive_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
+archive_img: https://luckynwa.top/mypic/blog/63103c8a03a24.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -138,14 +138,14 @@ cover:
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: https://apis.yisous.xyz/api/randomAvatar
+  flink: https://luckynwa.top/mypic/blog/randomAvatar
   post_page: https://api.vvhan.com/api/acgimg
 
 # A simple 404 page
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://luckynwa.top/mypic/blog/aKOcLiyPl2JQdFD.png
 
 post_meta:
   page: # Home Page
@@ -856,10 +856,10 @@ inject:
     - <style id="yjjs"></style>
     - <style id="themeColor"></style>
     - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC">
-    - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
+    - <link rel="stylesheet" href="https://luckynwa.top/mypic/jscss/main.css">
     - <link rel="stylesheet" href="/css/commentBarrage.css">
     - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC">
-    - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" />
+    - <link rel="stylesheet" type="text/css" href="https://luckynwa.top/mypic/jscss//snackbar.min.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="https://luckynwa.top/mypic/jscss/js-sdk-pro.min.js"></script>
     - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
     - <script src="https://luckynwa.top/mypic/jscss/js-sdk-perf.min.js" crossorigin="anonymous"></script>
@@ -875,13 +875,13 @@ inject:
     - <div class="aplayer no-destroy" data-id="7803928554" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
     - <script type="text/javascript" src="/js/aplayersave.js"></script>
     - <script type="text/javascript" src="/js/noie.js"></script>
-    - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
-    - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
-    - <script src="https://cdn1.tianli0.top/npm/sweetalert2@8"></script>
+    - <script src="https://luckynwa.top/mypic/jscss/av-min.js"></script>
+    - <script src="https://luckynwa.top/mypic/jscss/winbox.bundle.min.js"></script>
+    - <script src="https://luckynwa.top/mypic/jscss/sweetalert2@8"></script>
     - <script type="text/javascript" data-pjax="" src="/js/rightmenu.js"></script>
     - <script type="text/javascript" src="/js/copy.js"></script>
     - <script type="text/javascript" src="/js/welcome.js"></script>
-    - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+    - <script type="text/javascript" src="https://luckynwa.top/mypic/jscss/jquery.min.js"></script>
     - <script type="text/javascript" src="/js/resizeTop.js"></script>
     - <script type="text/javascript" src="/js/languages.js"></script>
     - <script type="text/javascript" src="/js/browser.js"></script>
@@ -899,7 +899,7 @@ inject:
     - <script src="/js/hide.show.js"></script>
 
     # - <script src="https://f.zhheo.com/JS-Heo/bb/showbb_in_index.js" data-pjax=""="" defer=""></script> #不清楚干嘛的
-    - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://luckynwa.top/mypic/jscss/pace.min.js"></script>
     - <script data-pjax="" src="/js/baiduhistory.js"></script>
     - <script src="/js/random.js"></script>
     - <script src="/js/lunar.js"></script>
@@ -910,7 +910,7 @@ inject:
     - <script type="text/javascript" src="/js/commentsCount.js"></script>
     - <script type="text/javascript" src="/js/latest.js"></script>
     - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>
-    - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script>
+    - <script type="text/javascript" src="https://luckynwa.top/mypic/jscss/snackbar.min.js"></script>
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 #

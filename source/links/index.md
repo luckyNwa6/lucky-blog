@@ -1,24 +1,24 @@
 ---
-title: 友链
+title: 友情链接
 date: 2022-07-03 20:40:57
-type: "links"
+type: 'links'
 ---
 
-<div class="title-h2-a">
+<!-- <div class="title-h2-a">
   <div class="title-h2-a-left">
     <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2><a class="random-post-start" href="javascript:fetchRandomPost();"><i class="fa-solid fa-arrow-rotate-right"></i></a>
   </div>
 </div>
 <div id="random-post"></div>
 
-<link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.css">
+<link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.css"> -->
 
 <!-- 一个友链例子 -->
 
 {% flink %}
 
 - class_name: 技术小牛
-  class_desc: 
+  class_desc:
   link_list:
   - name: 沈伟泽
     link: https://www.shenweize.com/
