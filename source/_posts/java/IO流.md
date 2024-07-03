@@ -1,6 +1,6 @@
 ---
 title: IO流
-cover: 'https://imgs.luckynwa.top/blog/ioIcon.png'
+cover: "https://imgs.luckynwa.top/blog/ioIcon.png"
 description: IO流相关的学习笔记
 categories: Java
 tags: IO

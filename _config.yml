@@ -4,27 +4,25 @@
 
 # Site
 title: 小维的博客园
-subtitle: ''
-description: ''
+subtitle: '学无止境🏝️'
+description: '不求一日成材，但求天天进步'
 keywords: 'Java,MySQL,代码,博客,Butterfly,Hexo'
-author: LuckyNwa
+author: lucky小维
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# 改动的地方
-url: https://luckyNwa.top
-root: /
-#permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink/
+url: https://luckyNwa6.github.io
+permalink: post/:abbrlink.html
 abbrlink:
-  alg: crc32 # 算法：crc16(default) and crc32
-  rep: hex # 进制：dec(default) and hex
+	alg:crc32
+	rep:hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
 # Directory
 source_dir: source
 public_dir: public
@@ -34,19 +32,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - 404.html
-  - projects.html
-  - googlee2a292c45f2bba42.html
-  - linksmessage.html
-  - people.html
-  - noie.html
-  - config.yaml
-# hexo-admin authentification
-admin:
-  username: luckyNwa
-  password_hash: $2a$10$8hX8N9xUIZ620QZF.vyizurma6ylRUUc8xkeuvxuR14y5t8GbF2me
-  secret: lucky
-  deployCommand: '/admin_script.bat'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -65,7 +50,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: '    '
+  tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
@@ -80,7 +65,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 20
+  per_page: 8
   order_by: -date
 
 # Category & Tag
@@ -95,7 +80,7 @@ meta_generator: true
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
-## https://momentjs.com/docs/#/displaying/format/
+## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
@@ -115,128 +100,57 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: acryple
+theme: butterfly
+
+# Deployment 打开github的page功能
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: git@github.com:luckyNwa6/luckyNwa6.github.io.git
+  branch: main
+
+
 search:
   path: search.xml
-  field: post # post:文章范围、page:页面范围、all:覆盖所有
-  content: true # 内容是否包含每一篇文章的全部内容
-  template: # ./search.xml 指定定制的XML模板
+  field: post
+  content: true
+  format: html
 
-deploy:
-  - type: git
-    repo: git@github.com:luckyNwa/luckyNwa.github.io.git
-    branch: main
-  # 看板娘
-live2d:
-  enable: false
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: live2d-widget-model-hibiki
-  display:
-    position: left
-    width: 150
-    height: 520
-  mobile:
-    show: false
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: true
-  total_time: true
-# # hexo-filter-gitcalendar
-# # see https://akilar.top/posts/1f9c68c9/
-# calendar:
-#   single: true
-#   root: calendar/
+#yarn add  hexo-all-minifier  得先去掉这个依赖，其他的都装完，最后装它
+#在使用 hexo-all-minifier 插件之前，确保已经安装并配置好 Hexo，并且已经生成了静态网页文件
+#打包压缩
+all_minifier: true
 
-# # hexo-butterfly-swiper
-# # see https://akilar.top/posts/8e1264d1/
-swiper:
-  enable: true # 开关
-  priority: 5 # 过滤器优先权
-  enable_page: all # 应用页面
-  timemode: date # date/updated
-  layout: # 挂载容器类型
-    type: class
-    name: swiper-div
-    index: 0
-  default_descr:
-  swiper_css: https://imgs.luckynwa.top/jscss/swiper.min.css
-  swiper_js: https://imgs.luckynwa.top/jscss/swiper.min.js
-  custom_css: https://imgs.luckynwa.top/jscss/swiperstyle.css
-  custom_js: https://imgs.luckynwa.top/jscss/swiper_init.js
-butterfly_article_double_row:
-  enable: false
-nofollow:
+# html压缩
+html_minifier:
   enable: true
-  field: site
+  ignore_error: false
+  exclude:
 
-# history_calendar:
-#   priority: 4
-#   enable: true
-#   enable_page: all
-#   layout:
-#     type: class
-#     name: sticky_layout
-#     index: 0
-#   temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
-feed:
-  type: atom
-  path: atom.xml
-  limit: false
-bangumi:
+# css压缩
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+    
+# js压缩
+js_minifier:
+  enable: true
+  mangle: true
+  compress:
+  exclude:
+    - '*.min.js'
+js_concator:
   enable: false
-  vmid: 369280472
-  title: '追番列表'
-  quote: '君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！'
-  show: 1
-  loading: '/assets/douban-loading.gif'
+  bundle_path: '/js/bundle.js'
+  front: false
+  silent: false
 
-hexo_submit_urls_to_search_engine:
-  submit_condition: count
-  count: 10
-  period: 900
-  google: 0
-  bing: 1
-  baidu: 0
-  txt_path: submit_urls.txt
-  bing_host: https://luckynwa.top
-  bing_token: d6e8ebf9a1fc49598a33815ad4268295
-  replace: 0
-# wowjs:
-#   enable: true #控制动画开关。true是打开，false是关闭
-#   priority: 10 #过滤器优先级
-#   mobile: false #移动端是否启用，默认移动端禁用
-#   animateitem:
-#     - class: words #必填项，需要添加动画的元素的class
-#       style: animate__zoomIn #必填项，需要添加的动画
-#       duration: 1s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
-#       delay: 0.5s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
-#       offset: 100 #选填项，开始动画的距离（相对浏览器底部）
-#       iteration: 1 #选填项，动画重复的次数
-#     - class: card-widget
-#       style: animate__zoomIn
-animate_css: https://imgs.luckynwa.top/jscss/animate.min.css
-wow_js: https://imgs.luckynwa.top/jscss/wow.min.js
-wow_init_js: https://imgs.luckynwa.top/jscss/wow_init.js
-random: true
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-  plugins:
-  anchors:
-    level: 1
-    collisionSuffix: ''
-
-aplayer:
-  meting: true
-  asset_inject: false
+# 图片优化
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false

@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch
 description: ElasticSearch相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/elasticSearchIcon.png'
+cover: "https://imgs.luckynwa.top/blog/elasticSearchIcon.png"
 categories: Java
 tags: ES
 comments: false

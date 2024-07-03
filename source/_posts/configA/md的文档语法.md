@@ -1,7 +1,7 @@
 ---
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/markerDownIcon.png'
+cover: "https://imgs.luckynwa.top/blog/markerDownIcon.png"
 categories: Config
 tags: Md-Use
 abbrlink: 2645
@@ -68,8 +68,8 @@ date: 2022-10-24 15:32:28
 ```
 
 ```javascript
-let a = 1
-console.log(a)
+let a = 1;
+console.log(a);
 ```
 
 ```

@@ -1,7 +1,7 @@
 ---
 title: Mysql知识点
 description: Mysql使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/mysqlIcon2.png'
+cover: "https://imgs.luckynwa.top/blog/mysqlIcon2.png"
 categories: Java
 tags: Mysql
 comments: false

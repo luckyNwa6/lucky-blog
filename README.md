@@ -68,13 +68,3 @@ yarn add hexo-blog-encrypt@3.1.9
 ## 迭代
 
 开启 V2.0 新 UI 时代，采用开源框架，进行配置修改
-
-基于这个大佬的开源项目
-
-https://blog.yaria.top/
-
-https://github.com/LYXOfficial/Hexo-theme-Acryple
-
-https://butterfly.zhheo.com/create.html
-
-进行的二次开发 Node18

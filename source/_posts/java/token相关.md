@@ -1,7 +1,7 @@
 ---
 title: Token
 description: 深入理解token的使用
-cover: 'https://imgs.luckynwa.top/blog/tokenIcon.png'
+cover: "https://imgs.luckynwa.top/blog/tokenIcon.png"
 categories: Java
 tags: Token
 comments: false

@@ -1,14 +1,12 @@
 ---
 title: Git 的使用
-cover: 'https://imgs.luckynwa.top/blog/gitIcon.png'
+cover: "https://imgs.luckynwa.top/blog/gitIcon.png"
 description: Git 相关的学习笔记
 categories: Java
 tags: Git
 comments: false
 abbrlink: 6724
 date: 2022-01-01 11:22:21
-swiper_index: 4
-swiper_description: 'Git 相关的学习笔记'
 ---
 
 git 软件链接：https://pan.baidu.com/s/1XaG8mcIjMwNtlC1w_FLyMg?pwd=6666

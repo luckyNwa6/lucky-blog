@@ -1,7 +1,7 @@
 ---
 title: RocketMq 知识点以及环境搭建
 description: RocketMq 使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/rocketMqIcon.png'
+cover: "https://imgs.luckynwa.top/blog/rocketMqIcon.png"
 categories: Java
 tags: RocketMq
 abbrlink: 32867
