@@ -204,10 +204,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: http://luckynwa.top/mypic/blog/wechat.png
+    - img: https://imgs.luckynwa.top/blog/wechat.png
       link:
       text: 微信支付
-    - img: http://luckynwa.top/mypic/blog/alipay.png
+    - img: https://imgs.luckynwa.top/blog/alipay.png
       link:
       text: 支付宝
 # 在线编辑文章
@@ -792,9 +792,9 @@ pjax:
     - /speaks/
     # - categories/*
 
-# Inject the css and script (aplayer/meting)
+# 悬浮音乐
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -871,7 +871,7 @@ inject:
   bottom:
     - <script type="text/javascript" src="/js/fixbugpjax.js"></script>
     - <script src="/js/sakura.js"></script>
-    - <div class="aplayer no-destroy" data-id="7803928554" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
+    - <div class="aplayer no-destroy" data-id="8517125818" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
     - <script type="text/javascript" src="/js/aplayersave.js"></script>
     - <script type="text/javascript" src="/js/noie.js"></script>
     - <script src="https://imgs.luckynwa.top/jscss/av-min.js"></script>

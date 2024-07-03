@@ -4,7 +4,7 @@ self.addEventListener('install', async function (installEvent) {
   self.skipWaiting()
   installEvent.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
-      console.log('开启缓存')
+      // console.log('开启缓存')
       return cache.addAll(cachelist)
     }),
   )

@@ -22,15 +22,15 @@ type: 'links'
   link_list:
   - name: 沈伟泽
     link: https://www.shenweize.com/
-    avatar: http://luckynwa.top/mypic/blog/shenweize.png
+    avatar: https://imgs.luckynwa.top/blog/shenweize.png
     descr: 大数据开发工程师
   - name: 小温
     link: https://pacemak1.github.io/
-    avatar: http://luckynwa.top/mypic/blog/wenzhihao.png
+    avatar: https://imgs.luckynwa.top/blog/wenzhihao.png
     descr: 高级算法开发工程师
   - name: 云上舟
     link: https://yunshangzhou.github.io/js-book/
-    avatar: http://luckynwa.top/mypic/blog/yunshangzhou.png
+    avatar: https://imgs.luckynwa.top/blog/yunshangzhou.png
     descr: 前端大佬
   - name: Ariasaka
     link: https://yisous.xyz/
