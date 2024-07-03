@@ -78,6 +78,16 @@ yarn add hexo-all-minifier@0.5.7
 npm run dev
 ```
 
+**博客 v2**
+
+可能需要装 hexo
+
+```shell
+hexo version   爆红就是缺少
+
+npm install hexo-cli -g
+```
+
 ## ⭐️ 部署
 
 - 博客 v1 部署了多份
@@ -86,8 +96,9 @@ npm run dev
 
   （2）开源部署，当前项目直接上传到 Github 上，通过 Action 自动化部署 https://luckynwa6.github.io/lucky-blog/
 
-  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/，而且只要GitHub代码改变他也会自动更新
+  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/
+  而且只要 GitHub 代码改变他也会自动更新
 
-- 博客 v2 只部署了 1 份
+- 博客 v2 只部署了 1 份 , 由于部署到 Github 上/后面多一个名称，就算了
 
   通过 Github 的 Action，CICD 直接部署到了我自己的私有云服务器中 https://luckynwa.top
