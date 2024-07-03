@@ -1,32 +1,56 @@
-# Hexo 项目
+# 博客
 
-## 🐑 使用
+## 🐑 分支
 
-Yarn 1.22.4 管理依赖包
+main-------->Heox（框架）+ButterFly（主题）+Valine（评论）简单配置实现的博客站 v1
 
-Node 16.20.1
+lucky-------->Heox（框架）+Acryple（主题）+Twikoo（私部署评论） 博客站 V2 基于[大佬的开源项目](https://github.com/LYXOfficial/Hexo-theme-Acryple)进行 2 次配置开发 [大佬地址](https://blog.yaria.top/)
 
-GitHub clone 项目后：
+## 🐶 开发环境
 
-去 package 中删除 hexo-all-minifier 这个依赖
+node 16 | 18
 
-```shell
+包管理采用 yarn | npm
+
+## 🐯 提交规范
+
+代码提交，严格按照如下规范:
+
+| 类型     | 描述                     |
+| -------- | ------------------------ |
+| feat     | 新功能                   |
+| fix      | 修补 bug                 |
+| docs     | 文档                     |
+| style    | 格式方面的优化           |
+| refactor | 重构                     |
+| test     | 测试                     |
+| chore    | 构建过程或辅助工具的变动 |
+
+比如修复一个 bug 必须是
+
+fix: 修复 bug
+
+中间有:后面有空格
+
+## 🚀 注意事项
+
+**博客 v1**
+
+拉取---去 package 中删除 hexo-all-minifier 这个依赖
+
+```
 yarn
 ```
 
-按下 F5 运行成功,ctrl +c 退出
+按下 F5 启动项目 ctrl +c 退出
 
-```shell
+```
 yarn add hexo-all-minifier@0.5.7
 ```
 
-F5 启动
-
-重装依赖步骤如下:
-
 删除 node 包
 
-```shell
+```
 npm install -g rimraf
 
 npm run clean
@@ -54,17 +78,16 @@ yarn add hexo-all-minifier@0.5.7
 npm run dev
 ```
 
-## 🚀 部署
+## ⭐️ 部署
 
-采用 CICD 部署,暂时不想/lucky-blog 结尾，所以 GitHub 上的 page 页面是没有样式的，它能推送到云服务器就行
-其他就不弄了
+- 博客 v1 部署了多份
 
-部署到服务器文档密码有问题
+  （1）首先是本地开发时候直接将打包后的文件上传到 GitHub 上直接部署，防止源码泄露 https://luckynwa6.github.io
 
-```shell
-yarn add hexo-blog-encrypt@3.1.9
-```
+  （2）开源部署，当前项目直接上传到 Github 上，通过 Action 自动化部署 https://luckynwa6.github.io/lucky-blog/
 
-## 迭代
+  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/，而且只要GitHub代码改变他也会自动更新
 
-开启 V2.0 新 UI 时代，采用开源框架，进行配置修改
+- 博客 v2 只部署了 1 份
+
+  通过 Github 的 Action，CICD 直接部署到了我自己的私有云服务器中 https://luckynwa.top
