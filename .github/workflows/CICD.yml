@@ -1,9 +1,9 @@
 name: 云服务器CICD
-# 监听 main 分支上的 push 事件
+# 监听 lucky 分支上的 push 事件
 on:
   push:
     branches:
-      - main
+      - lucky
 
 jobs:
   build-and-deploy:
@@ -50,6 +50,6 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
-          source: "./public/*"
-          target: "/nwa/nginx91/html/myblog"
+          source: './public/*'
+          target: '/nwa/nginx91/html/myblog'
           strip_components: 1

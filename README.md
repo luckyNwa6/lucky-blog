@@ -86,7 +86,8 @@ npm run dev
 
   （2）开源部署，当前项目直接上传到 Github 上，通过 Action 自动化部署 https://luckynwa6.github.io/lucky-blog/
 
-  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/，而且只要GitHub代码改变他也会自动更新
+  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/
+  而且只要 GitHub 代码改变他也会自动更新
 
 - 博客 v2 只部署了 1 份
 
