@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "i": "npm install",
+    "iNode18": "npm install",
     "dev": "hexo clean && hexo generate && hexo server",
     "server": "hexo clean && hexo generate && hexo server",
     "build": "hexo generate",

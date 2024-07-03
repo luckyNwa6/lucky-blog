@@ -19,7 +19,7 @@ menu:
     木鱼: /muyu/ || fa fa-cog
   线路 || fas fa-link:
     主站（阿里云）: https://luckynwa.top/
-    备站（Other）: https://luckynwa.github.io/
+    备站（Vercle）: https://vercel.com/luckynwa6s-projects
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -409,8 +409,8 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2022
-  custom_text: 这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒 6666666666565
+    since: 2021
+  custom_text: 这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -608,18 +608,17 @@ subtitle:
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
-  loop: true
+  loop: false
   # source 調用第三方服務
   # source: false 關閉調用
   # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 3
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - 今日事&#44;今日畢
-    - Do one thing at a time,and do well!
 
 # 加载动画
 preloader: true
@@ -688,8 +687,8 @@ busuanzi:
 # 網頁運行時間
 runtimeshow:
   enable: true
-  publish_date: 3/27/2021 06:06:06
-  ##网页开通时间
+  publish_date: 01/01/2021 00:00:00
+  ##网站开始时间
   #格式: 月/日/年 时间
   #也可以写成 年/月/日 时间
 
@@ -897,6 +896,7 @@ inject:
     - <script src="/js/owo.js"></script>
     - <script src="/js/welcomeconsole.js"></script>
     - <script src="/js/hide.show.js"></script>
+    - <script async src="/js/console.js"></script>
 
     # - <script src="https://f.zhheo.com/JS-Heo/bb/showbb_in_index.js" data-pjax=""="" defer=""></script> #不清楚干嘛的
     - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://imgs.luckynwa.top/jscss/pace.min.js"></script>
