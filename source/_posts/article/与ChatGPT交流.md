@@ -1,6 +1,6 @@
 ---
 title: 与ChatGPT交流并搭建私人GPT
-cover: "https://luckynwa.top/mypic/blog/chatGPTIcon2.png"
+cover: 'https://imgs.luckynwa.top/blog/chatGPTIcon2.png'
 description: AI绘画笔记
 categories: Others
 tags: ChatGPT

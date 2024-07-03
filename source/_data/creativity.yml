@@ -2,49 +2,49 @@
   creativity_list:
     - name: Photoshop
       color: '#4082c3'
-      icon: https://luckynwa.top/mypic/blog/63300647e1f10.png
+      icon: https://imgs.luckynwa.top/blog/63300647e1f10.png
     - name: Node
       color: '#333'
-      icon: https://luckynwa.top/mypic/blog/node-logo.svg
+      icon: https://imgs.luckynwa.top/blog/node-logo.svg
     - name: Python
       color: '#fff'
-      icon: https://luckynwa.top/mypic/blog/63300647dea51.png
+      icon: https://imgs.luckynwa.top/blog/63300647dea51.png
     - name: Java
       color: '#fff'
-      icon: https://luckynwa.top/mypic/blog/633005bf0fd1e.jpg
+      icon: https://imgs.luckynwa.top/blog/633005bf0fd1e.jpg
     - name: CSS3
       color: '#2c51db'
-      icon: https://luckynwa.top/mypic/blog/633006cc55e07.png
+      icon: https://imgs.luckynwa.top/blog/633006cc55e07.png
     - name: JS
       color: '#f7cb4f'
-      icon: https://luckynwa.top/mypic/blog/633006eee047b.png
+      icon: https://imgs.luckynwa.top/blog/633006eee047b.png
     - name: HTML
       color: '#e9572b'
-      icon: https://luckynwa.top/mypic/blog/633006f9ab27d.png
+      icon: https://imgs.luckynwa.top/blog/633006f9ab27d.png
     - name: Git
       color: '#df5b40'
-      icon: https://luckynwa.top/mypic/blog/6434a635e9726.webp
+      icon: https://imgs.luckynwa.top/blog/6434a635e9726.webp
     - name: C++
       color: '#1a4574'
-      icon: https://luckynwa.top/mypic/blog/637f61abe3ebe.png
+      icon: https://imgs.luckynwa.top/blog/637f61abe3ebe.png
     - name: Windows
       color: '#01b8f2'
-      icon: https://luckynwa.top/mypic/blog/637f64efa671c.png
+      icon: https://imgs.luckynwa.top/blog/637f64efa671c.png
     - name: Docker
       color: '#57b6e6'
-      icon: https://luckynwa.top/mypic/blog/63300647df7fa.png
+      icon: https://imgs.luckynwa.top/blog/63300647df7fa.png
     - name: Webpack
       color: '#2e3a41'
-      icon: https://luckynwa.top/mypic/blog/6330ff27e5c9b.png
+      icon: https://imgs.luckynwa.top/blog/6330ff27e5c9b.png
     - name: Pinia
       color: '#937df7'
-      icon: https://luckynwa.top/mypic/blog/pinia-logo.svg
+      icon: https://imgs.luckynwa.top/blog/pinia-logo.svg
     - name: Vite
       color: '#937df7'
-      icon: https://luckynwa.top/mypic/blog/vite-logo.svg
+      icon: https://imgs.luckynwa.top/blog/vite-logo.svg
     - name: Vue
       color: '#b8f0ae'
-      icon: https://luckynwa.top/mypic/blog/633001374747b.png
+      icon: https://imgs.luckynwa.top/blog/633001374747b.png
     - name: React
       color: '#b8f0ae'
-      icon: https://luckynwa.top/mypic/blog/react.svg
+      icon: https://imgs.luckynwa.top/blog/react.svg

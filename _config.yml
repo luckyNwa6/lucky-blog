@@ -166,10 +166,10 @@ swiper:
     name: swiper-div
     index: 0
   default_descr:
-  swiper_css: https://luckynwa.top/mypic/jscss/swiper.min.css
-  swiper_js: https://luckynwa.top/mypic/jscss/swiper.min.js
-  custom_css: https://luckynwa.top/mypic/jscss/swiperstyle.css
-  custom_js: https://luckynwa.top/mypic/jscss/swiper_init.js
+  swiper_css: https://imgs.luckynwa.top/jscss/swiper.min.css
+  swiper_js: https://imgs.luckynwa.top/jscss/swiper.min.js
+  custom_css: https://imgs.luckynwa.top/jscss/swiperstyle.css
+  custom_js: https://imgs.luckynwa.top/jscss/swiper_init.js
 butterfly_article_double_row:
   enable: false
 nofollow:
@@ -221,9 +221,9 @@ hexo_submit_urls_to_search_engine:
 #       iteration: 1 #选填项，动画重复的次数
 #     - class: card-widget
 #       style: animate__zoomIn
-animate_css: https://luckynwa.top/mypic/jscss/animate.min.css
-wow_js: https://luckynwa.top/mypic/jscss/wow.min.js
-wow_init_js: https://luckynwa.top/mypic/jscss/wow_init.js
+animate_css: https://imgs.luckynwa.top/jscss/animate.min.css
+wow_js: https://imgs.luckynwa.top/jscss/wow.min.js
+wow_init_js: https://imgs.luckynwa.top/jscss/wow_init.js
 random: true
 markdown:
   render:

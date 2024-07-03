@@ -5,9 +5,9 @@
   var curProtocol = window.location.protocol.split(":")[0];
 
   if (curProtocol === "https") {
-    bp.src = "https://luckynwa.top/mypic/jscss/push.js";
+    bp.src = "https://imgs.luckynwa.top/jscss/push.js";
   } else {
-    bp.src = "https://luckynwa.top/mypic/jscss/push2.js";
+    bp.src = "https://imgs.luckynwa.top/jscss/push2.js";
   }
 
   var s = document.getElementsByTagName("script")[0];

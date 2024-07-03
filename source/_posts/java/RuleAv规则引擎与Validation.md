@@ -1,7 +1,7 @@
 ---
 title: RuleAv规则引擎与Validation
 description: 参数校验
-cover: "https://luckynwa.top/mypic/blog/ruleIcon.png"
+cover: 'https://imgs.luckynwa.top/blog/ruleIcon.png'
 categories: Java
 tags: Java
 comments: false
@@ -75,9 +75,9 @@ public class RuleAv{
 脚本位置放在项目 src\main\resources 下面新建文件夹 script，文件名 photoController.av
 
 ```js
-let regex = /^[a-zA-Z]{5,10}$/;
-println(regex);
-return (acc = ~regex);
+let regex = /^[a-zA-Z]{5,10}$/
+println(regex)
+return (acc = ~regex)
 ```
 
 demo----测试类
@@ -452,15 +452,8 @@ public class ValidationGroups {
 }
 ```
 
-调用在Controller方法上，选择方式
+调用在 Controller 方法上，选择方式
 
 ```java
 @Validated(ValidationGroups.Inster.class)
 ```
-
-
-
-
-
-
-

@@ -1,7 +1,7 @@
 ---
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
-cover: "https://luckynwa.top/mypic/blog/markerDownIcon.png"
+cover: 'https://imgs.luckynwa.top/blog/markerDownIcon.png'
 categories: Config
 tags: Md-Use
 abbrlink: 2645
@@ -68,17 +68,13 @@ date: 2022-10-24 15:32:28
 ```
 
 ```javascript
-let a = 1;
-console.log(a);
+let a = 1
+console.log(a)
 ```
 
 ```
 * 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)，腾讯云优惠券：[点我领取](https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=198c8df2ed259157187173bc7f4f32fd&from=console)&nbsp;&nbsp;
 ```
-
-
-
-
 
 ```
 按下ctrl
@@ -87,19 +83,9 @@ console.log(a);
 
 [ctrl+点击跳转](https://www.baidu.com)
 
+- 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)
 
-
-
-
-
-
-* 阿里云优惠券：[点我领取](https://www.aliyun.com/minisite/goods?userCode=brki8iof&share_source=copy_link)
-
-QQ群：[![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz)  [![加入QQ群](https://img.shields.io/badge/108482800-blue.svg)](https://jq.qq.com/?_wv=1027&k=eCx8eyoJ) 点击按钮入群。
-
-
-
-
+QQ 群：[![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz) [![加入QQ群](https://img.shields.io/badge/108482800-blue.svg)](https://jq.qq.com/?_wv=1027&k=eCx8eyoJ) 点击按钮入群。
 
 演示图
 
@@ -109,5 +95,3 @@ QQ群：[![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)]
     </tr>
 ...
 </table>
-
-

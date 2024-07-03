@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch
 description: ElasticSearch相关的学习笔记
-cover: "https://luckynwa.top/mypic/blog/elasticSearchIcon.png"
+cover: 'https://imgs.luckynwa.top/blog/elasticSearchIcon.png'
 categories: Java
 tags: ES
 comments: false
@@ -26,9 +26,9 @@ date: 2023-07-20 13:32:28
 
 概念类比：
 
-![图片1](http://120.26.80.35:3737/mdS/es.png )
+![图片1](http://120.26.80.35:3737/mdS/es.png)
 
- Elasticsearch 7.X 中 , Type 的概念已经被删除了
+Elasticsearch 7.X 中 , Type 的概念已经被删除了
 
 ## 索引操作
 
@@ -394,11 +394,11 @@ public class ElstaicSearch {
 
 ## 创建索引
 
-在kibana的可视化下的开发工具里运行
+在 kibana 的可视化下的开发工具里运行
 
 进入http://192.168.56.10:5601/app/management/kibana/spaces
 
-点击D---->看到索引管理
+点击 D---->看到索引管理
 
 ```JSON
 PUT /course-publish
@@ -492,8 +492,6 @@ PUT /course-publish
 }
 ```
 
-
-
 ## 删除索引
 
 ```json
@@ -549,7 +547,7 @@ GET /course-publish/_doc/103
 全量更新是指先删除再更新，语法如下：
 
 ```json
-PUT /course-publish/_doc/103 { "字段1": "值1",   "字段2": "值2",   // ... 略 } 
+PUT /course-publish/_doc/103 { "字段1": "值1",   "字段2": "值2",   // ... 略 }
 ```
 
 局部更新语法如下：

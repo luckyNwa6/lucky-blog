@@ -70,7 +70,7 @@ function _createClass(e, r, t) {
   );
 }
 var config = {
-    src: "https://luckynwa.top/mypic/blog/6401a7904ff3a.png",
+    src: "https://imgs.luckynwa.top/blog/6401a7904ff3a.png",
     rows: 15,
     cols: 7,
   },
