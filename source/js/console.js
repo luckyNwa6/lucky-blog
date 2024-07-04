@@ -51,16 +51,16 @@ function createtime2() {
     ` 🤪 `
   ]
 
-  setTimeout(
-    console.log.bind(
-      console,
-      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
-      'color:white; background-color:#10bcc0',
-      '',
-      '',
-      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
-    )
-  )
+  // setTimeout(
+  //   console.log.bind(
+  //     console,
+  //     `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
+  //     'color:white; background-color:#10bcc0',
+  //     '',
+  //     '',
+  //     'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
+  //   )
+  // )
 
   setTimeout(
     console.log.bind(
