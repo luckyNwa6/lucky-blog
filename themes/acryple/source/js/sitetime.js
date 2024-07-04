@@ -35,10 +35,9 @@ function siteTime() {
       (diffYears * 365 + diffDays) * days -
       diffHours * hours -
       diffMinutes * minutes) /
-      seconds
+    seconds
   );
   document.getElementById("footer_custom_text").innerHTML =
-    "<a href='https://beian.miit.gov.cn/' style='padding-right:520px;text-decoration: none;color: var(--font-color) !important; '>闽ICP备 2023003457号</a>" +
     "这个小破站已运行 " +
     diffYears +
     " 年 " +

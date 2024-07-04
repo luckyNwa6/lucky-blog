@@ -189,13 +189,6 @@ feed:
   type: atom
   path: atom.xml
   limit: false
-bangumi:
-  enable: false
-  vmid: 369280472
-  title: '追番列表'
-  quote: '君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！'
-  show: 1
-  loading: '/assets/douban-loading.gif'
 
 hexo_submit_urls_to_search_engine:
   submit_condition: count

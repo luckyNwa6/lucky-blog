@@ -7,7 +7,7 @@ function createtime1() {
   var dnum = Math.floor(days)
 
   var ascll = [
-    `欢迎来到LuckyNwaの小家!`,
+    `欢迎来到小维的博客园!`,
     `Future is now 🍭🍭🍭`,
     `
 
@@ -23,7 +23,7 @@ function createtime1() {
     '小站已经苟活',
     dnum,
     '天啦!',
-    '©2022 By lucky友人A'
+    '©2021 By luckyNwa'
   ]
 
   setTimeout(
@@ -74,7 +74,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      '%c ⚡ Powered by luckyNwa %c 你正在访问LuckyNwaの小家',
+      '%c ⚡ Powered by luckyNwa %c 你正在访问小维的博客园',
       'color:white; background-color:#f0ad4e',
       ''
     )

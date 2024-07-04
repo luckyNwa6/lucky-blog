@@ -7,7 +7,7 @@
 'use strict'
 
 const { version } = require('../../package.json')
-// console.log('当前version为:' + version);
+console.log('当前version为:' + version);
 const path = require('path')
 
 hexo.extend.filter.register('before_generate', () => {

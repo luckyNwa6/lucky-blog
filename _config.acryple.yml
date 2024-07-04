@@ -18,8 +18,8 @@ menu:
   工具 || fa-fw fas fa-tools:
     木鱼: /muyu/ || fa fa-cog
   线路 || fas fa-link:
-    主站（阿里云）: https://luckynwa.top/
-    备站（Vercle）: https://vercel.com/luckynwa6s-projects
+    主站: https://luckynwa.top/
+    Vercel: https://lucky-blog.vercel.app/
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -411,7 +411,7 @@ footer:
     enable: true
     since: 2021
   custom_text: 这个小破站已运行{y}年{d}天{s}时{min}分{sec}秒
-  copyright: false # Copyright of theme and framework
+  copyright: true # 开启图标版权
 
 # Analysis
 # --------------------------------------
@@ -446,12 +446,6 @@ google_adsense:
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
   enable_page_level_ads: true
-
-# Insert ads manually (手動插入廣告)
-# ad:
-#   index:
-#   aside:
-#   post:
 
 # Verification (站長驗證)
 # --------------------------------------
@@ -623,7 +617,7 @@ subtitle:
 # 加载动画
 preloader: true
 
-# aside (側邊欄)
+# aside 侧边栏
 # --------------------------------------
 
 aside:
@@ -647,7 +641,7 @@ aside:
   card_calendar:
     enable: false
   card_recent_post:
-    enable: true
+    enable: false
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -657,19 +651,19 @@ aside:
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: true
+    enable: true #标签
     limit: 40 # if set 0 will show all
     color: false
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
-    enable: true
+    enable: false #归档
     type: monthly # yearly or monthly
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
     sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
-    enable: true
+    enable: true #网站访问量等
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
@@ -860,7 +854,7 @@ inject:
     - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC">
     - <link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss//snackbar.min.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="https://imgs.luckynwa.top/jscss/js-sdk-pro.min.js"></script>
-    - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
+    #- '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
     - <script src="https://imgs.luckynwa.top/jscss/js-sdk-perf.min.js" crossorigin="anonymous"></script>
     - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
     - <script src="/swReg.js"></script>
@@ -889,7 +883,7 @@ inject:
     - <script type="text/javascript" src="/js/sitetime.js"></script>
     - <script type="text/javascript" src="/js/seo.js"></script>
     - <script data-pjax="" type="text/javascript" src="/js/heimu.js"></script>
-    - <script data-pjax="" src="/js/bbtalklunbo.js"></script>
+    #  - <script data-pjax="" src="/js/bbtalklunbo.js"></script>
     - <script data-pjax="" src="/js/fps.js"></script>
     - <script data-pjax="" src="/js/dis.js"></script>
     - <script data-pjax="" src="/js/settings.js"></script>
