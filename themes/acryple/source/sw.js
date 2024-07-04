@@ -192,9 +192,9 @@ const handle = async (req) => {
   const urlObj = new URL(urlStr)
   const urlPath = urlObj.pathname
   const domain = urlObj.hostname
-  //从这里开始
+  //从这里开始，这个走s3里的东西，别走
   lxs = []
-  if (domain === 'luckynwa.top') {
+  if (domain === 'xxxxxxxxxxxx.top') {
     //这里写你需要拦截的域名
     var l = lfetch(generate_blog_urls('luckyblog', (await db.read('blog_version')) || '1.0.18', fullpath(urlPath)))
     return l
