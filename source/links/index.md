@@ -53,7 +53,7 @@ type: 'links'
 
 点下面的按钮！
 
-<script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://imgs.luckynwa.top/jscss/jquery.min.js"></script>
 <script src = "/js/randomFriend.js"></script>
 
 <a href="javascript:void(0)" onclick="addflink()">快速添加友链</a>
