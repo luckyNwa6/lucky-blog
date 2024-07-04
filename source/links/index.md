@@ -11,8 +11,9 @@ type: 'links'
 </div>
 <div id="random-post"></div>
 
-<link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.css"> -->
-
+<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/random-friends-post.css"> -->
+<div id="gitcalendar" style="display:none">
+</div>
 <!-- 一个友链例子 -->
 
 {% flink %}

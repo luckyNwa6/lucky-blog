@@ -24,9 +24,6 @@
     - name: Git
       color: '#df5b40'
       icon: https://imgs.luckynwa.top/blog/6434a635e9726.webp
-    - name: C++
-      color: '#1a4574'
-      icon: https://imgs.luckynwa.top/blog/637f61abe3ebe.png
     - name: Windows
       color: '#01b8f2'
       icon: https://imgs.luckynwa.top/blog/637f64efa671c.png
@@ -45,6 +42,3 @@
     - name: Vue
       color: '#b8f0ae'
       icon: https://imgs.luckynwa.top/blog/633001374747b.png
-    - name: React
-      color: '#b8f0ae'
-      icon: https://imgs.luckynwa.top/blog/react.svg

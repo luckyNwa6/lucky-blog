@@ -35,7 +35,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - 404.html
-  - projects.html
   - googlee2a292c45f2bba42.html
   - linksmessage.html
   - people.html

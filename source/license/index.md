@@ -6,6 +6,7 @@ layout: docs
 bottom_meta: false
 ---
 
+<div id="gitcalendar" style="display:none">
 本站的采用 Hexo + acryple（butterfly 魔改版）+ twikoo 评论系统（私有部署）+CICD（自动集成自动部署）
 
 这篇文章主要想能够更加清楚明白的介绍本站的协议标准和要求
