@@ -1,6 +1,6 @@
 {
-  "name": "lucky-blog",
-  "version": "1.0.1",
+  "name": "luckyblog",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "iNode18": "npm install",
@@ -8,22 +8,7 @@
     "server": "hexo clean && hexo generate && hexo server",
     "build": "hexo generate",
     "deploy": "hexo deploy",
-    "sync": "yuque-hexo sync",
-    "clean:yuque": "yuque-hexo clean",
     "clean": "npx rimraf node_modules"
-  },
-  "yuqueConfig": {
-    "postPath": "source/_posts",
-    "cachePath": "yuque.json",
-    "mdNameFormat": "slug",
-    "adapter": "markdown",
-    "concurrency": 5,
-    "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "ariasaka",
-    "repo": "lgd8fp",
-    "token": "a2AW8ktTvbyLXhl4D40WOqh8k3fh5SPzNfPCkxuN",
-    "onlyPublished": true,
-    "onlyPublic": true
   },
   "hexo": {
     "version": "6.3.0"
@@ -81,7 +66,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LYXOfficial/blog.git"
+    "url": "git+https://github.com/luckyNwa6/lucky-blog.git"
   },
   "author": "luckyNwa",
   "devDependencies": {

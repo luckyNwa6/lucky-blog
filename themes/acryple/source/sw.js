@@ -157,14 +157,14 @@ const set_newest_version = async (mirror) => {
       return
     })
 }
+//s3亚马逊桶，应该是做多态配置的
+// setInterval(async () => {
+//   await set_newest_version(mirror) //定时更新,一分钟一次
+// }, 60 * 1000)
 
-setInterval(async () => {
-  await set_newest_version(mirror) //定时更新,一分钟一次
-}, 60 * 1000)
-
-setTimeout(async () => {
-  await set_newest_version(mirror) //打开五秒后更新,避免堵塞
-}, 5000)
+// setTimeout(async () => {
+//   await set_newest_version(mirror) //打开五秒后更新,避免堵塞
+// }, 5000)
 function getFileType(fileName) {
   suffix = fileName.split('.')[fileName.split('.').length - 1]
   if (suffix == 'html' || suffix == 'htm') {
@@ -194,9 +194,9 @@ const handle = async (req) => {
   const domain = urlObj.hostname
   //从这里开始
   lxs = []
-  if (domain === 'yisous.xyz') {
+  if (domain === 'luckynwa.top') {
     //这里写你需要拦截的域名
-    var l = lfetch(generate_blog_urls('ariasakablog', (await db.read('blog_version')) || '1.0.18', fullpath(urlPath)))
+    var l = lfetch(generate_blog_urls('luckyblog', (await db.read('blog_version')) || '1.0.18', fullpath(urlPath)))
     return l
       .then((res) => res.arrayBuffer())
       .then(
@@ -205,7 +205,7 @@ const handle = async (req) => {
             headers: {
               'Content-Type': `${getFileType(
                 fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\')[
-                  fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\').length - 1
+                fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\').length - 1
                 ],
               )};charset=utf-8`,
             },

@@ -302,9 +302,9 @@ livere:
 gitalk:
   client_id: e9c8a4c42b9bd57da9d9
   client_secret: 51b45e474eaf45a0b89f25e081da82a69fd47a09
-  repo: LYXOfficial.github.io
-  owner: LYXOfficial
-  admin: LYXOfficial
+  repo: luckyNwa6.github.io
+  owner: luckyNwa6
+  admin: luckyNwa6
   option:
 
 # valine 有广告
@@ -794,7 +794,7 @@ pjax:
 
 # 悬浮音乐
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -1045,7 +1045,6 @@ fixed_card_widget:
 gitcalendar:
   enable: true
   simplemode: true
-  enable_page: /
   user: luckyNwa6
   # layout:
   #   type: class
