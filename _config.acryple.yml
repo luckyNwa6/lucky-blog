@@ -823,7 +823,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json
   apple_touch_icon: /img/apple-touch-icon.png
   favicon_32_32: /img/32.png

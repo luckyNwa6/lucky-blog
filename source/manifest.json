@@ -1,8 +1,8 @@
 {
   "name": "小维的博客",
   "short_name": "小维的博客",
-  "theme_color": "var(--lyx-theme)",
-  "background_color": "var(--lyx-theme)",
+  "theme_color": "pink",
+  "background_color": "white",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
