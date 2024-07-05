@@ -23,7 +23,7 @@ function createtime1() {
     '小站已经苟活',
     dnum,
     '天啦!',
-    '©2021 By luckyNwa'
+    '♈2021 By luckyNwa'
   ]
 
   setTimeout(
