@@ -1,5 +1,5 @@
 function printLucky(content) {
-  // var content = "99999999999999999999999999999999999911111111111"
+  console.log('-----------------------------手动点击刷新按钮，ai启动回答')
   $("#ai-post").empty(); // 清空元素的内容
   printAi(content);
 }
@@ -18,5 +18,3 @@ function printAi(content) {
     }, 100);
   }
 }
-
-// printLucky("Hello, World!"); // 传入要打印的内容

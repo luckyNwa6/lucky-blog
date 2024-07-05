@@ -30,6 +30,7 @@ swiper_description: '私人GPT搭建攻略'
   document.addEventListener("DOMContentLoaded", function() {
     printLucky(myTextValue);
   });
+  console.log('-----------------------------这是页面清除缓存后，ai启动回答')
 </script>
 
 # 搭建
