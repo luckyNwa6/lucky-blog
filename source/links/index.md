@@ -52,7 +52,8 @@ type: 'links'
     avatar: https://img01.anheyu.com/useruploads/90/2023/04/23/6444e85234e51.jpg
     descr: 生活明朗，万物可爱
     {% endflink %}
-    {% hideToggle 推荐标签衡量标准 %}
+
+  {% hideToggle 推荐标签衡量标准 %}
 
   1.网站没有不良内容
 
