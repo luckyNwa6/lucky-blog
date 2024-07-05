@@ -869,6 +869,7 @@ inject:
     - <div class="aplayer no-destroy" data-id="8517125818" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
     - <script type="text/javascript" src="/js/aplayersave.js"></script>
     - <script type="text/javascript" src="/js/noie.js"></script>
+    - <script type="text/javascript" src="/js/countup.js"></script>
     - <script src="https://imgs.luckynwa.top/jscss/av-min.js"></script>
     - <script src="https://imgs.luckynwa.top/jscss/winbox.bundle.min.js"></script>
     - <script src="https://imgs.luckynwa.top/jscss/sweetalert2@8"></script>

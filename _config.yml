@@ -164,7 +164,7 @@ swiper:
     type: class
     name: swiper-div
     index: 0
-  default_descr:
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper_css: https://imgs.luckynwa.top/jscss/swiper.min.css
   swiper_js: https://imgs.luckynwa.top/jscss/swiper.min.js
   custom_css: https://imgs.luckynwa.top/jscss/swiperstyle.css
