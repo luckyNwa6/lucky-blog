@@ -22,6 +22,7 @@ type: 'links'
 - class_name: 推荐博客
   class_desc:
   link_list:
+
   - name: 沈伟泽
     link: https://www.shenweize.com/
     avatar: https://imgs.luckynwa.top/blog/shenweize.png
@@ -42,15 +43,22 @@ type: 'links'
     link: https://www.fomal.cc/
     avatar: https://sourcebucket.s3.bitiful.net/img/avatar.webp
     descr: Butterfly 主题大佬
+  - name: 张洪 Heo
+    link: https://blog.zhheo.com/
+    avatar: https://blog.yaria.top/img/8DSTSS20990281646044689944.PNG
+    descr: 分享设计与科技生活
+  - name: 安知鱼
+    link: https://blog.anheyu.com/
+    avatar: https://img01.anheyu.com/useruploads/90/2023/04/23/6444e85234e51.jpg
+    descr: 生活明朗，万物可爱
     {% endflink %}
+    {% hideToggle 推荐标签衡量标准 %}
 
-{% hideToggle 推荐标签衡量标准 %}
+  1.网站没有不良内容
 
-1.网站没有不良内容
+  2.文章质量较高
 
-2.文章质量较高
-
-3.文章较多/或者质量过硬
+  3.文章较多/或者质量过硬
 
 {% endhideToggle %}
 
