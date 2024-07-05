@@ -103,23 +103,3 @@ function addflink() {
   theme_color: #友链背景色，因为#号在yaml中识别为注释请加引号
 \`\`\``, e.dispatchEvent(t);
 }
-
-// function printLucky() {
-//     console.log('jq有吗？');
-
-//     // stringA.value = ''
-//     // console.log(stringA.value.length, stringB.value.length)
-//     // printAi()
-// }
-// function printAi() {
-//     // if (stringA.value.length >= stringB.value.length) {
-//     //     // 退出递归
-//     //     return
-//     // } else {
-//     //     // stringA仍然比stringB短，进入下一次等待和递归
-//     //     setTimeout(() => {
-//     //         stringA.value += stringB.value.charAt(stringA.value.length)
-//     //         printAi(stringA, stringB)
-//     //     }, 100)
-//     // }
-// }

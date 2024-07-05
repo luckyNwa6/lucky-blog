@@ -4,27 +4,33 @@ cover: 'https://imgs.luckynwa.top/blog/chatGPTIcon2.png'
 description: AI绘画笔记
 categories: Others
 tags: ChatGPT
-comments: false
+comments: true
 abbrlink: 41570
 date: 2023-06-01 11:22:21
 swiper_index: 67
 swiper_description: '私人GPT搭建攻略'
 ---
 
-<div class="title-h2-a">
-  <div class="title-h2-a-left">
-    <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2>
-    <a class="random-post-start" href="javascript:fetchRandomPost();"><i class="fa-solid fa-arrow-rotate-right"></i></a>
+<div class="ai-container">
+  <div class="ai-header">
+        <img style='margin: 0 5px !important; ' src="https://imgs.luckynwa.top/blog/robot.svg" alt="icon" />
+        <span style="color: white">AI摘要<a class="random-post-start" href="javascript:printLucky(myTextValue);"><i class="fa-solid fa-arrow-rotate-right" style='color:white;font-size:14px;margin-left:2px'></i></a></span>
+        <div class="ai-right">
+          <span>BingAI</span>
+        </div>
   </div>
+      <div class="ai-content">
+        <p id="ai-post"></p>
+      </div>
 </div>
-<div id="random-post"></div>
-
-<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/random-friends-post.css">
-
-<div>
-  <h2>AI摘要</h2>
-  <p >苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎!且夫天地之间，物各有主,苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也，而吾与子之所共适。”</p>
-</div>
+<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/ai.css">
+<script src = "/js/ai.js"></script>
+<script  type="text/javascript">  
+  var myTextValue = '这篇文章提供了搭建ChatGPT-Next-Web项目的指南，包括GitHub部署和Vercel配置。同时介绍了使用CUDA Toolkit进行AI绘画的步骤。提供了关键词和双语回答示例。还包含了绘画提示词和代码提问的描述。';
+  document.addEventListener("DOMContentLoaded", function() {
+    printLucky(myTextValue);
+  });
+</script>
 
 # 搭建
 
