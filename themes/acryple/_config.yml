@@ -661,12 +661,11 @@ aside:
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
 
-# busuanzi count for PV / UV in site
-# 訪問人數
+# 訪問人數 免费统计平台https://bsz.dusays.com:9001/api
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: true #本站总访客数
+  site_pv: true #本站总访问量
+  page_pv: true #本文总阅读量
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time

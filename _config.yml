@@ -169,6 +169,7 @@ swiper:
   swiper_js: https://imgs.luckynwa.top/jscss/swiper.min.js
   custom_css: https://imgs.luckynwa.top/jscss/swiperstyle.css
   custom_js: https://imgs.luckynwa.top/jscss/swiper_init.js
+  error_img: https://imgs.luckynwa.top/blog/loading.gif
 butterfly_article_double_row:
   enable: false
 nofollow:

@@ -675,9 +675,9 @@ aside:
 
 # 访问人数
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: true #本站总访客数
+  site_pv: true #本站总访问量
+  page_pv: true #本文总阅读量
 
 # 網頁運行時間
 runtimeshow:
@@ -920,7 +920,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
   option:
-    vue: https://npm.elemecdn.com/vue@2.6.11 # vue.js依赖
+    vue: https://imgs.luckynwa.top/jscss/vue@2.6.11 # vue.js依赖
     countup_js: /js/countup.js
     local_search: /js/local-search.js
 # hexo-butterfly-categories-card

@@ -188,6 +188,7 @@ function getFileType(fileName) {
   return 'text/plain'
 }
 const handle = async (req) => {
+  // console.log('🚀 ~ handle ~ req:', req)
   const urlStr = req.url
   const urlObj = new URL(urlStr)
   const urlPath = urlObj.pathname
@@ -205,7 +206,7 @@ const handle = async (req) => {
             headers: {
               'Content-Type': `${getFileType(
                 fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\')[
-                fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\').length - 1
+                  fullpath(urlPath).split('/')[fullpath(urlPath).split('/').length - 1].split('\\').length - 1
                 ],
               )};charset=utf-8`,
             },

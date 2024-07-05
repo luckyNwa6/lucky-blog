@@ -12,6 +12,28 @@ swiper_index: 66
 swiper_description: 'Lambda和Stream流相关的学习笔记'
 ---
 
+<div class="ai-container">
+  <div class="ai-header">
+        <img style='margin: 0 5px !important; ' src="https://imgs.luckynwa.top/blog/robot.svg" alt="icon" />
+        <span style="color: white">AI摘要<a class="random-post-start" href="javascript:printLucky(myTextValue);"><i class="fa-solid fa-arrow-rotate-right" style='color:white;font-size:14px;margin-left:2px'></i></a></span>
+        <div class="ai-right">
+          <span>BingAI</span>
+        </div>
+  </div>
+      <div class="ai-content">
+        <p id="ai-post"></p>
+      </div>
+</div>
+<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/ai.css">
+<script src = "/js/ai.js"></script>
+<script  type="text/javascript">  
+  var myTextValue = '这篇文章提供了Jdk8的新特性';
+  document.addEventListener("DOMContentLoaded", function() {
+    printLucky(myTextValue);
+  });
+  console.log('-----------------------------这是页面清除缓存后，ai启动回答')
+</script>
+
 # 常用
 
 ```java
