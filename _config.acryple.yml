@@ -16,6 +16,7 @@ menu:
     关于我: /about/ || fa fa-info-circle
     声明: /license/ || fas fa-balance-scale
   工具 || fa-fw fas fa-tools:
+    网站: /tools/ || fa fa-tasks
     木鱼: /muyu/ || fa fa-cog
   线路 || fas fa-link:
     主站: https://luckynwa.top/

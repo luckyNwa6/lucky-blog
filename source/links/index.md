@@ -4,21 +4,22 @@ date: 2022-07-03 20:40:57
 type: 'links'
 ---
 
-<!-- <div class="title-h2-a">
+<div class="title-h2-a">
   <div class="title-h2-a-left">
-    <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2><a class="random-post-start" href="javascript:fetchRandomPost();"><i class="fa-solid fa-arrow-rotate-right"></i></a>
+    <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2>
+    <a class="random-post-start" href="javascript:fetchRandomPost();"><i class="fa-solid fa-arrow-rotate-right"></i></a>
   </div>
 </div>
 <div id="random-post"></div>
 
-<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/random-friends-post.css"> -->
-<div id="gitcalendar" style="display:none">
-</div>
+<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/random-friends-post.css">
+<div id="gitcalendar" style="display:none"></div>
+
 <!-- 一个友链例子 -->
 
 {% flink %}
 
-- class_name: 技术小牛
+- class_name: 推荐博客
   class_desc:
   link_list:
   - name: 沈伟泽
@@ -37,8 +38,11 @@ type: 'links'
     link: https://yisous.xyz/
     avatar: https://cravatar.cn/avatar/795ce413eb6c7485954b78283ffa3e00?s=60
     descr: 这个小窝挺不错
-
-{% endflink %}
+  - name: 猕猴桃
+    link: https://www.fomal.cc/
+    avatar: https://sourcebucket.s3.bitiful.net/img/avatar.webp
+    descr: Butterfly 主题大佬
+    {% endflink %}
 
 {% hideToggle 推荐标签衡量标准 %}
 

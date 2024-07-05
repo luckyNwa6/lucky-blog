@@ -7,7 +7,7 @@
 'use strict'
 
 const { version } = require('../../package.json')
-console.log('打印在下面这个终端里,当前version:' + version)
+// console.log('打印在下面这个终端里,当前version:' + version)
 const path = require('path')
 
 hexo.extend.filter.register('before_generate', () => {
@@ -108,7 +108,7 @@ hexo.extend.filter.register('before_generate', () => {
           Object.keys(result).map((key) => {
             result[key] = '/pluginsSrc/' + result[key]
           })
-        } catch (e) {}
+        } catch (e) { }
         return result
       } else return thirdPartySrcCDN
     }
