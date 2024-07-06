@@ -19,9 +19,9 @@ menu:
     网站: /tools/ || fa fa-tasks
     木鱼: /muyu/ || fa fa-cog
   线路 || fas fa-link:
-    主站: https://luckynwa.top/
-    Vercel: https://lucky-blog.vercel.app/
-
+    主站（阿里云）: https://luckynwa.top/
+    备战（Vercel）: https://lucky-blog.vercel.app/
+    备站（Github）: https://luckynwa6.github.io/lucky-blog/
 # Code Blocks (代碼相關)
 # --------------------------------------
 
@@ -176,7 +176,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 200 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -823,7 +823,7 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
+  enable: true
   manifest: /manifest.json
   apple_touch_icon: /img/apple-touch-icon.png
   favicon_32_32: /img/32.png

@@ -4,8 +4,7 @@ description: es6的常见特性
 cover: 'https://imgs.luckynwa.top/blog/es6Icon.png'
 categories: Front
 tags: Es6
-sticky: 1
-comments: false
+comments: true
 abbrlink: 30769
 date: 2021-06-27 22:32:48
 ---

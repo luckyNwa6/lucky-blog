@@ -4,8 +4,7 @@ description: 前端遇到的bug记录
 cover: 'https://imgs.luckynwa.top/blog/layUiIcon.png'
 categories: Front
 tags: LayUi
-sticky: 3
-comments: false
+comments: true
 abbrlink: 36841
 date: 2023-09-18 13:32:28
 ---

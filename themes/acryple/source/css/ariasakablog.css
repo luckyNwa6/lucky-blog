@@ -2505,6 +2505,7 @@ input[name='colors'] {
 .home .category-list-bar .category-list-count {
   display: none !important;
 }
+/* TODO */
 #aside-content #card-toc .toc-content .toc-link:hover {
   color: var(--lyx-theme);
 }

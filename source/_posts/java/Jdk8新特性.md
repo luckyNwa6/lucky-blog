@@ -5,7 +5,7 @@ cover: 'https://imgs.luckynwa.top/blog/javaNewIcon.png'
 categories: Java
 tags: JDk8
 sticky: 99
-comments: false
+comments: true
 abbrlink: 34077
 date: 2023-07-18 13:32:28
 swiper_index: 66
