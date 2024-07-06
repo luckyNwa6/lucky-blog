@@ -1,5 +1,5 @@
 function printLucky(content) {
-  console.log('-----------------------------手动点击刷新按钮，ai启动回答')
+  // console.log('-----------------------------手动点击刷新按钮，ai启动回答')
   $('#ai-post').empty() // 清空元素的内容
   printAi(content)
 }
