@@ -17,8 +17,8 @@ _PS：划掉的表示已挂_
 </tr>
 <tr>
 <td><a href="https://luckynwa.top">luckynwa.top</a></td>
-<td>博客，也是主站</td>
-<td>分享一些东西</td>
+<td>博客网|主站</td>
+<td>写一些文章、记录重要笔记、分享知识</td>
 </tr>
 <tr>
 <td><a href="https://mytool.luckynwa.top">mytool.luckynwa.top</a></td>
@@ -33,17 +33,21 @@ _PS：划掉的表示已挂_
 <tr>
 <td><a href="https://myui.luckynwa.top">myui.luckynwa.top</a></td>
 <td>个人炫酷组件</td>
-<td>用来玩的，收藏一些炫酷组件</td>
+<td>基于VuePress进行二次开发、用来玩的，收藏一些炫酷组件</td>
 </tr>
 <tr>
 <td><a href="https://mypic.luckynwa.top">mypic.luckynwa.top</a></td>
 <td>图片管理系统</td>
-<td>本来是用来管理自己云服务器的图床的，也很少用了</td>
+<td>本来是用来管理自己云服务器的图床的，很少用</td>
 </tr>
 <tr>
 <td><a href="https://mycode.luckynwa.top">mycode.luckynwa.top</a></td>
 <td><del>个人代码生成</del></td>
 <td>代码生成，每个项目模块不一样，用处也不大</td>
+</tr>
+<td><a href="https://mychat.luckynwa.top">mychat.luckynwa.top</a></td>
+<td><del>私有化chartGpt</del></td>
+<td>由于OpenAI对国内不友好，所以放弃搭建私人搭建</td>
 </tr>
 
 </table>
@@ -57,7 +61,7 @@ _PS：划掉的表示已挂_
 </tr>
 <tr>
 <td>luckynwa.top</td>
-<td>主要使用的域名，这个名字就是念起来顺口</td>
+<td>主要使用的域名，幸运结合自己名字缩写顶级</td>
 </tr>
 
 </table>

@@ -89,11 +89,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://imgs.luckynwa.top/blog/63103c75da20e.webp
+favicon: /favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: /img/6060avatar.png
+  img: /img/avatar.png
   effect: false
 
 # Disable all banner image
@@ -920,7 +920,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
   option:
-    vue: https://imgs.luckynwa.top/jscss/vue@2.6.11 # vue.js依赖
+    vue: https://imgs.luckynwa.top/jscss/wuhouzui/vue@2.6.11 # vue.js依赖
     countup_js: /js/countup.js
     local_search: /js/local-search.js
 # hexo-butterfly-categories-card

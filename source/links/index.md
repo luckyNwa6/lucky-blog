@@ -31,12 +31,8 @@ type: 'links'
     link: https://pacemak1.github.io/
     avatar: https://imgs.luckynwa.top/blog/wenzhihao.png
     descr: 高级算法开发工程师
-  - name: 云上舟
-    link: https://yunshangzhou.github.io/js-book/
-    avatar: https://imgs.luckynwa.top/blog/yunshangzhou.png
-    descr: 前端大佬
   - name: Ariasaka
-    link: https://yisous.xyz/
+    link: https://blog.yaria.top
     avatar: https://cravatar.cn/avatar/795ce413eb6c7485954b78283ffa3e00?s=60
     descr: 这个小窝挺不错
   - name: 猕猴桃
@@ -45,7 +41,7 @@ type: 'links'
     descr: Butterfly 主题大佬
   - name: 张洪 Heo
     link: https://blog.zhheo.com/
-    avatar: https://blog.yaria.top/img/8DSTSS20990281646044689944.PNG
+    avatar: /img/zhanghon.png
     descr: 分享设计与科技生活
   - name: 安知鱼
     link: https://blog.anheyu.com/

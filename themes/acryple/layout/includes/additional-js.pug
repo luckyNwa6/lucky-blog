@@ -68,8 +68,8 @@ div
   if theme.pjax.enable
     != partial("includes/third-party/pjax", {}, { cache: true })
 
-  if theme.busuanzi.site_uv || theme.busuanzi.site_pv || theme.busuanzi.page_pv
-    script(async data-pjax src='https://imgs.luckynwa.top/jscss/bsz.js')
+  //- if theme.busuanzi.site_uv || theme.busuanzi.site_pv || theme.busuanzi.page_pv
+  //-   script(async data-pjax src='https://imgs.luckynwa.top/jscss/bsz.js')
   if !theme.aside.mobile && theme.fixed_card_widget.enable
     include ./fixed_card_widget.pug
 
