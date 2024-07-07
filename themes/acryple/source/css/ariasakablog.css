@@ -2877,6 +2877,8 @@ blockquote p:first-child {
   z-index: 19198100;
   left: calc(50% - 200px);
   top: calc(50% - 50px);
+  /* left: 40%;
+  top: 20%; */
 }
 body {
   overflow: visible !important;

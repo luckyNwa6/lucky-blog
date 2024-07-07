@@ -1,104 +1,146 @@
+
 <!DOCTYPE html>
 <meta charset="utf-8" />
 <title>404 | 小维的博客</title>
 <style>
-  body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url(https://dev.iw233.cn/api.php?sort=top);
-    background-repeat: no-repeat;
-    background-size: cover;
+@import url("https://imgs.luckynwa.top/jscss/404css.css");
+@keyframes floating {
+  from {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(15px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+html {
+  height: 100%;
+}
 
-    background-attachment: fixed;
+body {
+  background-image: url("https://imgs.luckynwa.top/jscss/svg/star.svg"), linear-gradient(to bottom, #05007A, #4D007D);
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  overflow: hidden;
+}
 
-    background-position: center center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    margin: 0 !important;
+.mars {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 27vmin;
+  background: url("https://imgs.luckynwa.top/jscss/svg/mars.svg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.logo-404 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 16vmin;
+  width: 30vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .logo-404 {
+    top: 45vmin;
   }
-  .text-bg {
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 24px;
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
+}
+
+.meteor {
+  position: absolute;
+  right: 2vmin;
+  top: 16vmin;
+}
+
+.title {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 5vmin;
+  margin-top: 31vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .title {
+    margin-top: 65vmin;
   }
-  .overlay-body {
-    max-width: 512px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
+}
+
+.subtitle {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 3.5vmin;
+  margin-top: -1vmin;
+  margin-bottom: 9vmin;
+}
+
+.btn-back {
+  border: 1px solid white;
+  color: white;
+  height: 5vmin;
+  padding: 12px;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-back:hover {
+  background: white;
+  color: #4D007D;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .btn-back {
+    font-size: 3.5vmin;
   }
-  p.overlay-title {
-    font-size: 24px;
-    font-weight: 900;
-    color: black;
-    line-height: 1;
-    margin-bottom: 16px;
+}
+
+.astronaut {
+  position: absolute;
+  top: 18vmin;
+  left: 10vmin;
+  height: 30vmin;
+  animation: floating 3s infinite ease-in-out;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .astronaut {
+    top: 2vmin;
   }
-  p.overlay-description {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    line-height: 1.25;
-    margin-bottom: 16px;
+}
+
+.spaceship {
+  position: absolute;
+  bottom: 15vmin;
+  right: 24vmin;
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  .spaceship {
+    width: 45vmin;
+    bottom: 18vmin;
   }
-  .overlay-buttons-wrapper {
-    margin: 24px -8px -8px;
-  }
-  #accept-button {
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-  }
-  .overlay-button {
-    display: inline-flex;
-    align-items: center;
-    height: 40px;
-    padding-right: 24px;
-    padding-left: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
-    border-radius: 4px;
-    margin: 4px;
-    cursor: pointer;
-  }
-  #decline-button {
-    background-color: rgb(150, 200, 0);
-    color: white;
-  }
-  .overlay-button {
-    display: inline-flex;
-    align-items: center;
-    height: 40px;
-    padding-right: 24px;
-    padding-left: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
-    border-radius: 4px;
-    margin: 4px;
-    cursor: pointer;
-  }
+}
+
 </style>
 <body>
-  <div class="text-bg">
-    <div class="overlay-body">
-      <p class="overlay-title">404</p>
-      <p class="overlay-description">网页不见了！这里貌似没有你要找的东西，或许你可以...</p>
-      <p class="overlay-description">
-        The web page is gone! There doesn't seem to be anything you're looking for here, and maybe you can...
-      </p>
-      <div class="overlay-buttons-wrapper">
-        <div
-          id="accept-button"
-          class="overlay-button"
-          onclick="window.open('https://www.bilibili.com/video/BV1aT421e7A2/?spm_id_from=333.1007.tianma.4-3-13.click&vd_source=616ff56e6c7181192e282d50577fba6c')"
-        >
-          看看好康的东西
-        </div>
-        <div id="decline-button" class="overlay-button" onclick="window.open('/')">回到主页</div>
-      </div>
+
+    <div class="mars"></div>
+    <img src="https://imgs.luckynwa.top/jscss/svg/404.svg" class="logo-404">
+    <img src="https://imgs.luckynwa.top/jscss/svg/meteor.svg" class="meteor">
+    <p class="title">Oh no !</p>
+    <p class="subtitle">
+        页面未找到<br>
+    </p>
+    <div align="center">
+        <a class="btn-back" href="#" onclick="window.open('/')">回到主页</a>
     </div>
-  </div>
+    <img src="https://imgs.luckynwa.top/jscss/svg/astronaut.svg" class="astronaut">
+    <img src="https://imgs.luckynwa.top/jscss/svg/spaceship.svg" class="spaceship">
+
 </body>
+</html>
