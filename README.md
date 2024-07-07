@@ -1,104 +1,137 @@
-# 博客
+<p align="center">
+  <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>
+  <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%2010.13.0-yellowgreen?style=flat"></a>
+  <a title="License" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/blob/master/LICENSE"><img alt="License" src="https://img.shields.io/github/license/anzhiyu-c/hexo-theme-anzhiyu.svg?style=flat"></a>
+  <br>
+  <a title="GitHub Release" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/releases"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/anzhiyu-c/hexo-theme-anzhiyu?style=flat"></a>
+  <a title="Npm Downloads" target="_blank" href="https://www.npmjs.com/package/hexo-theme-anzhiyu"><img alt="Npm Downloads" src="https://img.shields.io/npm/dt/hexo-theme-anzhiyu?color=red&label=npm"></a>
+  <a title="GitHub Commits" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/commits/master"><img alt="GitHub Commits" src="https://img.shields.io/github/commit-activity/m/anzhiyu-c/hexo-theme-anzhiyu.svg?style=flat&color=brightgreen&label=commits"></a>
+  <br><br>
+  <a title="GitHub Watchers" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/watchers"><img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/anzhiyu-c/hexo-theme-anzhiyu.svg?label=Watchers&style=social"></a>  
+  <a title="GitHub Stars" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/anzhiyu-c/hexo-theme-anzhiyu.svg?label=Stars&style=social"></a>  
+  <a title="GitHub Forks" target="_blank" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu/network/members"><img alt="GitHub Forks" src="https://img.shields.io/github/forks/anzhiyu-c/hexo-theme-anzhiyu.svg?label=Forks&style=social"></a>  
+</p>
 
-## 🐑 分支
+<p align="center">🇨🇳 中文简体  |  <a title="English" href="README_EN.md">🇬🇧 English</a></p>
 
-main-------->Heox（框架）+ButterFly（主题）+Valine（评论）简单配置实现的博客站 v1
+预览: 👍 [AnZhiYu](https://blog.anheyu.com/) || 🤞 [AnZhiYu](https://index.anheyu.com/)
 
-lucky-------->Heox（框架）+Acryple（主题）+Twikoo（私部署评论） 博客站 V2 基于[大佬的开源项目](https://github.com/LYXOfficial/Hexo-theme-Acryple)进行 2 次配置开发 [大佬地址](https://blog.yaria.top/)
+文档: 📖 [anzhiyu Docs](https://docs.anheyu.com/)
 
-## 🐶 开发环境
+一款基于[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)修改的主題
 
-node 16 | 18
+# hexo-theme-anzhiyu
 
-包管理采用 yarn | npm
+![](https://bu.dusays.com/2023/07/24/64bdcbfe96762.webp)
 
-## 🐯 提交规范
+## 💻 安裝
 
-代码提交，严格按照如下规范:
+### Git 安裝
 
-| 类型     | 描述                     |
-| -------- | ------------------------ |
-| feat     | 新功能                   |
-| fix      | 修补 bug                 |
-| docs     | 文档                     |
-| style    | 格式方面的优化           |
-| refactor | 重构                     |
-| test     | 测试                     |
-| chore    | 构建过程或辅助工具的变动 |
+在博客根目录里安装最新版【推荐】
 
-比如修复一个 bug 必须是
-
-fix: 修复 bug
-
-中间有:后面有空格
-
-## 🚀 注意事项
-
-**博客 v1**
-
-拉取---去 package 中删除 hexo-all-minifier 这个依赖
-
-```
-yarn
+```powershell
+git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu
 ```
 
-按下 F5 启动项目 ctrl +c 退出
+## ⚙ 应用主题
+
+修改 hexo 配置文件`_config.yml`，把主题改为`anzhiyu`
 
 ```
-yarn add hexo-all-minifier@0.5.7
+theme: anzhiyu
 ```
 
-删除 node 包
+> 如果你没有 pug 以及 stylus 的渲染器，请下载安装： `npm install hexo-renderer-pug hexo-renderer-stylus --save`
 
-```
-npm install -g rimraf
+## 覆盖配置
 
-npm run clean
-```
+覆盖配置可以使`主题配置`放置在 anzhiyu 目录之外，避免在更新主题时丢失自定义的配置。
 
-再删除 yarn.lock
+通过 Npm 安装主题的用户可忽略，其他用户建议学习使用。
 
-去 package 中删除 hexo-all-minifier 这个依赖
+- macos/linux
+  在博客根目录运行
 
-安装依赖包并启动
-
-```shell
-yarn
-
-yarn serve
+```bash
+cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 ```
 
-运行完 ctrl +c 退出
+- windows
+  复制`/themes/anzhiyu/_config.yml`此文件到 hexo 根目录，并重命名为`_config.anzhiyu.yml`
 
-最后装它（资源压缩）并启动
+以后如果修改任何主题配置，都只需修改 _config.anzhiyu.yml 的配置即可。
 
-```shell
-yarn add hexo-all-minifier@0.5.7
+注意：
+ - 只要存在于 `_config.anzhiyu.yml` 的配置都是高优先级，修改原 `_config.yml` 是无效的。
+ - 每次更新主题可能存在配置变更，请注意更新说明，可能需要手动对 `_config.anzhiyu.yml` 同步修改。
+ - 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出。
+ - 如果想将某些配置覆盖为空，注意不要把主键删掉，不然是无法覆盖的
 
-npm run dev
-```
+## 功能特性
 
-**博客 v2**
+- ✅ 无比详实的[用户文档](https://docs.anheyu.com/)
+- ✅ 页面组件懒加载(pjax方案)
+- ✅ 图片懒加载
+- ✅ 多种代码高亮方案
+- ✅ 多语言配置
+- ✅ 内置多款评论插件
+- ✅ 内置网页访问统计
+- ✅ 支持暗色模式
+- ✅ 支持脚注语法
+- ✅ 支持自定义CDN静态资源
+- ✅ 丰富多样化的标签选项快速构建你想要的功能
+- ✅ 支持定制化的右键菜单
+- ✅ 支持定制化的主色调随封面图片颜色变化
+- ✅ 支持沉浸式状态栏
+- ✅ 支持文章字数统计
+- ✅ 支持聊天系统
+- ✅ 支持谷歌分析、百度分析、微软分析、cloudflare分析、cnzz分析
+- ✅ 支持广告挂载
+- ✅ 支持图片大图查看
+- ✅ 支持瀑布流即刻说说
+- ✅ 支持瀑布流相册集
+- ✅ 支持阿里图标与fontawesome
+- ✅ 支持高速缓存的swpp，pwa特性
+- ✅ 优秀的隐私协议支持
+- ✅ 文章AI摘要支持
+- ✅ 支持音乐球
+- ✅ 支持全局中控台
+- ✅ 支持快捷键选项
+- ✅ 支持本地搜索/algolia搜索🔍/Docsearch
+- ✅ 支持 LaTeX 数学公式
+- ✅ 支持 mermaid 流程图
 
-可能需要装 hexo
+## 部分功能展示
 
-```shell
-hexo version   爆红就是缺少
+**沉浸式状态栏**
+沉浸阅读。
+![沉浸式状态栏](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/3bc088e73d07b4dc25fc62fa4cf63261_4205905123525229755.png)
 
-npm install hexo-cli -g
-```
+**高低自定义的右键菜单**
+高度定制。
+![高低自定义的右键菜单](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/3f66e33b24a758d53717f6c2c44e50af_1884994888952376370.png)
 
-## ⭐️ 部署
+**AI摘要**
+迅速读取文章内容。
+![AI摘要](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/184e089d64660f5f72390f547c864633_3266246986824356702.png)
 
-- 博客 v1 部署了多份
+**让人眼前一亮的清爽界面**
 
-  （1）首先是本地开发时候直接将打包后的文件上传到 GitHub 上直接部署，防止源码泄露 https://luckynwa6.github.io
+![让人眼前一亮的清爽界面](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/8a16284fd36a9e986d5dbda772f697d0_1356079755877317976.png)
 
-  （2）开源部署，当前项目直接上传到 Github 上，通过 Action 自动化部署 https://luckynwa6.github.io/lucky-blog/
+**评论弹幕**
 
-  （3）[Vercle](https://vercel.com/luckynwa6s-projects)部署，通过导入 Github 中的项目去部署 https://lucky-blog.vercel.app/
-  而且只要 GitHub 代码改变他也会自动更新
+![评论弹幕](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/628aef1dbf52b61c0333682e8ee9954e_6905019516821534667.png)
 
-- 博客 v2 只部署了 1 份 , 由于部署到 Github 上/后面多一个名称，就算了
+## 贡献者
 
-  通过 Github 的 Action，CICD 直接部署到了我自己的私有云服务器中 https://luckynwa.top
+[![contributors](https://opencollective.com/hexo-theme-anzhiyu/contributors.svg?width=890&button=false)](https://github.com/anzhiyu-c/hexo-theme-anzhiyu/)
+
+主题设计：[@张洪 Heo](https://github.com/zhheo)
+
+文档编写：[@xiaoran](https://github.com/xiaoran)
+
+## 仓库统计
+
+![仓库统计](https://repobeats.axiom.co/api/embed/60fcf455cd02123aebe6249deabf8d48e3debcae.svg "Repobeats analytics image")
