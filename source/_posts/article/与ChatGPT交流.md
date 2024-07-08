@@ -11,28 +11,6 @@ swiper_index: 67
 swiper_description: '私人GPT搭建攻略'
 ---
 
-<div class="ai-container">
-  <div class="ai-header">
-        <img style='margin: 0 5px !important; ' src="https://imgs.luckynwa.top/blog/robot.svg" alt="icon" />
-        <span style="color: white">AI摘要<a class="random-post-start" href="javascript:printLucky(myTextValue);"><i class="fa-solid fa-arrow-rotate-right" style='color:white;font-size:14px;margin-left:2px'></i></a></span>
-        <div class="ai-right">
-          <span>BingAI</span>
-        </div>
-  </div>
-      <div class="ai-content">
-        <p id="ai-post"></p>
-      </div>
-</div>
-<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/ai.css">
-<script src = "/js/ai.js"></script>
-<script  type="text/javascript">  
-  var myTextValue = '这篇文章提供了搭建ChatGPT-Next-Web项目的指南，包括GitHub部署和Vercel配置。同时介绍了使用CUDA Toolkit进行AI绘画的步骤。提供了关键词和双语回答示例。还包含了绘画提示词和代码提问的描述。';
-  document.addEventListener("DOMContentLoaded", function() {
-    printLucky(myTextValue);
-  });
-  //console.log('-----------------------------这是页面清除缓存后，ai启动回答')
-</script>
-
 # 搭建
 
 https://github.com/Yidadaa/ChatGPT-Next-Web 这个别人的项目，下拉有个 Deploy 点击进入，传入 OPENAI_API_KEY 的值和 CODE 的值 一个是 chatgpt 的 key(tb 买一个)和密码

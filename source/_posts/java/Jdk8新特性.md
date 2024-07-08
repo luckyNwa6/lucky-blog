@@ -27,12 +27,11 @@ swiper_description: 'Lambda和Stream流相关的学习笔记'
 <link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/ai.css">
 <script src = "/js/ai.js"></script>
 <script  type="text/javascript">  
-  var myTextValue = 'JDK 8引入了令人兴奋的新特性，如函数式接口和Lambda表达式，使Java具备了函数式编程的能力。此外，还有Stream API用于高效处理集合数据，新的日期和时间API解决了日期处理问题，还有默认方法简化了接口的演化过程。这些特性使JDK 8成为提高编程效率和代码可读性的强大工具。
-';
+  var myTextValue = 'JDK 8引入了令人兴奋的新特性，如函数式接口和Lambda表达式，使Java具备了函数式编程的能力。此外，还有Stream API用于高效处理集合数据，新的日期和时间API解决了日期处理问题，还有默认方法简化了接口的演化过程。这些特性使JDK 8成为提高编程效率和代码可读性的强大工具。';
 document.addEventListener("DOMContentLoaded", function() {
 printLucky(myTextValue);
 });
-console.log('-----------------------------这是页面清除缓存后，ai 启动回答')
+// console.log('-----------------------------这是页面清除缓存后，ai 启动回答')
 </script>
 
 # 常用
