@@ -784,7 +784,6 @@ note:
 pjax:
   enable: true
   exclude:
-    - /speaks/
     # - categories/*
 
 # 悬浮音乐
@@ -920,7 +919,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
   option:
-    vue: https://imgs.luckynwa.top/jscss/wuhouzui/vue@2.6.11 # vue.js依赖
+    vue: https://imgs.luckynwa.top/jscss/vue@2.6.11.js # vue.js依赖 vue: https://imgs.luckynwa.top/jscss/wuhouzui/vue@2.6.11 # vue.js依赖
     countup_js: /js/countup.js
     local_search: /js/local-search.js
 # hexo-butterfly-categories-card
@@ -1040,7 +1039,7 @@ fixed_card_widget:
 #Github提交日历
 gitcalendar:
   enable: true
-  simplemode: true
+  simplemode: false
   user: luckyNwa6
   # layout:
   #   type: class
@@ -1054,5 +1053,5 @@ gitcalendar:
   #  color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
   # color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
   apiurl: calendar.luckynwa.top/api
-  # calendar_js: https://cdn1.tianli0.top/npm/reverse-stu-allversions@1.0.1/butterfly/diy/hexo_githubcalendar.js
+  calendar_js: https://cdn1.tianli0.top/npm/reverse-stu-allversions@1.0.1/butterfly/diy/hexo_githubcalendar.js
   # plus_style: ""
