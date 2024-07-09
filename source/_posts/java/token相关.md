@@ -4,9 +4,9 @@ description: 深入理解token的使用
 cover: 'https://imgs.luckynwa.top/blog/tokenIcon.png'
 categories: 后端
 tags: Token
-comments: false
+comments: true
 abbrlink: 53014
-date: 2023-09-27 23:32:28
+date: 2024-06-27 23:32:28
 ---
 
 # 双 token
@@ -60,3 +60,5 @@ http.interceptors.response.use(response => {
 ```
 
 # 基于 oauth2 的单点登录及鉴权
+
+整理中...
