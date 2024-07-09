@@ -2,7 +2,7 @@
 title: Jkd8新特性
 description: Lambda和Stream流相关的学习笔记
 cover: 'https://imgs.luckynwa.top/blog/javaNewIcon.png'
-categories: Java
+categories: 后端
 tags: JDk8
 sticky: 99
 comments: true

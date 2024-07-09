@@ -2,9 +2,9 @@
 title: Git 的使用
 cover: 'https://imgs.luckynwa.top/blog/gitIcon.png'
 description: Git 相关的学习笔记
-categories: Java
+categories: 后端
 tags: Git
-comments: false
+comments: true
 abbrlink: 6724
 date: 2022-01-01 11:22:21
 swiper_index: 4
@@ -19,11 +19,11 @@ git 软件链接：https://pan.baidu.com/s/1XaG8mcIjMwNtlC1w_FLyMg?pwd=6666
 
 工作区：处理工作区域 ，状态四种如下
 
-+ 未被 git 管理 
+- 未被 git 管理
 
   未跟踪(2 个红？？)
 
-+ 已被管理里 3 种
+- 已被管理里 3 种
   未修改
   已修改（工作区文件和仓库不一样,红色 M，放入暂存区变绿 M）
   已暂存(git add)
@@ -36,10 +36,10 @@ git 软件链接：https://pan.baidu.com/s/1XaG8mcIjMwNtlC1w_FLyMg?pwd=6666
 
 ## 简单配置
 
-下载完并安装后，桌面空白右键git bash 打开git终端，想要main主分支设置如下，默认master
+下载完并安装后，桌面空白右键 git bash 打开 git 终端，想要 main 主分支设置如下，默认 master
 
 ```shell
-git config --global init.defaultBranch main  
+git config --global init.defaultBranch main
 ```
 
 换成自己的账号名和邮箱、本人号多
@@ -55,11 +55,11 @@ git config --global user.name "luckyWeiNi"
 查看是否配置
 
 ```shell
-git config user.name  
+git config user.name
 git config user.email
 ```
 
-需要的项目用git管理、进入项目文件夹根目录，右键，打开git bash，输入
+需要的项目用 git 管理、进入项目文件夹根目录，右键，打开 git bash，输入
 
 ```shell
 git init
@@ -85,19 +85,19 @@ git add 文件名带后缀   或   git add .  全部文件都添加
 git commit -m "这里是备注"
 ```
 
-一般都是要切换分支了，如果配了main推GitHub就不需要
+一般都是要切换分支了，如果配了 main 推 GitHub 就不需要
 
 ```shell
 git branch -M main
 ```
 
-关联远程GitHub仓库|这是ssh关联(不需要每次都验证)、记得先去下面配置了
+关联远程 GitHub 仓库|这是 ssh 关联(不需要每次都验证)、记得先去下面配置了
 
 ```shell
 git remote add origin git@github.com:luckyaaaa/springcloud-demo.git
 ```
 
-推送到GitHub仓库
+推送到 GitHub 仓库
 
 ```shell
 git push -u origin main
@@ -135,7 +135,7 @@ ssh -T git@github.com
 
 在输入 yes 就会欢迎，配置成功
 
-需要码云和GitHub都配置，则删除C:\Users\Administrator\.ssh目录，重新生成ssh-keygen
+需要码云和 GitHub 都配置，则删除 C:\Users\Administrator\.ssh 目录，重新生成 ssh-keygen
 
 ```shell
 pub文件，将内容复制到gitee和github的ssh中保存
@@ -149,11 +149,11 @@ ssh -T git@github.com
 
 # 常用指令
 
-指令记忆比较麻烦、一般都是直接用vscode或者idea直接可视化的去管理这些
+指令记忆比较麻烦、一般都是直接用 vscode 或者 idea 直接可视化的去管理这些
 
-VsCode 推荐安装 Git Blame | Git History | Git Graph用来查看记录
+VsCode 推荐安装 Git Blame | Git History | Git Graph 用来查看记录
 
-Idea2023.2.1自带一堆插件、git相关的只留下git即可、**切记** 遇到过留下GitHub然后就是推送不了
+Idea2023.2.1 自带一堆插件、git 相关的只留下 git 即可、**切记** 遇到过留下 GitHub 然后就是推送不了
 
 ```shell
 git rm --cached components.d.ts   已经被Git追踪,添加到gitignore还不够、需要移除
@@ -170,7 +170,7 @@ git branch                         查看git仓库所有分支 *表当前
 git branch 新分支名称                基于当前所处分支创建，此时新分支代码和当前分支一样
 git checkout 分支名称                切换分支
 git checkout -b 分支名称             创建并切换到该分支
-git checkout master                切换到主分支再合并其他分支 
+git checkout master                切换到主分支再合并其他分支
 git merge                           合并分支
 git branch -d 分支名称               删除指定分支,需要在别的分支上
 git remote show origin              查看远程仓库所有的分支列表
@@ -185,16 +185,15 @@ git reset --hard 版本号              彻底回退到某个版本，本地的�
 
 # 注意
 
-码云使用记得看清主分支以及推送的源，master和oringin
+码云使用记得看清主分支以及推送的源，master 和 oringin
 
-如果远程仓库创建时候带md文档，可以通过强推去关联或者克隆下来再推送
+如果远程仓库创建时候带 md 文档，可以通过强推去关联或者克隆下来再推送
 
 ```shell
-git init 
+git init
 git remote add origin git@github.com:luckyNwa/test.git
 git add .
 git commit -m 'feat: new1'
 git pull origin main --allow-unrelated-historie
 git push -u origin main
 ```
-

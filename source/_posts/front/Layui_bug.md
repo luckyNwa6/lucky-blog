@@ -2,7 +2,7 @@
 title: LayUi记录贴
 description: 前端遇到的bug记录
 cover: 'https://imgs.luckynwa.top/blog/layUiIcon.png'
-categories: Front
+categories: 前端
 tags: LayUi
 comments: true
 abbrlink: 36841

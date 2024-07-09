@@ -2,7 +2,7 @@
 title: Token
 description: 深入理解token的使用
 cover: 'https://imgs.luckynwa.top/blog/tokenIcon.png'
-categories: Java
+categories: 后端
 tags: Token
 comments: false
 abbrlink: 53014
