@@ -2,9 +2,9 @@
 title: IO流
 cover: 'https://imgs.luckynwa.top/blog/ioIcon.png'
 description: IO流相关的学习笔记
-categories: Java
+categories: 后端
 tags: IO
-comments: false
+comments: true
 abbrlink: 13712
 date: 2023-08-10 11:22:21
 ---

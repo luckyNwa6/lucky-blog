@@ -1,10 +1,10 @@
 ---
-title: ElasticSearch
+title: ElasticSearch简单使用
 description: ElasticSearch相关的学习笔记
 cover: 'https://imgs.luckynwa.top/blog/elasticSearchIcon.png'
-categories: Java
+categories: 后端
 tags: ES
-comments: false
+comments: true
 abbrlink: 6184
 date: 2023-07-20 13:32:28
 ---

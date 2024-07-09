@@ -2,7 +2,7 @@
 title: Es6特性
 description: es6的常见特性
 cover: 'https://imgs.luckynwa.top/blog/es6Icon.png'
-categories: Front
+categories: 前端
 tags: Es6
 comments: true
 abbrlink: 30769

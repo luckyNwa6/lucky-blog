@@ -1,15 +1,15 @@
 ---
-title: Mysql知识点
+title: Mysql数据库
 description: Mysql使用相关的学习笔记
 cover: 'https://imgs.luckynwa.top/blog/mysqlIcon2.png'
-categories: Java
+categories: 后端
 tags: Mysql
-comments: false
+comments: true
 abbrlink: 29614
 date: 2022-04-19 11:22:21
 ---
 
-## 常用以及总结
+# 常用以及总结
 
 设计数据库时候：
 
@@ -27,9 +27,9 @@ int 是整型而且有 4 个字节=32 位，并且符号位占一位，它有自
 
 [-2147483648,2147483647] 有 10 位 如果数字超过它的最大值，手机号 是 11 位，共五个字节(11 位)则用 long 类型或者 String
 
-## 数据类型
+# 数据类型
 
-###### int
+## int
 
 int(11)、tinyint(4) 、smallint(6)、mediumint(9)、bigint(20) 整形选个合适长度，不改它
 
@@ -37,7 +37,7 @@ varchar(255)、char(1) 这边需要根据需求改长度，这里的长度是字
 
 _tip：括号里面是它的默认长度也是固定长度，比如 int 是默认长度你有一个值 199，这个长度小于 3 所以它会填 0 来补充 00000000199_
 
-###### char
+## char
 
 char 是一个是固定长度,varchar 是可变长度
 
@@ -51,15 +51,15 @@ char 是一个是固定长度,varchar 是可变长度
 
 - 将 char 类型的列设置为索引，以提高查询速度。
 
-​ 从空间上考虑，用 varchar 合适；从效率上考虑，用 char 合适，关键是根据实际情况找到权衡点，所有当需要大量查询需求的时候，用 char。当对于保存数据量过大的需求时，为了节省储存空间用 varchar。
+ 从空间上考虑，用 varchar 合适；从效率上考虑，用 char 合适，关键是根据实际情况找到权衡点，所有当需要大量查询需求的时候，用 char。当对于保存数据量过大的需求时，为了节省储存空间用 varchar。
 
-###### text
+## text
 
 没有默认长度，最大长度为 65,535(2 的 16 次方–1)字符的 TEXT 列。
 
 Text 主要是用来存放非二进制的文本，如论坛帖子,题目，或者百度知道的问题和回答之类。TEXT 列不能有默认值，存储或检索过程中，不存在大小写转换，后面如果指定长度，不会报错误，但是这个长度是不起作用的，意思就是你插入数据的时候，超过你指定的长度还是可以正常插入。其实可以总结为用来储存大批量的文本信息的时候，使用 TEXT。
 
-###### 日期
+## 日期
 
 datetime 显示 YYYY-MM-DD HH:MM:SS'格式显示 日期时间
 
@@ -71,7 +71,7 @@ timestamp 列类型可以使用它自动地用当前的日期和时间标记 INS
 
 它有 2 个属性值 CURRENT_TIMESTAMP 和 ON UPDATE CURRENT_TIMESTAMP
 
-## 数据库操作
+# 数据库操作
 
 （创建 Create、检索 Retrieve、更改 Update、删除 Delete）
 
@@ -94,7 +94,7 @@ mysql 里运行不区分大小写，尽量都大写
 
 HAVING 是分组之后加的条件
 
-## 六大范式
+# 六大范式
 
 英文 Normal form
 

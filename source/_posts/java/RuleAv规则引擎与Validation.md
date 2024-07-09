@@ -2,9 +2,9 @@
 title: RuleAv规则引擎与Validation
 description: 参数校验
 cover: 'https://imgs.luckynwa.top/blog/ruleIcon.png'
-categories: Java
+categories: 后端
 tags: Java
-comments: false
+comments: true
 abbrlink: 57942
 date: 2023-10-11 13:32:22
 ---

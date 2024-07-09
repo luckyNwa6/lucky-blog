@@ -2,24 +2,24 @@
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
 cover: 'https://imgs.luckynwa.top/blog/markerDownIcon.png'
-categories: Config
-tags: Md-Use
+categories: 文档
+tags: Typora
 abbrlink: 2645
-comments: false
+comments: true
 date: 2022-10-24 15:32:28
 ---
 
-# Typora常用语法
+# Typora 常用语法
 
-+ **加粗**  
+- **加粗**
 
 ```
 **粗体** 或 __粗体__
 ```
 
-选中文字 Ctrl+B **加粗**  
+选中文字 Ctrl+B **加粗**
 
-+ *倾斜*
+- _倾斜_
 
 ```
 *斜体* 或 _斜体_
@@ -27,13 +27,13 @@ date: 2022-10-24 15:32:28
 
 选中文字 Ctrl+I 倾斜
 
-+ ***加粗斜体***
+- **_加粗斜体_**
 
   ```
   ***加粗斜体***
   ```
 
-+ **图片展示**
+- **图片展示**
 
 直接拖图片进来
 
@@ -43,9 +43,9 @@ date: 2022-10-24 15:32:28
 ![](https://imgs.luckynwa.top/blog/loading.gif) 效果如下
 ```
 
-![](https://imgs.luckynwa.top/blog/loading.gif) 
+![](https://imgs.luckynwa.top/blog/loading.gif)
 
-+ **链接跳转**
+- **链接跳转**
 
 ```
 [ctrl+点击跳转](https://WWW.baidu.com)
@@ -54,22 +54,22 @@ date: 2022-10-24 15:32:28
 
 [ctrl+点击跳转](https://WWW.baidu.com)
 
-[百度](https://www.baidu.com/ "www.baidu.com")
+[百度](https://www.baidu.com/ 'www.baidu.com')
 
-+ **代码区域**
+- **代码区域**
 
-```javascript
+````javascript
    ```+回车即可在内容区编辑内容  右下角选择语言
    const a= 'luckyNwa'
-```
+````
 
-+ **创建无序列** 
+- **创建无序列**
 
   ```
   + 、- 、\* （后面加空格）   这些小标题前面球就是
   ```
 
-+ **表情**
+- **表情**
 
   ```
   ：+单词字母 如 :smile:
@@ -79,25 +79,23 @@ date: 2022-10-24 15:32:28
 
 ![](C:\Users\FF\Desktop\favicon.png)
 
-
-
-+ 标题生成目录
+- 标题生成目录
 
   ```
-  [TOC] 
+  [TOC]
   ```
 
-+ qq群跳转
+- qq 群跳转
 
   前面是图，后面是跳转链接
 
   ```
-  [![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz)  
+  [![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz)
   ```
 
-[![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz)  
+[![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz)
 
-+ 嵌套表格
+- 嵌套表格
 
 <table>
     <tr>
@@ -105,6 +103,3 @@ date: 2022-10-24 15:32:28
     </tr>
 ...
 </table>
-
-
-
