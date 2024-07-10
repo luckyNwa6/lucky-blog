@@ -1645,7 +1645,7 @@ pre {
   transform: none !important;
 }
 #rightside {
-  right: 14px !important;
+  right: 50px !important;
 }
 #site-name,
 .shuoshuo {
@@ -3356,7 +3356,7 @@ code {
 }
 #fps {
   position: fixed;
-  right: 10px;
+  right: 45px;
   bottom: 4px;
   z-index: 1919810;
 }
@@ -6037,14 +6037,4 @@ body {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   content: '';
-}
-
-/* 下面是ai按钮样式 */
-#maxkb .maxkb-chat-button {
-  bottom: 135px !important;
-  right: 14px !important;
-}
-#maxkb #maxkb-chat-container {
-  bottom: 62px !important;
-  right: 14px !important;
 }
