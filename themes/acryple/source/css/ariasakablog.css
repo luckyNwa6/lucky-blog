@@ -6038,3 +6038,8 @@ body {
   -o-border-radius: 5px;
   content: '';
 }
+
+#maxkb .maxkb-chat-button {
+  bottom: 133px !important;
+  right: 14px !important;
+}

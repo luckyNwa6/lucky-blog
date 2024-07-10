@@ -906,6 +906,8 @@ inject:
     - <script type="text/javascript" src="/js/latest.js"></script>
     - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>
     - <script type="text/javascript" src="https://imgs.luckynwa.top/jscss/snackbar.min.js"></script>
+    - <script async defer src="http://106.53.76.173:18080/api/application/embed?protocol=http&host=106.53.76.173:18080&token=8f9b290749ee3880"></script>
+
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 #
