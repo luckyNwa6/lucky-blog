@@ -1645,7 +1645,7 @@ pre {
   transform: none !important;
 }
 #rightside {
-  right: 50px !important;
+  right: 58px !important;
 }
 #site-name,
 .shuoshuo {
@@ -3357,8 +3357,8 @@ code {
 #fps {
   position: fixed;
   right: 45px;
-  bottom: 4px;
-  z-index: 1919810;
+  bottom: 6px;
+  z-index: 10;
 }
 [data-theme='light'] #fps {
   background-color: var(--lyx-white-acrylic1);
@@ -5998,7 +5998,7 @@ body {
   -o-border-radius: 10px !important;
 }
 #rightside {
-  bottom: 60px !important;
+  bottom: 65px !important;
 }
 .adiv {
   padding: 2px 6px;
