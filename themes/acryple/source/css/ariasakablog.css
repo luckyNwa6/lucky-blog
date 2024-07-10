@@ -6039,7 +6039,8 @@ body {
   content: '';
 }
 
+/* 下面是ai按钮样式 */
 #maxkb .maxkb-chat-button {
-  bottom: 133px !important;
+  bottom: 135px !important;
   right: 14px !important;
 }
