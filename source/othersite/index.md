@@ -38,16 +38,16 @@ _PS：划掉的表示已挂_
 <tr>
 <td><a href="https://mypic.luckynwa.top">mypic.luckynwa.top</a></td>
 <td>图片管理系统</td>
-<td>本来是用来管理自己云服务器的图床的，很少用</td>
+<td>基于人人后台进行二次开发管理自己云服务器的图床|支持游客qq登录使用</td>
 </tr>
 <tr>
 <td><a href="https://mycode.luckynwa.top">mycode.luckynwa.top</a></td>
 <td><del>个人代码生成</del></td>
 <td>代码生成，每个项目模块不一样，用处也不大</td>
 </tr>
-<td><a href="https://mychat.luckynwa.top">mychat.luckynwa.top</a></td>
-<td><del>私有化chartGpt</del></td>
-<td>由于OpenAI对国内不友好，所以放弃搭建私人搭建</td>
+<td><a href="https://gpt.luckynwa.top">gpt.luckynwa.top</a></td>
+<td>私有化chatGpt</td>
+<td>基于Ollama大语言模型做的私人GPT项目，博客中也引入了，右下角</td>
 </tr>
 
 </table>
