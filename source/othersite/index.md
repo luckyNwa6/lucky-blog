@@ -41,13 +41,13 @@ _PS：划掉的表示已挂_
 <td>基于人人后台进行二次开发管理自己云服务器的图床|支持游客qq登录使用</td>
 </tr>
 <tr>
+<td><a href="https://gpt.luckynwa.top">gpt.luckynwa.top</a></td>
+<td>个人ChatGPT</td>
+<td>基于Ollama开源框架做的私人ChatGPT项目，博客中也引入了，右下角</td>
+</tr>
 <td><a href="https://mycode.luckynwa.top">mycode.luckynwa.top</a></td>
 <td><del>个人代码生成</del></td>
-<td>代码生成，每个项目模块不一样，用处也不大</td>
-</tr>
-<td><a href="https://gpt.luckynwa.top">gpt.luckynwa.top</a></td>
-<td>私有化chatGpt</td>
-<td>基于Ollama大语言模型做的私人GPT项目，博客中也引入了，右下角</td>
+<td>代码生成，每个项目模块不一样</td>
 </tr>
 
 </table>
