@@ -21,7 +21,7 @@ _PS：划掉的表示已挂_
 <td>写一些文章、记录重要笔记、分享知识</td>
 </tr>
 <tr>
-<td><a href="https://mytool.luckynwa.top">mytool.luckynwa.top</a></td>
+<td><a href="https://mytool.luckynwa.top/lucky-tools/">mytool.luckynwa.top</a></td>
 <td>个人工具站</td>
 <td>基于开源工具站二次开发，自己也封装了一些工具进入，比如翻译等</td>
 </tr>
