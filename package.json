@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "iNode18": "npm install",
+    "use18": "nvm use 18",
     "dev": "hexo clean && hexo generate && hexo server",
     "server": "hexo clean && hexo generate && hexo server",
     "build": "hexo generate",
