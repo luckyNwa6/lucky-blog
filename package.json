@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "dev": "hexo clean && hexo generate && hexo server",
     "use18": "nvm use 18",
     "i": "npm install",
-    "dev": "hexo clean && hexo generate && hexo server",
     "server": "hexo clean && hexo generate && hexo server",
     "build": "hexo generate",
     "deploy": "hexo deploy",
