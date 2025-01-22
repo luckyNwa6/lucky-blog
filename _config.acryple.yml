@@ -349,7 +349,7 @@ facebook_comments:
 # Twikoo评论私有化docker部署
 # https://github.com/imaegoo/twikoo，用域名twikoo.luckynwa.top会ip定位不准因为代理了只会展示服务器的地址,用域名才能不跨域！！
 twikoo:
-  envId: https://twikoo.luckynwa.top/
+  envId: https://tw.luckynwa.top/
   region:
   visitor: true
   option:
