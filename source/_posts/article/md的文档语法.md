@@ -1,7 +1,7 @@
 ---
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/markerDownIcon.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/markerDownIcon.png'
 categories: 文档
 tags: Typora
 abbrlink: 2645
@@ -40,10 +40,10 @@ date: 2022-10-24 15:32:28
 ```
 ![]() 小括号里面是图片的链接可以是图床里面的地址
 ![图片1](/1.jpg '这是描述内联的')
-![](https://imgs.luckynwa.top/blog/loading.gif) 效果如下
+![](https://imgs.luckynwa.top/profile/blog/loading.gif) 效果如下
 ```
 
-![](https://imgs.luckynwa.top/blog/loading.gif)
+![](https://imgs.luckynwa.top/profile/blog/loading.gif)
 
 - **链接跳转**
 

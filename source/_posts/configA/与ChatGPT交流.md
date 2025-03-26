@@ -1,6 +1,6 @@
 ---
 title: NextChat搭建
-cover: 'https://imgs.luckynwa.top/blog/chatGPTIcon2.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/chatGPTIcon2.png'
 description: 基于开源NextChat搭建私人ChatGPT 助手
 categories: 网站搭建
 tags: ChatGPT
@@ -14,13 +14,13 @@ swiper_description: '基于开源NextChat搭建私人ChatGPT 助手'
 
 # 搭建
 
-开源地址 https://github.com/Yidadaa/ChatGPT-Next-Web 
+开源地址 https://github.com/Yidadaa/ChatGPT-Next-Web
 
-下拉有个 Deploy 点击进入Vercle网站，部署它这个开源项目
+下拉有个 Deploy 点击进入 Vercle 网站，部署它这个开源项目
 
 ![image-20240709102430639](https://cdn.jsdelivr.net/gh/luckyNwa/lucky-pic-bed@main/img/image-20240709102430639.png)
 
-项目名称随便改，lucky-next-chat，点击crate，再传入 OPENAI_API_KEY （chatgpt 的 key(tb 买一个)）的值和 CODE（网站使用它的密码）
+项目名称随便改，lucky-next-chat，点击 crate，再传入 OPENAI_API_KEY （chatgpt 的 key(tb 买一个)）的值和 CODE（网站使用它的密码）
 
 ![image-20240709104449387](https://cdn.jsdelivr.net/gh/luckyNwa/lucky-pic-bed@main/img/image-20240709104449387.png)
 
@@ -40,10 +40,10 @@ https://chat.luckynwa.top/#/ 域名访问
 
 # 问题
 
-Key不好获取，以前的官网注册送5美刀的key额度，现在没有，只能去淘宝买，或者自己弄个外国的虚拟信用卡
+Key 不好获取，以前的官网注册送 5 美刀的 key 额度，现在没有，只能去淘宝买，或者自己弄个外国的虚拟信用卡
 
-虚拟信用卡很贵、开卡就要10美元、还得冲20-30美刀并且有一定的手续费
+虚拟信用卡很贵、开卡就要 10 美元、还得冲 20-30 美刀并且有一定的手续费
 
-推荐用它免费3.5、其他只有一定额度后面充钱，不冲也行
+推荐用它免费 3.5、其他只有一定额度后面充钱，不冲也行
 
 需科学 https://poe.com/chat/2dweys7v7k9pjotniya

@@ -12,7 +12,7 @@ type: 'links'
 </div>
 <div id="random-post"></div>
 
-<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/jscss/random-friends-post.css">
+<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/profile/blog/jscss/random-friends-post.css">
 <div id="gitcalendar" style="display:none"></div>
 
 <!-- 一个友链例子 -->
@@ -25,11 +25,11 @@ type: 'links'
 
   - name: 沈伟泽
     link: https://www.shenweize.com/
-    avatar: https://imgs.luckynwa.top/blog/shenweize.png
+    avatar: https://imgs.luckynwa.top/profile/blog/shenweize.png
     descr: 大数据开发工程师
   - name: 小温
     link: https://pacemak1.github.io/
-    avatar: https://imgs.luckynwa.top/blog/wenzhihao.png
+    avatar: https://imgs.luckynwa.top/profile/blog/wenzhihao.png
     descr: 高级算法开发工程师
   - name: Ariasaka
     link: https://blog.yaria.top
@@ -63,7 +63,7 @@ type: 'links'
 
 点下面的按钮！
 
-<script type="text/javascript" src="https://imgs.luckynwa.top/jscss/jquery.min.js"></script>
+<script type="text/javascript" src="https://imgs.luckynwa.top/profile/blog/jscss/jquery.min.js"></script>
 <script src = "/js/randomFriend.js"></script>
 
 <a href="javascript:void(0)" onclick="addflink()">快速添加友链</a>

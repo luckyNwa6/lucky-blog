@@ -1,7 +1,7 @@
 ---
 title: RocketMq简单实现
 description: RocketMq 使用相关的笔记
-cover: 'https://imgs.luckynwa.top/blog/rocketMqIcon.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/rocketMqIcon.png'
 categories: 后端
 tags: RocketMq
 abbrlink: 32867
@@ -20,7 +20,7 @@ E:\LuckySoft\rocketmq-4.9.3
 
 版本:rocketmq-4.9.3
 
-bin目录，修改runserver.cmd的JAVA_OPT为 和 修改runbroker.cmd的JAVA_OPT大小可自己调整
+bin 目录，修改 runserver.cmd 的 JAVA_OPT 为 和 修改 runbroker.cmd 的 JAVA_OPT 大小可自己调整
 
 ```shell
 
@@ -34,8 +34,8 @@ set "JAVA_OPT=%JAVA_OPT% -server -Xms256m -Xmx512m"
 
 2、启动
 
-直接运行bin下mqnamesrv.cmd
-再bin下目录cmd打开，输入下面命令
+直接运行 bin 下 mqnamesrv.cmd
+再 bin 下目录 cmd 打开，输入下面命令
 
 ```shell
 bin>mqbroker.cmd -n localhost:9876
@@ -52,13 +52,12 @@ bin>mqbroker.cmd -n localhost:9876
 ```
 
 ```yml
-rocketmq:          #很奇怪前面没有和spring同级都能跑
+rocketmq: #很奇怪前面没有和spring同级都能跑
   name-server: 127.0.0.1:9876
   producer:
     group: producer-demo1
   consumer:
     group: consumer-demo1
-
 ```
 
 ```java

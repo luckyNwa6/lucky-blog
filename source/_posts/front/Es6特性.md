@@ -1,7 +1,7 @@
 ---
 title: Es6特性
 description: es6的常见特性
-cover: 'https://imgs.luckynwa.top/blog/es6Icon.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/es6Icon.png'
 categories: 前端
 tags: Es6
 comments: true

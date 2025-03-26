@@ -1,6 +1,6 @@
 ---
 title: Git 的使用
-cover: 'https://imgs.luckynwa.top/blog/gitIcon.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/gitIcon.png'
 description: Git 相关的学习笔记
 categories: 后端
 tags: Git

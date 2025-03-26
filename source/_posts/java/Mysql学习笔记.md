@@ -1,7 +1,7 @@
 ---
 title: Mysql数据库
 description: Mysql使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/blog/mysqlIcon2.png'
+cover: 'https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png'
 categories: 后端
 tags: Mysql
 comments: true
@@ -51,7 +51,7 @@ char 是一个是固定长度,varchar 是可变长度
 
 - 将 char 类型的列设置为索引，以提高查询速度。
 
- 从空间上考虑，用 varchar 合适；从效率上考虑，用 char 合适，关键是根据实际情况找到权衡点，所有当需要大量查询需求的时候，用 char。当对于保存数据量过大的需求时，为了节省储存空间用 varchar。
+从空间上考虑，用 varchar 合适；从效率上考虑，用 char 合适，关键是根据实际情况找到权衡点，所有当需要大量查询需求的时候，用 char。当对于保存数据量过大的需求时，为了节省储存空间用 varchar。
 
 ## text
 
