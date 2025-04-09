@@ -40,7 +40,7 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            rm -rf /nwa/nginx/html/myblog/*
+            rm -rf /nwa/nginx/html/blog/*
 
       # 部署到服务器
       - name: 上传打包后的资源到服务器
@@ -51,5 +51,5 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           source: './public/*'
-          target: '/nwa/nginx/html/myblog'
+          target: '/nwa/nginx/html/blog'
           strip_components: 1
