@@ -4,7 +4,7 @@
 
 # Site
 title: 小维的博客园
-subtitle: '开开心心,健健康康'
+subtitle: '日日新,又日新'
 description: ''
 keywords: 'Java,MySQL,代码,博客,Butterfly,Hexo'
 author: LuckyNwa
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://luckynwa.top
 permalink: post/:abbrlink.html
 abbrlink:
 	alg:crc32
