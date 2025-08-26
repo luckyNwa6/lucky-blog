@@ -6038,3 +6038,12 @@ body {
   -o-border-radius: 5px;
   content: '';
 }
+
+#chatbase-bubble-button {
+  width: 31px !important;
+  height: 31px !important;
+}
+iframe[title='chatbase-bubble-button'] {
+  width: 31px !important;
+  height: 31px !important;
+}
