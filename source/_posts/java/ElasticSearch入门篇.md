@@ -4,7 +4,7 @@ description: ElasticSearch相关的学习笔记
 cover: 'https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png'
 categories: 后端
 tags: ES
-comments: true
+comments: false
 abbrlink: 6184
 date: 2023-07-20 13:32:28
 ---
@@ -67,7 +67,8 @@ yellow open   start 9cGmSfZ_TxyUiI1Gl9BiAw   1   1          0            0      
 
 ```
 
-![Snipaste_2023-07-20_10-01-23](http://120.26.80.35:3737/mdS/Snipaste_2023-07-20_10-01-23.png)
+![Snipaste_2023-07-20_10-01-23](https://imgs.luckynwa.top/profile/mdS/Snipaste_2023-07-20_10-01-23.png)
+console.log("🚀 ~ luckynwa:", luckynwa)
 
 ### 查看单个索引
 

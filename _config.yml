@@ -231,5 +231,5 @@ markdown:
     collisionSuffix: ''
 # 悬浮音乐
 aplayer:
-  meting: true
+  meting: false
   asset_inject: false

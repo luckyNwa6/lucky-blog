@@ -557,12 +557,12 @@ click_heart:
 
 # 鼠標點擊效果: 文字
 ClickShowText:
-  enable: false #true
+  enable: true #true
   text:
-    # - I
-    # - LOVE
-    # - YOU
-  fontSize: 16px
+    - 幸运值 +9999
+    - 幸运值 +9999
+    - 幸运值 +9999
+  fontSize: 13px
   random: false
   mobile: false
 
@@ -626,7 +626,7 @@ aside:
   hide: false
   button: true
   mobile: false # display on mobile
-  position: left # left or right
+  position: right # left or right
   archives: true
   card_author:
     enable: true
@@ -788,7 +788,7 @@ pjax:
 
 # 悬浮音乐
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)

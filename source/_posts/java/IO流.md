@@ -4,7 +4,7 @@ cover: 'https://imgs.luckynwa.top/profile/blog/ioIcon.png'
 description: IO流相关的学习笔记
 categories: 后端
 tags: IO
-comments: true
+comments: false
 abbrlink: 13712
 date: 2023-08-10 11:22:21
 ---

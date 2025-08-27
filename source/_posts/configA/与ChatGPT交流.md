@@ -4,7 +4,7 @@ cover: 'https://imgs.luckynwa.top/profile/blog/chatGPTIcon2.png'
 description: 基于开源NextChat搭建私人ChatGPT 助手
 categories: 网站搭建
 tags: ChatGPT
-comments: true
+comments: false
 abbrlink: 41570
 date: 2023-06-01 11:22:21
 updated: 2024-07-03 10:32:48

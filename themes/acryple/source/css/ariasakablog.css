@@ -3358,7 +3358,7 @@ code {
   position: fixed;
   right: 45px;
   bottom: 6px;
-  z-index: 10;
+  z-index: 999;
 }
 [data-theme='light'] #fps {
   background-color: var(--lyx-white-acrylic1);
@@ -3798,7 +3798,9 @@ code {
   font-weight: 700;
   line-height: 1.1;
 }
-
+/* 地图地址 https://map.baidu.com/@13387021.350239139,3513500.2551271105,16.37z
+截图命名下面，并替换到服务器里的，大小自定义，记得压缩图片
+*/
 .author-content-item.map {
   background: url(https://imgs.luckynwa.top/profile/blog/637f581d78d8b.png) no-repeat center;
   min-height: 160px;

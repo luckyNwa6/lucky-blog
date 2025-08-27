@@ -5,7 +5,7 @@ cover: 'https://imgs.luckynwa.top/profile/blog/rocketMqIcon.png'
 categories: 后端
 tags: RocketMq
 abbrlink: 32867
-comments: true
+comments: false
 date: 2022-11-14 13:32:28
 ---
 

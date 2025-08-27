@@ -30,7 +30,7 @@ function todis() {
       }
 
       function showWelcome() {
-        let dist = getDistance(118.06432, 24.610079, ipLoacation.result.location.lng, ipLoacation.result.location.lat)
+        let dist = getDistance(120.255558, 30.24829, ipLoacation.result.location.lng, ipLoacation.result.location.lat)
         //经纬度
         let pos = ipLoacation.result.ad_info.nation
         let posdesc
