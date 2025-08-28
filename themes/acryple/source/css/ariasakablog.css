@@ -3118,7 +3118,7 @@ body {
   color: var(--font-color) !important;
 }
 #article-container .highlight-tools .copy-button:hover {
-  color: var(--lyx-theme) !important;
+  color: var(--lyx-white) !important;
 }
 #colors::before {
   position: absolute;
@@ -4475,19 +4475,6 @@ code {
   .hello-about h1 {
     font-size: calc((0.0989119683 * 100vw + (58.5558852621px)));
   }
-}
-
-.cursor {
-  position: absolute;
-  background: #2128bd;
-  width: 20px;
-  height: 20px;
-  margin: -10px 0 0 -10px;
-  border-radius: 50%;
-  will-change: transform;
-  user-select: none;
-  pointer-events: none;
-  z-index: 3;
 }
 
 ::selection {
