@@ -557,7 +557,7 @@ click_heart:
 
 # 鼠標點擊效果: 文字
 ClickShowText:
-  enable: true #true
+  enable: false #true
   text:
     - 幸运值 +9999
     - 幸运值 +9999
