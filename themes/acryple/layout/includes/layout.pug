@@ -9,7 +9,7 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     include ./head.pug
   body
     if theme.preloader
-      !=partial('includes/loading/loading', {}, {cache: true})
+      !=partial('includes/loading/index', {}, {cache: true})
 
     if theme.background
       #web_bg

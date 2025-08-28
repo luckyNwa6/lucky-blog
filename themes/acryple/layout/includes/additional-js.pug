@@ -30,7 +30,7 @@ div
     script(src=url_for(theme.asset.local_search))
 
   if theme.preloader
-    != partial("includes/loading/loading-js", {}, { cache: true })
+    != partial("includes/loading/index", {}, { cache: true })
 
   .js-pjax
     if needLoadCountJs

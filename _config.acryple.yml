@@ -616,8 +616,18 @@ subtitle:
     - 今日事&#44;今日畢
 
 # 加载动画
-preloader: true
+# preloader: true
 
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  # else all
+  source: 3
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
+  avatar: /img/avatar.png # 自定加载动画义头像
 # aside 侧边栏
 # --------------------------------------
 
