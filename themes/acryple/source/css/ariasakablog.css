@@ -1,3 +1,88 @@
+:root {
+  --heo-white: var(--lyx-white);
+  --heo-white-op: rgba(255, 255, 255, 0.2);
+  --heo-black: var(--lyx-black);
+  --heo-black-op: rgba(0, 0, 0, 0.2);
+  --heo-none: var(--lyx-0);
+  --heo-gray: #999999;
+  --heo-vip: #e5a80d;
+  --heo-main: var(--heo-theme);
+  --heo-main-op: var(--heo-theme-op);
+  --heo-shadow-theme: 0 8px 12px -3px var(--heo-theme-op);
+  --heo-shadow-main: 0 8px 12px -3px var(--heo-main-op);
+  --heo-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --heo-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --heo-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --heo-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --heo-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --heo-shadow-green: 0 8px 12px -3px #87ee7936;
+  --heo-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
+  --heo-snackbar-time: 5s;
+  --style-border: 1px solid var(--heo-card-border);
+  --style-border-always: 1px solid var(--heo-card-border);
+  --style-border-hover: 1px solid var(--heo-main);
+  --style-border-hover-always: 1px solid var(--heo-main);
+  --style-border-dashed: 1px dashed var(--heo-theme-op);
+}
+:root {
+  --heo-theme: #425aef;
+  --heo-theme-op: #4259ef23;
+  --heo-blue: #425aef;
+  --heo-red: #d8213c;
+  --heo-pink: #ff7c7c;
+  --heo-green: #28a63f;
+  --heo-yellow: #d99c00;
+  --heo-orange: #e38100;
+  --heo-fontcolor: #363636;
+  --heo-background: #f7f9fe;
+  --heo-reverse: var(--lyx-black);
+  --heo-maskbg: rgba(255, 255, 255, 0.6);
+  --heo-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --heo-hovertext: var(--heo-main);
+  --heo-ahoverbg: #f7f7fa;
+  --heo-lighttext: var(--heo-main);
+  --heo-secondtext: rgba(60, 60, 67, 0.6);
+  --heo-scrollbar: rgba(60, 60, 67, 0.4);
+  --heo-card-btn-bg: #edf0f7;
+  --heo-post-blockquote-bg: #fafcff;
+  --heo-post-tabs-bg: #f2f5f8;
+  --heo-secondbg: #f1f3f8;
+  --heo-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --heo-card-bg: var(--lyx-white);
+  --heo-card-bg-op: var(--heo-black-op);
+  --heo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --heo-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --heo-card-border: #e3e8f7;
+  --heo-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --style-border-forever: 2px solid var(--heo-main);
+  --lyx-border: #c9c9c9;
+  --lyx-blue: #6cf;
+  --lyx-gray: #e2e2e2;
+  --lyx-theme: var(--lyx-black);
+  --lyx-light-grey: #f2f2f2;
+  --lyx-green: #34d0cc;
+  --lyx-black-acrylic1: #0008;
+  --lyx-black-acrylic2: #000a;
+  --lyx-black-acrylic3: #00000099;
+  --lyx-black: black;
+  --lyx-white: white;
+  --lyx-white-acrylic1: #fffd;
+  --lyx-white-acrylic2: #fffa;
+  --lyx-blackgray: #797979;
+  --lyx-0: #0000;
+  --lyx-scrollbar: #acacacdd;
+  --lyx-whitegray: #f1f1f1;
+  --lyx-red: #d7000f;
+  --lyx-orange: #ed8e00;
+  --lyx-yellow: rgb(241, 238, 71);
+  --lyx-purple: rgb(179, 71, 241);
+  --lyx-pink: #ed709b;
+  --lyx-heoblue: #0098db;
+  --lyx-darkblue: #61649f;
+  /* 头像的背景图 */
+  --lucky-headBackgroundImage: url(https://imgs.luckynwa.top/profile/blog/63103c8a03a24.webp);
+}
+
 @font-face {
   font-family: 'Fredoka';
   font-display: swap;
@@ -1745,88 +1830,7 @@ th {
 #article-container .tag-Link .tag-link-bottom i {
   margin-left: auto;
 }
-:root {
-  --heo-white: var(--lyx-white);
-  --heo-white-op: rgba(255, 255, 255, 0.2);
-  --heo-black: var(--lyx-black);
-  --heo-black-op: rgba(0, 0, 0, 0.2);
-  --heo-none: var(--lyx-0);
-  --heo-gray: #999999;
-  --heo-vip: #e5a80d;
-  --heo-main: var(--heo-theme);
-  --heo-main-op: var(--heo-theme-op);
-  --heo-shadow-theme: 0 8px 12px -3px var(--heo-theme-op);
-  --heo-shadow-main: 0 8px 12px -3px var(--heo-main-op);
-  --heo-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
-  --heo-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
-  --heo-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
-  --heo-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
-  --heo-shadow-red: 0 8px 12px -3px #ee7d7936;
-  --heo-shadow-green: 0 8px 12px -3px #87ee7936;
-  --heo-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
-  --heo-snackbar-time: 5s;
-  --style-border: 1px solid var(--heo-card-border);
-  --style-border-always: 1px solid var(--heo-card-border);
-  --style-border-hover: 1px solid var(--heo-main);
-  --style-border-hover-always: 1px solid var(--heo-main);
-  --style-border-dashed: 1px dashed var(--heo-theme-op);
-}
-:root {
-  --heo-theme: #425aef;
-  --heo-theme-op: #4259ef23;
-  --heo-blue: #425aef;
-  --heo-red: #d8213c;
-  --heo-pink: #ff7c7c;
-  --heo-green: #28a63f;
-  --heo-yellow: #d99c00;
-  --heo-orange: #e38100;
-  --heo-fontcolor: #363636;
-  --heo-background: #f7f9fe;
-  --heo-reverse: var(--lyx-black);
-  --heo-maskbg: rgba(255, 255, 255, 0.6);
-  --heo-maskbgdeep: rgba(255, 255, 255, 0.85);
-  --heo-hovertext: var(--heo-main);
-  --heo-ahoverbg: #f7f7fa;
-  --heo-lighttext: var(--heo-main);
-  --heo-secondtext: rgba(60, 60, 67, 0.6);
-  --heo-scrollbar: rgba(60, 60, 67, 0.4);
-  --heo-card-btn-bg: #edf0f7;
-  --heo-post-blockquote-bg: #fafcff;
-  --heo-post-tabs-bg: #f2f5f8;
-  --heo-secondbg: #f1f3f8;
-  --heo-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
-  --heo-card-bg: var(--lyx-white);
-  --heo-card-bg-op: var(--heo-black-op);
-  --heo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
-  --heo-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
-  --heo-card-border: #e3e8f7;
-  --heo-shadow-border: 0 8px 16px -4px #2c2d300c;
-  --style-border-forever: 2px solid var(--heo-main);
-  --lyx-border: #c9c9c9;
-  --lyx-blue: #6cf;
-  --lyx-gray: #e2e2e2;
-  --lyx-theme: var(--lyx-black);
-  --lyx-light-grey: #f2f2f2;
-  --lyx-green: #34d0cc;
-  --lyx-black-acrylic1: #0008;
-  --lyx-black-acrylic2: #000a;
-  --lyx-black-acrylic3: #00000099;
-  --lyx-black: black;
-  --lyx-white: white;
-  --lyx-white-acrylic1: #fffd;
-  --lyx-white-acrylic2: #fffa;
-  --lyx-blackgray: #797979;
-  --lyx-0: #0000;
-  --lyx-scrollbar: #acacacdd;
-  --lyx-whitegray: #f1f1f1;
-  --lyx-red: #d7000f;
-  --lyx-orange: #ed8e00;
-  --lyx-yellow: rgb(241, 238, 71);
-  --lyx-purple: rgb(179, 71, 241);
-  --lyx-pink: #ed709b;
-  --lyx-heoblue: #0098db;
-  --lyx-darkblue: #61649f;
-}
+
 .tag-link-title {
   color: var(--gcolor);
 }
@@ -3289,7 +3293,7 @@ body {
   z-index: -9;
 }
 .card-widget.card-info {
-  background-image: url(https://imgs.luckynwa.top/profile/blog/66810ebad84f2.webp) !important;
+  background-image: var(--lucky-headBackgroundImage) !important;
 }
 .card-info::before {
   position: absolute;
