@@ -4,7 +4,7 @@ description: ElasticSearch相关的学习笔记
 cover: 'https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png'
 categories: 后端
 tags: ES
-comments: false
+comments: true
 abbrlink: 6184
 date: 2023-07-20 13:32:28
 ---

@@ -4,7 +4,7 @@ description: Mysql使用相关的学习笔记
 cover: 'https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png'
 categories: 后端
 tags: Mysql
-comments: false
+comments: true
 abbrlink: 29614
 date: 2022-04-19 11:22:21
 ---

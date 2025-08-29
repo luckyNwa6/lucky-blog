@@ -9,15 +9,15 @@ body
             span 返回
         .settings
             #setting-buttons
-                button.settingx(onclick='$(\'#theme-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
-                    i.fas.fa-layer-group
-                    span 外观
+                //- button.settingx(onclick='$(\'#theme-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                //-     i.fas.fa-layer-group
+                //-     span 外观
                 button.settingx(onclick='$(\'#font-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
                     i.fa.fa-font
                     span 字体
-                button.settingx(onclick='$(\'#background-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
-                    i.far.fa-image
-                    span 背景
+                //- button.settingx(onclick='$(\'#background-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                //-     i.far.fa-image
+                //-     span 背景
                 button.settingx(onclick='$(\'#con-echarts\').show();$(\'.settingx\').hide();$(\'#backer\').show();var evt = document.createEvent("HTMLEvents");evt.initEvent("resize", false, false);window.dispatchEvent(evt);')
                     i.fas.fa-chart-pie
                     span 统计
@@ -175,8 +175,8 @@ body
             #setting-sides
                 button(title="繁简转换" class="con-rightside" id="con-translate"  onclick="javascript:rmf.translate();")
                     i.iconfont.icon-fanti
-                button(title="昼夜切换" class="con-rightside" id="con-mode" onclick="rmf.switchDarkMode();")
-                    i.fa.fa-adjust
+                //- button(title="昼夜切换" class="con-rightside" id="con-mode" onclick="rmf.switchDarkMode();")
+                //-     i.fa.fa-adjust
                 if is_post()||is_page()
                     button(title="阅读模式" class="con-rightside" id="con-reading" onclick="rmf.switchReadMode();")
                         i.fa.fa-book-open

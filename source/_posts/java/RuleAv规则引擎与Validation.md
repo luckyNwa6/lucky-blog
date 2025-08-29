@@ -4,7 +4,7 @@ description: 参数校验
 cover: 'https://imgs.luckynwa.top/profile/blog/ruleIcon.png'
 categories: 后端
 tags: Java
-comments: false
+comments: true
 abbrlink: 57942
 date: 2023-10-11 13:32:22
 ---
