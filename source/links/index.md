@@ -41,7 +41,7 @@ type: 'links'
     descr: Butterfly 主题大佬
   - name: 张洪 Heo
     link: https://blog.zhheo.com/
-    avatar: /img/zhanghon.png
+    avatar: /img/other/zhanghon.png
     descr: 分享设计与科技生活
   - name: 安知鱼
     link: https://blog.anheyu.com/

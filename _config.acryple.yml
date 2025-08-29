@@ -91,10 +91,10 @@ katex:
 # Favicon（網站圖標）
 favicon: /favicon.ico
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
-  img: /img/avatar.png
-  effect: false
+  img: /img/avatar-index.png
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
@@ -620,7 +620,7 @@ preloader:
   enable: true
   source: 3
   pace_css_url:
-  avatar: /img/avatar.png # 自定加载动画义头像
+  avatar: /img/avatar.jpg # 自定加载动画义头像
 # --------------------------------------
 
 aside:
