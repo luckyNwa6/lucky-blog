@@ -12,28 +12,6 @@ swiper_index: 66
 swiper_description: 'Lambda和Stream流相关的学习笔记'
 ---
 
-<div class="ai-container">
-  <div class="ai-header">
-        <img style='margin: 0 5px !important; ' src="https://imgs.luckynwa.top/profile/blog/robot.svg" alt="icon" />
-        <span style="color: white">AI摘要<a class="random-post-start" href="javascript:printLucky(myTextValue);"><i class="fa-solid fa-arrow-rotate-right" style='color:white;font-size:14px;margin-left:2px'></i></a></span>
-        <div class="ai-right">
-          <span>BingAI</span>
-        </div>
-  </div>
-      <div class="ai-content">
-        <p id="ai-post"></p>
-      </div>
-</div>
-<link rel="stylesheet" type="text/css" href="https://imgs.luckynwa.top/profile/blog/jscss/ai.css">
-<script src = "/js/ai.js"></script>
-<script  type="text/javascript">  
-  var myTextValue = 'JDK 8引入了令人兴奋的新特性，如函数式接口和Lambda表达式，使Java具备了函数式编程的能力。此外，还有Stream API用于高效处理集合数据，新的日期和时间API解决了日期处理问题，还有默认方法简化了接口的演化过程。这些特性使JDK 8成为提高编程效率和代码可读性的强大工具。';
-document.addEventListener("DOMContentLoaded", function() {
-printLucky(myTextValue);
-});
-// console.log('-----------------------------这是页面清除缓存后，ai 启动回答')
-</script>
-
 # 常用
 
 ```java
