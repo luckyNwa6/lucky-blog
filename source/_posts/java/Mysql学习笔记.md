@@ -1,11 +1,13 @@
 ---
 title: Mysql数据库
 description: Mysql使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png'
+cover: https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png
 categories: 后端
 tags: Mysql
 comments: true
 abbrlink: 29614
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了MySQL数据库的核心知识，包括数据库设计时字符存储规则如一个汉字占3个字节、varchar(255)最多存85个汉字，数据类型详解如int类型占4个字节范围是-2147483648到2147483647，手机号等11位数字建议用long或String类型，还对比了char固定长度和varchar可变长度的特点及适用场景，text类型用于存储大量文本无默认长度最大65535字符，日期类型datetime、date、time、timestamp的特点，数据库基本操作增删改查语句及注意事项，多表查询要声明共同字段所属表，MySQL不区分大小写，HAVING是分组后条件，最后讲解了数据库设计的六大范式，重点说明了一般满足第三范式即可，详细解释了第一范式要求属性原子性、第二范式消除非主属性对码的部分函数依赖、第三范式消除非主属性对码的传递函数依赖及相应示例。
 date: 2022-04-19 11:22:21
 ---
 

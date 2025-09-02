@@ -901,3 +901,12 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
+# --------------------------------------
+# 文章设置
+# --------------------------------------
+# 文章AI摘要是否开启，会自动检索文章色summary字段，若没有则不显示
+ai_summary:
+  enable: true
+  title: AI摘要
+  loadingText: 正在加载···
+  modelName: HunYuan-Lite

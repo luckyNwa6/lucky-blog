@@ -1,11 +1,13 @@
 ---
 title: Es6特性
 description: es6的常见特性
-cover: 'https://imgs.luckynwa.top/profile/blog/es6Icon.png'
+cover: https://imgs.luckynwa.top/profile/blog/es6Icon.png
 categories: 前端
 tags: Es6
 comments: true
 abbrlink: 30769
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了ES6的核心特性，包括推荐使用let声明具有块级作用域的局部变量以避免var的变量提升问题，const用于声明不可变的常量同样具备块级作用域且必须初始化，解构赋值提供了从数组或对象中简洁提取数据的强大功能支持默认值嵌套结构和别名应用广泛，箭头函数以简洁语法定义函数且不改变this指向解决了传统函数this绑定的常见痛点，模板字符串使用反引号包裹支持变量嵌入和多行文本以及标签模板等高级特性，此外还介绍了默认参数让函数具备预设值能力剩余参数可接收任意数量参数展开运算符能高效展开数组或对象用于函数调用数组合并及对象复制等多种实用场景，这些ES6新特性显著提升了JavaScript的开发效率和代码质量。
 date: 2021-06-27 22:32:48
 ---
 

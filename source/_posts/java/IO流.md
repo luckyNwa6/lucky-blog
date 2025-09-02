@@ -1,11 +1,13 @@
 ---
 title: IO流
-cover: 'https://imgs.luckynwa.top/profile/blog/ioIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/ioIcon.png
 description: IO流相关的学习笔记
 categories: 后端
 tags: IO
 comments: true
 abbrlink: 13712
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了Java中IO流的核心概念与相关操作，首先解释了IO流按照数据流动方向分为输入流和输出流，以内存为基准，输入是流向内存，输出是流出内存，并详细说明了确定操作类型（读或写）、数据类型（字节或文本）、具体设备以及是否需要额外功能等关键步骤，接着介绍了字节流和字符流的区别，指出字符流是在字节流基础上结合编码表解决中文乱码问题而产生的，还重点讲解了java.io.File类，该类用于对文件及目录本身进行操作，如创建、删除、获取路径、名称、长度等信息，但File类不能直接进行文件读写，文中通过多个测试方法演示了File类的常用操作，包括文件和目录的创建、删除、遍历以及简单的文件拷贝实现，也展示了缓冲流等高效流的使用片段，整体内容涵盖了IO流的基础知识与实际操作示例。
 date: 2023-08-10 11:22:21
 ---
 

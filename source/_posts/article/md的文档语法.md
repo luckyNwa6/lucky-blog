@@ -1,11 +1,13 @@
 ---
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
-cover: 'https://imgs.luckynwa.top/profile/blog/markerDownIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/markerDownIcon.png
 categories: 文档
 tags: Typora
 abbrlink: 2645
 comments: true
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了Typora这款Markdown编辑器的常用语法和操作技巧，包括如何使用加粗（**粗体**或Ctrl+B）、倾斜（*斜体*或Ctrl+I）以及加粗斜体（***加粗斜体***）等文本格式设置方法；还讲解了插入图片（直接拖入或使用链接）、创建超链接（ctrl+点击跳转）、编写代码块（```+语言选择）、制作无序列表（+、-、*后加空格）、添加表情符号（:smile:）、生成目录（[TOC]）等实用功能，同时也提及了表格嵌套等高级用法，帮助用户快速掌握Typora的基本操作和高效写作技巧。
 date: 2022-10-24 15:32:28
 ---
 

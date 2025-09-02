@@ -1,11 +1,16 @@
 ---
 title: RuleAv规则引擎与Validation
 description: 参数校验
-cover: 'https://imgs.luckynwa.top/profile/blog/ruleIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/ruleIcon.png
 categories: 后端
 tags: Java
 comments: true
 abbrlink: 57942
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了规则引擎AviatorScript的使用方法和Spring
+  Validation的相关配置，首先讲解了如何通过Maven依赖引入AviatorScript规则引擎并在Spring项目中将其封装成Bean，具体包括从classpath加载脚本文件、编译脚本、创建Expression对象以及通过传入上下文Map执行脚本逻辑，还给出了脚本文件的存放路径和示例脚本内容，展示了如何进行正则表达式匹配等逻辑判断，并提供了测试类的详细代码，演示了编译执行脚本、传入参数、获取执行结果等操作；随后文章转向Spring
+  Validation，说明了在不同Spring Boot版本中引入Hibernate
+  Validator依赖的方式，并简述了参数校验异常即中断的处理机制及相关配置，整体内容聚焦于规则校验与参数验证在Java项目中的实践应用。
 date: 2023-10-11 13:32:22
 ---
 

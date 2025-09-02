@@ -1,11 +1,13 @@
 ---
 title: RocketMq简单实现
 description: RocketMq 使用相关的笔记
-cover: 'https://imgs.luckynwa.top/profile/blog/rocketMqIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/rocketMqIcon.png
 categories: 后端
 tags: RocketMq
 abbrlink: 32867
 comments: true
+summary: >-
+  这里是码农观测站，这篇文章介绍了RocketMQ的简单实现过程，包括环境安装配置、启动步骤及代码示例，首先讲解了RocketMQ-4.9.3版本的下载与环境变量设置，重点修改了runserver.cmd和runbroker.cmd中的JAVA_OPT参数以调整JVM内存大小，接着描述了如何通过运行mqnamesrv.cmd启动NameServer，再通过mqbroker.cmd连接至9876端口启动Broker，随后展示了Maven项目中引入rocketmq-spring-boot-starter依赖的配置，并给出了name-server、producer和consumer的配置信息，最后通过代码示例分别实现了RocketMQ的生产者与消费者，生产者通过RocketMQTemplate发送消息到指定topic，消费者使用RocketMQListener监听该topic并打印接收到的消息，整体流程清晰，适合初学者快速上手RocketMQ的基本使用。
 date: 2022-11-14 13:32:28
 ---
 

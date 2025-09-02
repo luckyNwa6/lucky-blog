@@ -1,15 +1,17 @@
 ---
 title: Jkd8新特性
 description: Lambda和Stream流相关的学习笔记
-cover: 'https://imgs.luckynwa.top/profile/blog/javaNewIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/javaNewIcon.png
 categories: 后端
 tags: JDk8
 sticky: 99
 comments: true
 abbrlink: 34077
-date: 2023-07-18 13:32:28
 swiper_index: 66
-swiper_description: 'Lambda和Stream流相关的学习笔记'
+swiper_description: Lambda和Stream流相关的学习笔记
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了JDK8的新特性，重点讲解了常用操作如使用stream().forEach方法直接遍历打印列表或数组元素，以及Lambda表达式的核心用法和优势，Lambda表达式要求接口必须是只有一个抽象方法的函数式接口，其参数和返回值需与接口抽象方法保持一致，文中通过Runnable、Comparator和Consumer三个典型函数式接口的案例详细展示了Lambda表达式的使用方法，包括简化线程实现、集合排序以及消费操作的代码示例，还介绍了方法引用如ClassName::method和Entity::getAge的用法，以及Comparator.comparingInt等静态方法在排序中的应用，帮助读者理解JDK8中Lambda表达式如何简化代码并提升开发效率。
+date: 2023-07-18 13:32:28
 ---
 
 # 常用

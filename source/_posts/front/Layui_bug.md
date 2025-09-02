@@ -1,11 +1,13 @@
 ---
 title: LayUi记录贴
 description: 前端遇到的bug记录
-cover: 'https://imgs.luckynwa.top/profile/blog/layUiIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/layUiIcon.png
 categories: 前端
 tags: LayUi
 comments: true
 abbrlink: 36841
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了LayUi在使用过程中遇到的操作栏低分辨率下按钮点击无效的bug及其解决方法，该问题源于低分辨率时过多的按钮会缩进显示为...，点击展开的按钮框因不属于表格元素导致常规事件监听失效，解决方案是通过给按钮添加data-row属性传递整行数据为JSON字符串，并设置全局变量currentRowData存储当前操作行数据，同时在body上重新绑定lay-event对应点击事件来处理编辑、删除和授权操作，外部通过全局变量获取当前行数据进行后续处理；另外还介绍了LayUi实现全选包含全部页面数据的功能思路，通过设置全局变量ids、lists和tableIds分别存储选中行ID、完整数据和当前页数据ID，在表格渲染时比较ID状态决定选中与否，在重载表格时需注意清空相关变量，确保全选功能与分页、搜索等操作兼容。
 date: 2023-09-18 13:32:28
 ---
 

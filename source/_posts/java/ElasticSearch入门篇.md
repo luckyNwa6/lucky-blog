@@ -1,11 +1,15 @@
 ---
 title: ElasticSearch简单使用
 description: ElasticSearch相关的学习笔记
-cover: 'https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png
 categories: 后端
 tags: ES
 comments: true
 abbrlink: 6184
+summary: >-
+  这里是码农观测站，这篇文章详细介绍了Elasticsearch
+  7.0.0的基础使用方法，包括环境搭建、运行启动、核心概念及基本操作，首先指导如何通过运行elasticsearch.bat启动服务并验证是否成功访问9200端口，接着对比说明了Elasticsearch
+  7.X中已移除Type概念，随后重点讲解索引操作如创建、查看、删除索引的方法及对应HTTP请求和返回结果解析，同时深入介绍了文档操作包括增删改查的具体步骤和JSON数据格式要求，还演示了如何通过Postman进行文档的新增、修改、按条件删除等操作，最后阐述了映射操作的概念与作用，即定义索引中字段类型与结构，类似数据库表结构，并展示了创建索引及映射的HTTP请求示例，内容实用且贴近初学者需求，是Elasticsearch入门的实用教程。
 date: 2023-07-20 13:32:28
 ---
 

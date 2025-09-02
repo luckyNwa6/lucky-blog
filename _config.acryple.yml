@@ -1061,3 +1061,12 @@ gitcalendar:
   #apiurl: calendar.luckynwa.top/api
   calendar_js: https://cdn1.tianli0.top/npm/reverse-stu-allversions@1.0.1/butterfly/diy/hexo_githubcalendar.js
   # plus_style: ""
+# --------------------------------------
+# 文章设置
+# --------------------------------------
+# 文章AI摘要是否开启，会自动检索文章色summary字段，若没有则不显示
+ai_summary:
+  enable: true
+  title: AI摘要
+  loadingText: 正在加载···
+  modelName: HunYuan-Lite

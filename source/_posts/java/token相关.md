@@ -1,11 +1,13 @@
 ---
 title: Token
 description: 深入理解token的使用
-cover: 'https://imgs.luckynwa.top/profile/blog/tokenIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/tokenIcon.png
 categories: 后端
 tags: Token
 comments: true
 abbrlink: 53014
+summary: >-
+  这里是码农观测站，这篇文章主要介绍了网络通信中Token（令牌）的基本概念及其在身份验证和授权访问中的作用，Token是一串随机生成的字符串，用于标识用户身份和权限，服务器通过Token验证请求合法性，Token可包含权限信息并具备加密签名等安全机制，但若Token无过期时间或过长则存在安全隐患，因此通常设置较短的accessToken过期时间以提升安全性，但这样会导致用户频繁重新登录，为解决此问题引入双token机制，即accessToken和refreshToken，其中accessToken过期时间短，用于日常请求，refreshToken用于获取新的accessToken，避免频繁登录，文章还提到在响应拦截器中处理token过期情况，当后端返回401时调用刷新token接口，并列举了需要用户重新登录的三种情况，包括长时间无操作、双token失效及检测到风险，最后文章提到基于oauth2的单点登录及鉴权内容待整理。
 date: 2024-06-27 23:32:28
 ---
 

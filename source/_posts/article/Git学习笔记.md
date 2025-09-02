@@ -1,14 +1,20 @@
 ---
 title: Git 的使用
-cover: 'https://imgs.luckynwa.top/profile/blog/gitIcon.png'
+cover: https://imgs.luckynwa.top/profile/blog/gitIcon.png
 description: Git 相关的学习笔记
 categories: 后端
 tags: Git
 comments: true
 abbrlink: 6724
-date: 2022-01-01 11:22:21
 swiper_index: 4
-swiper_description: 'Git 相关的学习笔记'
+swiper_description: Git 相关的学习笔记
+summary: >-
+  这里是码农观测站，这篇文章详细介绍了Git软件的使用方法及配置流程，包括从百度网盘下载安装Git软件的链接和提取码，默认安装即可，重点讲解了Git工作区、暂存区和仓库三个核心概念及其状态变化，如未跟踪、未修改、已修改和已暂存等状态，指导如何通过git
+  config配置用户信息及默认分支，使用git init初始化项目，通过git add和git
+  commit将文件添加至暂存区并提交到本地仓库，还介绍了如何通过SSH配置实现免密关联GitHub仓库，包括生成SSH密钥、添加至GitHub以及在Git
+  Bash中测试连接，同时提供了常用的Git指令如git clone、git status、git log、git branch、git merge、git
+  reset等的使用方法，涵盖分支管理、代码推送与拉取、远程仓库操作及版本回退等功能，并推荐使用VSCode和IDEA的Git相关插件进行可视化操作，最后提醒注意码云与GitHub的主分支差异及远程仓库关联问题。
+date: 2022-01-01 11:22:21
 ---
 
 git 软件链接：https://pan.baidu.com/s/1XaG8mcIjMwNtlC1w_FLyMg?pwd=6666
