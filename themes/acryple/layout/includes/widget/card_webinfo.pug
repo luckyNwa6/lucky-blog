@@ -19,16 +19,16 @@ if theme.aside.card_webinfo.enable
       if theme.busuanzi.site_uv 
         .webinfo-item
           .item-name= _p('aside.card_webinfo.site_uv_name') + " :"
-          .item-count#busuanzi_value_site_uv.length-num= 555
+          .item-count#busuanzi_value_site_uv
       if theme.busuanzi.site_pv
         .webinfo-item
           .item-name= _p('aside.card_webinfo.site_pv_name') + " :"
-          .item-count#busuanzi_value_site_pv.length-num= 1886 
+          .item-count#busuanzi_site_pv
       if theme.aside.card_webinfo.last_push_date
         .webinfo-item
           .item-name= _p('aside.card_webinfo.last_push_date.name') + " :"
           .item-count#last-push-date(data-lastPushDate=date_xml(Date.now()))
-      //- if theme.aside.card_webinfo.commentsCount
-      //-   .webinfo-item
-      //-     .item-name="评论总数 :"
-      //-     .card_comment
+      if theme.aside.card_webinfo.commentsCount
+        .webinfo-item
+          .item-name="评论总数 :"
+          .card_comment.length-num= 0

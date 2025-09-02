@@ -670,7 +670,7 @@ aside:
     post_count: true
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
-    commentsCount: true
+    commentsCount: false
   card_weather:
     enable: false
     key: 5c9accce47824e008321c10b7786b795
