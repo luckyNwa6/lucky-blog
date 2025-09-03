@@ -909,4 +909,4 @@ ai_summary:
   enable: true
   title: AI摘要
   loadingText: 正在加载···
-  modelName: HunYuan-Lite
+  modelName: HunYuan-Turbos-Latest

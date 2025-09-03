@@ -242,7 +242,7 @@ aisummary:
   logger: 1 # 日志等级（0=仅错误，1=生成+错误，2=全部）
 
   # AI 接口配置
-  api: https://api.hunyuan.cloud.tencent.com/v1/chat/completions # OpenAI 兼容模型接口
+  api: https://api.hunyuan.cloud.tencent.com/v1/chat/completions # OpenAI 兼容模型接口包括deepseek，讯飞星火，腾讯混元，ChatGPT等
   token: sk-IfwabYBVg6HAg9JUBURi9RCfm5DdkBlEEL6yqZB2sy12D6DZ # OpenAI 或兼容模型的密钥
   model: hunyuan-turbos-latest # 使用模型名称
   prompt: >
