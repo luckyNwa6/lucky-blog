@@ -10,7 +10,10 @@ abbrlink: 34077
 swiper_index: 66
 swiper_description: Lambda和Stream流相关的学习笔记
 summary: >-
-  这里是码农观测站，这篇文章主要介绍了JDK8的新特性，重点讲解了常用操作如使用stream().forEach方法直接遍历打印列表或数组元素，以及Lambda表达式的核心用法和优势，Lambda表达式要求接口必须是只有一个抽象方法的函数式接口，其参数和返回值需与接口抽象方法保持一致，文中通过Runnable、Comparator和Consumer三个典型函数式接口的案例详细展示了Lambda表达式的使用方法，包括简化线程实现、集合排序以及消费操作的代码示例，还介绍了方法引用如ClassName::method和Entity::getAge的用法，以及Comparator.comparingInt等静态方法在排序中的应用，帮助读者理解JDK8中Lambda表达式如何简化代码并提升开发效率。
+  启动小维AI摘要模块⚡……运算完成！这篇文章主要介绍了JDK8的新特性，重点讲解了Lambda表达式及其应用场景，包括如何使用Lambda简化代码，如替代匿名内部类实现Runnable接口和Comparator接口，使代码更简洁易读，例如通过new
+  Thread(()->System.out.println(...))替代传统匿名内部类写法，以及使用Collections.sort(entities,
+  (entity1,
+  entity2)->entity1.getAge()-entity2.getAge())或更简洁的Comparator.comparingInt(Entity::getAge)对集合按属性排序，还介绍了函数式接口的概念，强调Lambda必须用于仅含一个抽象方法的接口，如Runnable、Comparator、Consumer等，并通过Consumer接口案例展示如何用Lambda实现对输入参数的处理，如打印字符串或计算平方，此外还提到集合遍历打印可使用products.stream().forEach(System.out::println)等方法，这些特性显著提升了Java编程效率和代码可读性。
 date: 2023-07-18 13:32:28
 ---
 

@@ -7,10 +7,10 @@ tags: Java
 comments: true
 abbrlink: 57942
 summary: >-
-  这里是码农观测站，这篇文章主要介绍了规则引擎AviatorScript的使用方法和Spring
-  Validation的相关配置，首先讲解了如何通过Maven依赖引入AviatorScript规则引擎并在Spring项目中将其封装成Bean，具体包括从classpath加载脚本文件、编译脚本、创建Expression对象以及通过传入上下文Map执行脚本逻辑，还给出了脚本文件的存放路径和示例脚本内容，展示了如何进行正则表达式匹配等逻辑判断，并提供了测试类的详细代码，演示了编译执行脚本、传入参数、获取执行结果等操作；随后文章转向Spring
-  Validation，说明了在不同Spring Boot版本中引入Hibernate
-  Validator依赖的方式，并简述了参数校验异常即中断的处理机制及相关配置，整体内容聚焦于规则校验与参数验证在Java项目中的实践应用。
+  启动小维AI摘要模块⚡……运算完成！这篇文章主要介绍了规则引擎AviatorScript的使用方法和Spring
+  Validation的相关配置，首先讲解了如何通过Maven依赖引入AviatorScript规则引擎，并展示了将其封装成Bean的完整代码实现，包括从resources目录下的script文件夹加载规则脚本photoController.av，该脚本用于验证账号格式是否符合正则表达式要求，还详细描述了在Spring中注入RuleAv组件并通过上下文Map传入参数执行规则校验的流程，若校验不通过则返回错误信息，同时提供了测试类RuleDemo的多个测试方法示例，演示了编译执行脚本、传入变量上下文、执行表达式判断以及处理实例对象等方法，此外文章还提到了Spring
+  Validation的依赖配置，指出不同Spring
+  Boot版本下hibernate-validator依赖的引入方式差异，并简述了参数异常中断的处理机制，整体内容涵盖了规则引擎集成、脚本编写测试及数据校验配置的关键技术要点。
 date: 2023-10-11 13:32:22
 ---
 

@@ -1,15 +1,17 @@
 ---
 title: NextChat搭建
-cover: 'https://imgs.luckynwa.top/profile/blog/chatGPTIcon2.png'
+cover: https://imgs.luckynwa.top/profile/blog/chatGPTIcon2.png
 description: 基于开源NextChat搭建私人ChatGPT 助手
 categories: 网站搭建
 tags: ChatGPT
 comments: true
 abbrlink: 41570
+swiper_index: 67
+swiper_description: 基于开源NextChat搭建私人ChatGPT 助手
+summary: >-
+  启动小维AI摘要模块⚡……运算完成！这篇文章详细介绍了如何搭建基于开源项目ChatGPT-Next-Web的NextChat聊天应用，首先从GitHub获取开源代码并使用Vercel平台进行部署，部署过程中需要填写OPENAI_API_KEY即ChatGPT的API密钥（可通过淘宝购买或自行申请国外虚拟信用卡获取，但后者成本较高且流程复杂，推荐使用有免费额度的方案）和访问网站的密码CODE，部署成功后会获得Vercel提供的访问链接，接着通过Vercel的域名管理功能添加自定义二级域名如chat.luckynwa.top，并在DNS服务商如DNSPod处完成域名解析配置，最终通过配置好的二级域名访问聊天应用，同时文章也提到当前获取API密钥的难度增加，官方不再提供免费试用额度，需自行解决密钥问题，此外访问某些服务可能需要科学上网。
 date: 2023-06-01 11:22:21
 updated: 2024-07-03 10:32:48
-swiper_index: 67
-swiper_description: '基于开源NextChat搭建私人ChatGPT 助手'
 ---
 
 # 搭建

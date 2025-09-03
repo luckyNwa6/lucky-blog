@@ -90,6 +90,10 @@ if hexo-config('ai_summary.enable')
         transition all .3s
         position relative
         bottom 3px
+        
+      &.finished-typing::after
+        content: none;
+        animation: none;
 
       // 平滑滚动动画
       // .char
@@ -149,3 +153,47 @@ if hexo-config('ai_summary.enable')
     50%
       opacity 0
 
+.ai-summary
+  position relative
+  overflow hidden
+
+  .ai-summary-header
+    display flex
+    align-items center
+    justify-content space-between
+    background linear-gradient(90deg, #0883b7, #42a2ff)
+    padding 6px 12px
+    border-radius 10px 10px 0 0
+    color #fff
+    font-weight 500
+    font-size 14px
+    z-index 11
+    
+
+    .ai-left
+      display flex
+      align-items center       // 🔑 左侧内容垂直居中
+      gap 6px
+
+      .ai-left-div
+        display flex
+        align-items center     // 🔑 img 垂直居中
+        justify-content center
+
+        .ai-icon
+          width 20px
+          height 20px
+          object-fit contain
+          display block
+          margin 0 !important
+
+      .ai-left-title
+        display flex
+        align-items center
+
+
+    .ai-right
+      font-size 12px
+      background rgba(255,255,255,0.2)
+      padding 2px 8px
+      border-radius 8px
