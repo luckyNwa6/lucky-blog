@@ -873,7 +873,7 @@ inject:
     - <script type="text/javascript" src="/js/aplayersave.js"></script>
     - <script type="text/javascript" src="/js/noie.js"></script>
     - <script type="text/javascript" src="/js/countup.js"></script>
-    - <script src="https://imgs.luckynwa.top/profile/blog/jscss/av-min.js"></script>
+    - <script src="/js/av-min.js"></script>
     - <script src="https://imgs.luckynwa.top/profile/blog/jscss/winbox.bundle.min.js"></script>
     - <script src="https://imgs.luckynwa.top/profile/blog/jscss/sweetalert2@8.js"></script>
     - <script type="text/javascript" data-pjax="" src="/js/rightmenu.js"></script>
