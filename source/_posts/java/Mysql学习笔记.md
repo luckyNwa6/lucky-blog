@@ -1,7 +1,7 @@
 ---
 title: Mysql数据库
 description: Mysql使用相关的学习笔记
-cover: https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png
+# cover: https://imgs.luckynwa.top/profile/blog/mysqlIcon2.png
 categories: 后端
 tags: Mysql
 comments: true

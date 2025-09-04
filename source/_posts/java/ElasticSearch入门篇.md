@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch简单使用
 description: ElasticSearch相关的学习笔记
-cover: https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png
+# cover: https://imgs.luckynwa.top/profile/blog/elasticSearchIcon.png
 categories: 后端
 tags: ES
 comments: true

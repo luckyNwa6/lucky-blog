@@ -1,7 +1,7 @@
 ---
 title: Typora常用语法
 description: Markerdown使用相关的学习笔记
-cover: https://imgs.luckynwa.top/profile/blog/markerDownIcon.png
+# cover: https://imgs.luckynwa.top/profile/blog/markerDownIcon.png
 categories: 文档
 tags: Typora
 abbrlink: 2645
