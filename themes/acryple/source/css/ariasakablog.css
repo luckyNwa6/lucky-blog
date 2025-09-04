@@ -83,66 +83,62 @@
   --lucky-headBackgroundImage: url(https://imgs.luckynwa.top/profile/blog/63103c8a03a24.webp);
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Fredoka';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/Fredoka.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/Fredoka.woff2') format('woff2'); 
 }
 @font-face {
   font-family: 'Monaco';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/MONACO.TTF') format('truetype'); /*/font/HYTangMeiRen55W.ttf*/
-}
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/MONACO.TTF') format('truetype'); 
+} */
 @font-face {
   font-family: 'HYTMR';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HYTangMeiRen55W.woff2') format('woff2'); /*/font/HYTangMeiRen55W.woff2*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HYTangMeiRen55W.woff2') format('woff2');
 }
-@font-face {
+/* @font-face {
   font-family: 'FZXJLJ';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZXiJinLJW.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZXiJinLJW.woff2') format('woff2'); 
 }
 @font-face {
   font-family: 'FZXS';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZXiangSu14.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZXiangSu14.woff2') format('woff2'); 
 }
 @font-face {
   font-family: 'HYPailou';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HanyiSentyPailouArch.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HanyiSentyPailouArch.woff2') format('woff2');
 }
 @font-face {
   font-family: 'FZODZK';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZShouJiOuDieZhengKai.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/FZShouJiOuDieZhengKai.woff2') format('woff2'); 
 }
 @font-face {
   font-family: 'Source Serif';
   font-display: swap;
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/SourceHanSerifSC-Medium.otf') format('opentype'); /*/font/HYTangMeiRen55W.ttf*/
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/SourceHanSerifSC-Medium.otf') format('opentype');
 }
 @font-face {
   font-family: 'Source Sans';
-  font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/SourceHanSansCN-Medium.otf') format('opentype'); /*/font/HYTangMeiRen55W.ttf*/
+  font-display: swap;
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/SourceHanSansCN-Medium.otf') format('opentype'); 
 }
 @font-face {
   font-family: 'ZhuZiAWan';
-  font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/ZhuZiAWan.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
+  font-display: swap; 
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/ZhuZiAWan.woff2') format('woff2');
 }
 @font-face {
   font-family: 'HYPailou';
-  font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
-  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HanyiSentyPailouArch.woff2') format('woff2'); /*/font/HYTangMeiRen55W.ttf*/
-}
-/* @font-face{
-  font-family: 'KyoukashoProL';
   font-display: swap; 
-  src: url('/font/JiaoKeShuTi-ICA-Pro-L-2.otf') format("opentype");
+  src: url('https://imgs.luckynwa.top/profile/blog/jscss/fonts/HanyiSentyPailouArch.woff2') format('woff2'); 
 } */
+
 :root {
   --global-font: '';
 }
@@ -3277,7 +3273,9 @@ body {
 }
 .card-widget.card-info {
   background-color: transparent !important;
-  background-image: url(https://imgs.luckynwa.top/profile/blog/63103c8a03a24.webp) !important;
+  /* background-image: var(--lucky-headBackgroundImage) !important; */
+  background-image: linear-gradient(135deg, #000000, #409eff) !important; /* 蓝色渐变，从黑到蓝 */
+
   background-repeat: no-repeat;
   /* 背景图像大小 */
   background-size: cover !important;
@@ -3292,9 +3290,7 @@ body {
   position: relative;
   z-index: -9;
 }
-.card-widget.card-info {
-  background-image: var(--lucky-headBackgroundImage) !important;
-}
+
 .card-info::before {
   position: absolute;
   left: 0;
