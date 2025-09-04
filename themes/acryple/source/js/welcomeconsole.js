@@ -15,7 +15,8 @@
 //     速度有点慢请见谅`)
 // }, 500)
 
-// console.clear()
+console.clear()
+console.log(`Hexo-theme-Acryple based on Butterfly 4.2.2`)
 document.querySelector('.home .category-list').onmousewheel = function (e) {
   if (e.deltaY >= 0) {
     this.scrollLeft += 20
