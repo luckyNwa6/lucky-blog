@@ -191,11 +191,11 @@ feed:
   limit: false
 
 hexo_submit_urls_to_search_engine:
-  submit_condition: count
-  count: 10
-  period: 900
-  google: 0
-  bing: 1
+  submit_condition: count # 提交条件，支持count或period，目前仅支持count
+  count: 10 # 根据提交条件为count时，提交最新发布的10个链接
+  period: 900 # 若设置为period，则按修改时间，提交最近900秒内更新的链接
+  google: 0 # 是否提交到Google，0为否，1为是
+  bing: 0
   baidu: 0
   txt_path: submit_urls.txt
   bing_host: https://luckynwa.top
