@@ -1,7 +1,7 @@
 ---
 title: Git 的使用
 # cover: https://imgs.luckynwa.top/profile/blog/gitIcon.png
-description: Git 相关的学习笔记
+description: 无边落木萧萧下，不尽长江滚滚来
 categories: 后端
 tags: Git
 comments: true

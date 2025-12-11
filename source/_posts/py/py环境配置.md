@@ -1,7 +1,6 @@
 ---
 title: python环境配置
 description: 工欲善其事，必先利其器
-# cover: https://imgs.luckynwa.top/profile/blog/javaIcon.png
 categories: 工具
 tags: Java
 comments: true

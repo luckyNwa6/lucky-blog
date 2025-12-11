@@ -1,6 +1,6 @@
 ---
 title: Typora常用语法
-description: Markerdown使用相关的学习笔记
+description: 君不见黄河之水天上来，奔流到海不复回
 # cover: https://imgs.luckynwa.top/profile/blog/markerDownIcon.png
 categories: 文档
 tags: Typora
