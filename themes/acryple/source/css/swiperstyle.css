@@ -466,7 +466,10 @@ div#swiper_container {
 
 .blog-slider__item {
     background-size: cover !important;
-    background-position: center !important
+    background-position: center !important;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .blog-slider__item::after {
@@ -491,7 +494,9 @@ div#swiper_container {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 a.blog-slider__title {
