@@ -1,6 +1,6 @@
 ---
 title: Git 的使用
-# cover: https://imgs.luckynwa.top/profile/blog/gitIcon.png
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/1
 description: 无边落木萧萧下，不尽长江滚滚来
 categories: 后端
 tags: Git

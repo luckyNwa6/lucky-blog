@@ -2,6 +2,7 @@
 title: 大模型入门（1）
 description: 人生苦短，我学python
 categories: 大模型
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/19
 tags: python
 comments: true
 abbrlink: 12122

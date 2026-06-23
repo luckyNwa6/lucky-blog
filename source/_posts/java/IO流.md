@@ -1,6 +1,6 @@
 ---
 title: IO流
-# cover: https://imgs.luckynwa.top/profile/blog/ioIcon.png
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/13
 description: IO流相关的学习笔记
 categories: 后端
 tags: IO

@@ -1,6 +1,6 @@
 ---
 title: NextChat搭建
-# cover: https://imgs.luckynwa.top/profile/blog/chatGPTIcon2.png
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/6
 description: 基于开源NextChat搭建私人ChatGPT 助手
 categories: 网站搭建
 tags: ChatGPT

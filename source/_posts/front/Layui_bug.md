@@ -1,7 +1,7 @@
 ---
 title: LayUi记录贴
 description: 前端遇到的bug记录
-# cover: https://imgs.luckynwa.top/profile/blog/layUiIcon.png
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/8
 categories: 前端
 tags: LayUi
 comments: true

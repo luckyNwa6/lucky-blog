@@ -1,7 +1,7 @@
 ---
 title: Token
 description: 深入理解token的使用
-# cover: https://imgs.luckynwa.top/profile/blog/tokenIcon.png
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/18
 categories: 后端
 tags: Token
 comments: true

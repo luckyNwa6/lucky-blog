@@ -2,6 +2,7 @@
 title: python环境配置
 description: 工欲善其事，必先利其器
 categories: 工具
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/21
 tags: Java
 comments: true
 abbrlink: 12121
