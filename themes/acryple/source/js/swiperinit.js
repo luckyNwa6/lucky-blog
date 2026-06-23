@@ -6,6 +6,9 @@ function initBlogSlider() {
     passiveListeners: true,
     spaceBetween: 0,
     effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
     loop: true,
     autoplay: {
       disableOnInteraction: false,
@@ -14,6 +17,8 @@ function initBlogSlider() {
     mousewheel: true,
     observer: true,
     observeParents: true,
+    preloadImages: false,
+    updateOnImagesReady: true,
     pagination: {
       el: '.blog-slider__pagination',
       clickable: true,
@@ -24,6 +29,9 @@ function initBlogSlider() {
     },
     on: {
       init: function() {
+        this.update();
+      },
+      imagesReady: function() {
         this.update();
       }
     }
