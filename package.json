@@ -9,8 +9,7 @@
     "server": "hexo clean && hexo generate && hexo server",
     "build": "hexo generate",
     "deploy": "hexo deploy",
-    "clean": "npx rimraf node_modules",
-    "minify": "npx gulp minify-css-html",
+    "clean": "npx rimraf node_modules"
   },
   "hexo": {
     "version": "6.3.0"
