@@ -18,16 +18,21 @@ _PS：划掉的表示已挂_
 </tr>
 <tr>
 <td><a href="https://luckynwa.top">luckynwa.top</a></td>
-<td>博客网 | 主站</td>
+<td>小维的导航站</td>
+<td>收集个人开发的所有网站</td>
+</tr>
+<tr>
+<td><a href="https://blog.luckynwa.top">blog.luckynwa.top</a></td>
+<td>小维的博客园</td>
 <td>写一些文章、记录重要笔记、分享知识</td>
 </tr>
 <tr>
-<td><a href="https://mytool.luckynwa.top/lucky-tools/">mytool.luckynwa.top</a></td>
+<td><a href="https://tool.luckynwa.top/lucky-tools/">tool.luckynwa.top</a></td>
 <td>小维工具站</td>
 <td>基于开源工具站二次开发，自己也封装了一些工具进入，比如翻译等</td>
 </tr>
 <tr>
-<td><a href="https://myvue.luckynwa.top/lucky-vue/">myvue.luckynwa.top</a></td>
+<td><a href="https://vue.luckynwa.top/lucky-vue/">vue.luckynwa.top</a></td>
 <td>小维前端知识库</td>
 <td>记录前端学习的知识，以及总结Vue的使用</del></td>
 </tr>
@@ -37,7 +42,7 @@ _PS：划掉的表示已挂_
 <td>基于若依后台进行二次开发的后台管理系统|支持游客qq、邮箱等登录使用</td>
 </tr>
 <tr>
-<td><a href="https://mychat.luckynwa.top/">mychat.luckynwa.top</a></td>
+<td><a href="https://chat.luckynwa.top/">chat.luckynwa.top</a></td>
 <td>小维AI聊天网</td>
 <td>基于Github上的开源项目，部署的私人chatgpt网站，去获取免费的token使用</td>
 </tr>
@@ -48,7 +53,7 @@ _PS：划掉的表示已挂_
 <td>基于最新芋道框架弄的AI后台管理系统，调免费的KEY使用，服务器内存不足，暂没启动后端</td>
 </tr>
 <tr>
-<td><a href="https://myui.luckynwa.top">myui.luckynwa.top</a></td>
+<td><a href="https://ui.luckynwa.top">ui.luckynwa.top</a></td>
 <td><del>个人炫酷组件</del></td>
 <td>基于VuePress进行二次开发、用来玩的，收藏一些炫酷组件，已废弃</td>
 </tr>
@@ -57,7 +62,7 @@ _PS：划掉的表示已挂_
 <td><del>个人ChatGPT</del></td>
 <td>基于Ollama开源框架做的私人ChatGPT项目，博客右下角AI机器人，已废弃</td>
 </tr>
-<td><a href="https://mycode.luckynwa.top">mycode.luckynwa.top</a></td>
+<td><a href="https://code.luckynwa.top">code.luckynwa.top</a></td>
 <td><del>个人代码生成</del></td>
 <td>代码生成，每个项目模块不一样，已废弃</td>
 </tr>

@@ -1,7 +1,7 @@
 ---
 title: RuleAv规则引擎与Validation
-description: 参数校验
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/17
+description: 宝剑锋从磨砺出，梅花香自苦寒来
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/225
 categories: 后端
 tags: Java
 comments: true

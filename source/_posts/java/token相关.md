@@ -1,7 +1,7 @@
 ---
 title: Token
-description: 深入理解token的使用
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/18
+description: 不畏浮云遮望眼，自缘身在最高层
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/194
 categories: 后端
 tags: Token
 comments: true

@@ -1,7 +1,7 @@
 ---
 title: Mysql数据库
-description: Mysql使用相关的学习笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/15
+description: 千淘万漉虽辛苦，吹尽狂沙始到金
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/345
 categories: 后端
 tags: Mysql
 comments: true

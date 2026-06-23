@@ -1,7 +1,7 @@
 ---
 title: Typora常用语法
 description: 君不见黄河之水天上来，奔流到海不复回
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/2
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/319
 categories: 文档
 tags: Typora
 abbrlink: 2645

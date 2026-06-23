@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch简单使用
-description: ElasticSearch相关的学习笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/12
+description: 山重水复疑无路，柳暗花明又一村
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/274
 categories: 后端
 tags: ES
 comments: true

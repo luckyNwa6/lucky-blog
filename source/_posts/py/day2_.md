@@ -1,8 +1,8 @@
 ---
 title: 大模型入门（2）
-description: 长风破浪会有时，直挂云帆济沧海。
+description: 长风破浪会有时，直挂云帆济沧海
 categories: 大模型
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/20
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/238
 tags: python
 comments: true
 abbrlink: 12123

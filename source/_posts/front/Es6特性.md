@@ -1,6 +1,6 @@
 ---
 title: Es6特性
-description: es6的常见特性
+description: 苟日新日日新，又日新
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/7
 categories: 前端
 tags: Es6

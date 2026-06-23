@@ -1,8 +1,8 @@
 ---
 title: 大模型入门（1）
-description: 人生苦短，我学python
+description: 博学之审问之，慎思之明辨之
 categories: 大模型
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/19
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/102
 tags: python
 comments: true
 abbrlink: 12122

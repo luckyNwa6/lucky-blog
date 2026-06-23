@@ -1,7 +1,7 @@
 ---
 title: NextChat搭建
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/6
-description: 基于开源NextChat搭建私人ChatGPT 助手
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/285
+description: 长风破浪会有时，直挂云帆济沧海
 categories: 网站搭建
 tags: ChatGPT
 comments: true

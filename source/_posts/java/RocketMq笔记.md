@@ -1,7 +1,7 @@
 ---
 title: RocketMq简单实现
-description: RocketMq 使用相关的笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/16
+description: 纸上得来终觉浅，绝知此事要躬行
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/293
 categories: 后端
 tags: RocketMq
 abbrlink: 32867

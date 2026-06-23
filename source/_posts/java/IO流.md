@@ -1,7 +1,7 @@
 ---
 title: IO流
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/13
-description: IO流相关的学习笔记
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/259
+description: 海纳百川有容乃大，壁立千仞无欲则刚
 categories: 后端
 tags: IO
 comments: true
