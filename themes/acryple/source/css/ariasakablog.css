@@ -2323,7 +2323,7 @@ li.categoryBar-list-item {
   right: -200% !important;
 }
 .category-list-item:not(.category-list-bar .category-list-item) {
-  font-size: 30px;
+  font-size: 18px;
 }
 .category-list-link:hover {
   color: white !important;
