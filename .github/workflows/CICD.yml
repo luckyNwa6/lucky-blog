@@ -29,7 +29,7 @@ jobs:
         run: npm install
 
       - name: 使用Hexo构建
-        run: npm run build:min
+        run: npm run build
 
       # 清空目标服务器上的目录内容
       - name: 清空目标服务器该文件夹下内容

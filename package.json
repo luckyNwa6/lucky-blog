@@ -11,7 +11,6 @@
     "deploy": "hexo deploy",
     "clean": "npx rimraf node_modules",
     "minify": "npx gulp minify-css-html",
-    "build:min": "hexo generate && npx gulp minify-css-html"
   },
   "hexo": {
     "version": "6.3.0"
