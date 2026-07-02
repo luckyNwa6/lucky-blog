@@ -587,3 +587,29 @@ a.blog-slider__title:hover {
         display: none
     }
 }
+
+/* ===== 防止swiper加载时布局抖动 ===== */
+/* 加载阶段：通过 .swiper-loading 类隐藏所有内容 */
+.swiper-div .swiper-loading .swiper-wrapper {
+    opacity: 0 !important;
+}
+.swiper-div .swiper-loading .swiper-slide {
+    opacity: 0 !important;
+}
+/* 给swiper容器固定高度，防止加载时塌缩 */
+.swiper-div .blog-slider {
+    height: 200px;
+    overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+    .swiper-div .blog-slider {
+        height: 12rem;
+    }
+}
+/* 确保slide内图片没有多余空白 */
+.blog-slider .swiper-slide .blog-slider__item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -165,10 +165,10 @@ swiper:
     name: swiper-div
     index: 0
   default_descr: 再怎么看我也不知道怎么描述它的啦！
-  swiper_css: https://imgs.luckynwa.top/profile/blog/jscss/swiper.min.css
-  swiper_js: https://imgs.luckynwa.top/profile/blog/jscss/swiper.min.js
-  custom_css: https://imgs.luckynwa.top/profile/blog/jscss/swiperstyle.css
-  custom_js: https://imgs.luckynwa.top/profile/blog/jscss/swiper_init.js
+  swiper_css: /css/swiper.min.css
+  swiper_js: /js/swiper.min.js
+  custom_css: /css/swiperstyle.css
+  custom_js: /js/swiperinit.js
   error_img: https://imgs.luckynwa.top/profile/blog/loading.gif
 butterfly_article_double_row:
   enable: false

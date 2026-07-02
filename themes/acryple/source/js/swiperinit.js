@@ -1,7 +1,23 @@
+// 给swiper容器添加loading类，防止加载时内容闪现
+(function() {
+  var el = document.querySelector('.swiper-div .blog-slider');
+  if (el) el.classList.add('swiper-loading');
+})();
+
+function showSwiperReady() {
+  var sliders = document.querySelectorAll('.swiper-div .blog-slider');
+  for (var i = 0; i < sliders.length; i++) {
+    sliders[i].classList.remove('swiper-loading');
+  }
+}
+
 function initBlogSlider() {
   var sliderEl = document.querySelector('.blog-slider');
-  if (!sliderEl || sliderEl.swiper) return;
-  
+  if (!sliderEl || sliderEl.swiper) {
+    showSwiperReady();
+    return;
+  }
+
   var swiper = new Swiper('.blog-slider', {
     passiveListeners: true,
     spaceBetween: 0,
@@ -30,6 +46,7 @@ function initBlogSlider() {
     on: {
       init: function() {
         this.update();
+        showSwiperReady();
       },
       imagesReady: function() {
         this.update();
@@ -58,6 +75,8 @@ function reinitBlogSlider() {
 
 document.addEventListener('DOMContentLoaded', function() {
   setTimeout(initBlogSlider, 500);
+  // 兜底：5秒后无论如何移除loading状态
+  setTimeout(showSwiperReady, 5000);
 });
 
 window.addEventListener('resize', function() {

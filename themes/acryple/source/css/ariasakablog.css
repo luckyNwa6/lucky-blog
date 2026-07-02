@@ -1919,6 +1919,9 @@ html {
 ::-webkit-scrollbar {
   width: 6px;
 }
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
 #random-banner {
   width: 100% !important;
