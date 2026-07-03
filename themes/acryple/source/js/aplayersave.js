@@ -12,50 +12,56 @@ function doStuff() {
     //爬出爬取替换下面,再去配置那inject改成自己data-id
     ap.list.add([
       {
-        name: '未闻花名（钢琴曲纯音乐）',
-        artist: 'nengcd',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Unknown flower name.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Unknown flower name.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Unknown flower name.lrc',
+        name: '夜、萤火虫和你',
+        artist: 'AniFace',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Night_Fireflies_and_You/Night_Fireflies_and_You.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Night_Fireflies_and_You/Night_Fireflies_and_You_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
-        name: '千与千寻（钢琴版）',
-        artist: '纯音乐',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen and Chihiro.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen and Chihiro.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen and Chihiro.lrc',
+        name: '我曾爱过一个人 (笛子版)',
+        artist: '董敏',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Wo_Ceng_Aiguo_Yige_Ren/Wo_Ceng_Aiguo_Yige_Ren.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Wo_Ceng_Aiguo_Yige_Ren/Wo_Ceng_Aiguo_Yige_Ren_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
+        name: '偏爱(钢琴版)',
+        artist: '叫我阿坤就好啦',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Pian_Ai/Pian_Ai.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Pian_Ai/Pian_Ai_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
+        name: '美丽的神话（纯音乐）',
+        artist: '蜻蜓酱',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Meili_de_Shenhua/Meili_de_Shenhua.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Meili_de_Shenhua/Meili_de_Shenhua_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
         name: 'My Soul',
         artist: 'July',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My Soul.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My Soul.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My Soul.lrc',
-      },
-
-      {
-        name: '美丽的神话（纯音乐）',
-        artist: '纯音乐',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Beautiful myth.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Beautiful myth.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Beautiful myth.lrc',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
-        name: '偏爱(钢琴版)',
-        artist: '纯音乐',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/preference.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/preference.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/preference.lrc',
+        name: '千与千寻（钢琴版）',
+        artist: '晨曦',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
-        name: '我曾爱过一个人 (笛子版)',
-        artist: '琰琰',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/I once loved someone.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/I once loved someone.jpg',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/I once loved someone.lrc',
+        name: '未闻花名（钢琴曲纯音乐）',
+        artist: 'nengcd',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
     ])
-
+    //纯音乐没lrc（歌词，随便弄个）
     ap.list.remove(0)
     ap.lrc.hide()
     ap.setMode('normal')

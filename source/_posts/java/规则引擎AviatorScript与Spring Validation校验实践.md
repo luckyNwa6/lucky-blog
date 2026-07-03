@@ -1,16 +1,13 @@
 ---
-title: RuleAv规则引擎与Validation
-description: 宝剑锋从磨砺出，梅花香自苦寒来
+title: 规则引擎AviatorScript与Spring Validation校验实践
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/225
+description: 宝剑锋从磨砺出，梅花香自苦寒来
 categories: 后端
 tags: Java
 comments: true
 abbrlink: 57942
 summary: >-
-  启动小维AI摘要模块⚡……运算完成！这篇文章主要介绍了规则引擎AviatorScript的使用方法和Spring
-  Validation的相关配置，首先讲解了如何通过Maven依赖引入AviatorScript规则引擎，并展示了将其封装成Bean的完整代码实现，包括从resources目录下的script文件夹加载规则脚本photoController.av，该脚本用于验证账号格式是否符合正则表达式要求，还详细描述了在Spring中注入RuleAv组件并通过上下文Map传入参数执行规则校验的流程，若校验不通过则返回错误信息，同时提供了测试类RuleDemo的多个测试方法示例，演示了编译执行脚本、传入变量上下文、执行表达式判断以及处理实例对象等方法，此外文章还提到了Spring
-  Validation的依赖配置，指出不同Spring
-  Boot版本下hibernate-validator依赖的引入方式差异，并简述了参数异常中断的处理机制，整体内容涵盖了规则引擎集成、脚本编写测试及数据校验配置的关键技术要点。
+  本文详细介绍AviatorScript规则引擎的集成与使用方法，包括依赖引入、Bean封装、脚本编写以及参数注入执行等核心流程。同时讲解Spring Validation参数校验的完整方案，涵盖hibernate-validator依赖配置、failFast快速失败策略、自定义异常处理器实现，以及分组校验的使用方式，帮助开发者在Spring项目中高效实现规则判断与接口参数验证。
 date: 2023-10-11 13:32:22
 ---
 
@@ -57,10 +54,7 @@ public class RuleAv{
             System.out.println("Error loading script file: " + e.getMessage());
         }
     }
-
-
 }
-
 ```
 
 注入
@@ -77,7 +71,7 @@ public class RuleAv{
         }
 ```
 
-脚本位置放在项目 src\main\resources 下面新建文件夹 script，文件名 photoController.av
+脚本位置放在项目 `src/main/resources` 下面新建文件夹 `script`，文件名 `photoController.av`
 
 ```js
 let regex = /^[a-zA-Z]{5,10}$/
@@ -168,12 +162,11 @@ public class RuleDemo {
         System.out.println(result);
     }
 }
-
 ```
 
 # Spring Validation
 
-https://blog.51cto.com/u_15964717/6093652
+参考：https://blog.51cto.com/u_15964717/6093652
 
 如果 spring-boot 版本小于 2.3.x，spring-boot-starter-web 会自动传入 hibernate-validator 依赖；
 
@@ -323,7 +316,6 @@ public class RRExceptionHandler {
         return R.error();
     }
 }
-
 ```
 
 ```JAVA
@@ -372,10 +364,7 @@ public class LukcyException extends RuntimeException {
     public void setCode(int code) {
         this.code = code;
     }
-
-
 }
-
 ```
 
 返回类
@@ -433,10 +422,9 @@ public class R extends HashMap<String, Object> {
         return this;
     }
 }
-
 ```
 
-分组
+分组校验
 
 ```JAVA
  @NotEmpty(message = "添加课程名称不能为空",groups={ValidationGroups.Inster.class})
