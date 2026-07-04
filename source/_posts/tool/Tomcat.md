@@ -1,14 +1,14 @@
 ---
 title: Tomcat 环境
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/463
+description: 苟利国家生死以，岂因祸福避趋之
 categories: 工具
 tags: Tomcat
 comments: true
-abbrlink: 75843
+abbrlink: tool13
 summary: >-
   本文介绍 Apache Tomcat 8.5.83 的安装配置、环境变量设置、乱码问题修复、WAR 包部署以及 IDEA 中使用本地 Tomcat 的方法，帮助开发者快速搭建 Java Web 服务器环境。
-date: 2022-01-01 11:22:21
+date: 2023-09-23 07:01:33
 ---
 
 # 环境变量配置

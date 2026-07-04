@@ -1,14 +1,14 @@
 ---
 title: Nacos
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/327
+description: 时人不识凌云木，直待凌云始道高
 categories: 工具
-tags: Nacos
+tags: Middleware
 comments: true
-abbrlink: 63729
+abbrlink: tool9
 summary: >-
   本文介绍 Nacos 1.4.1 的安装配置与启动方法，包括单机模式设置、启动命令、访问地址和默认账号密码，帮助开发者快速搭建服务注册与配置中心本地环境。
-date: 2022-01-01 11:22:21
+date: 2023-08-26 03:19:26
 ---
 
 # 启动配置

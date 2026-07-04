@@ -1,14 +1,14 @@
 ---
 title: Node 环境
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/264
+description: 宣父犹能畏后生，丈夫未可轻年少
 categories: 工具
 tags: Node
 comments: true
-abbrlink: 57462
+abbrlink: tool10
 summary: >-
   本文介绍 Nvm 多版本 Node.js 管理工具的安装配置，以及 Node.js 的环境变量设置、镜像源配置、全局包安装等常用操作，帮助开发者快速搭建前端开发环境。
-date: 2022-01-01 11:22:21
+date: 2023-09-02 10:42:54
 ---
 
 ## 简介

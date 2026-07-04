@@ -1,14 +1,14 @@
 ---
 title: Java IO流详解
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/259
-description: 海纳百川有容乃大，壁立千仞无欲则刚
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/369
+description: 知己知彼，百战不殆
 categories: 后端
 tags: IO
 comments: true
-abbrlink: 13712
+abbrlink: java3
 summary: >-
   启动小维AI摘要模块⚡……运算完成！本文系统讲解Java IO流的核心概念与实际应用。首先介绍IO流的基本分类，包括输入流与输出流的区别，字节流与字符流的各自适用场景，以及字符流由字节流加编码表构成的原理。随后深入讲解File类的使用，涵盖文件创建、删除、目录遍历等常用操作，并通过多个代码示例演示FileInputStream、FileOutputStream的字节流读写，FileReader、FileWriter的字符流操作，以及缓冲流BufferedInputStream、BufferedOutputStream提升IO效率的原理与实践。最后介绍转换流InputStreamReader、OutputStreamWriter在不同编码间的桥梁作用，帮助开发者解决Windows与Linux系统间的乱码问题，是Java IO编程入门与进阶的全面指南。
-date: 2023-08-10 11:22:21
+date: 2023-08-15 02:37:39
 ---
 
 # 概念

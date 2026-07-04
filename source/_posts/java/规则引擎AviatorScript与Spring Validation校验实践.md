@@ -1,14 +1,14 @@
 ---
 title: 规则引擎AviatorScript与Spring Validation校验实践
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/225
-description: 宝剑锋从磨砺出，梅花香自苦寒来
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/228
+description: 雄关漫道真如铁，而今迈步从头越
 categories: 后端
 tags: Java
 comments: true
-abbrlink: 57942
+abbrlink: java9
 summary: >-
   本文详细介绍AviatorScript规则引擎的集成与使用方法，包括依赖引入、Bean封装、脚本编写以及参数注入执行等核心流程。同时讲解Spring Validation参数校验的完整方案，涵盖hibernate-validator依赖配置、failFast快速失败策略、自定义异常处理器实现，以及分组校验的使用方式，帮助开发者在Spring项目中高效实现规则判断与接口参数验证。
-date: 2023-10-11 13:32:22
+date: 2023-09-26 07:45:23
 ---
 
 # 规则引擎

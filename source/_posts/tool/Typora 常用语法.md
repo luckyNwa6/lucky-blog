@@ -1,14 +1,14 @@
 ---
 title: Typora 常用语法
-description: 君不见黄河之水天上来，奔流到海不复回
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/319
+description: 人生自古谁无死，留取丹心照汗青
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/44
 categories: 工具
 tags: Typora
-abbrlink: 2645
+abbrlink: tool14
 comments: true
 summary: >-
   本文系统介绍Typora这款Markdown编辑器的常用语法，涵盖文字样式设置，包括加粗、倾斜、删除线及行内代码；图片插入与超链接创建方法；代码块语法高亮展示；无序列表、有序列表及任务列表的使用；引用块、表格、分割线的排版技巧；以及LaTeX数学公式和表情符号等进阶功能，从基础到进阶全面覆盖日常文档编辑与排版需求。
-date: 2022-10-24 15:32:28
+date: 2023-09-30 03:32:52
 ---
 
 ## 文字样式

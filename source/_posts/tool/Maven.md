@@ -1,14 +1,14 @@
 ---
 title: Maven 环境
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/130
+description: 欲穷千里目，更上一层楼
 categories: 工具
 tags: Maven
 comments: true
-abbrlink: 52319
+abbrlink: tool7
 summary: >-
   本文介绍 Apache Maven 的安装配置、环境变量设置、阿里云镜像源配置以及 JDK 8 默认编译版本设置，帮助开发者快速搭建 Java 项目构建工具环境。
-date: 2022-01-01 11:22:21
+date: 2023-08-12 02:02:07
 ---
 
 # 安装配置

@@ -1,14 +1,14 @@
 ---
 title: RocketMQ
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/236
+description: 男儿何不带吴钩，收取关山五十州
 categories: 工具
-tags: RocketMQ
+tags: Middleware
 comments: true
-abbrlink: 21584
+abbrlink: tool12
 summary: >-
   本文介绍 RocketMQ 4.9.3 的安装配置与启动方法，包括 NameServer 和 Broker 的启动命令、JVM 内存参数调整，帮助开发者快速搭建消息队列本地开发环境。
-date: 2022-01-01 11:22:21
+date: 2023-09-16 03:40:11
 ---
 
 # 安装

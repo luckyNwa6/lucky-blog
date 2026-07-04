@@ -1,14 +1,14 @@
 ---
 title: 双Token机制与OAuth2单点登录实战指南
-description: 不畏浮云遮望眼，自缘身在最高层
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/194
+description: 大鹏一日同风起，扶摇直上九万里
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/67
 categories: 后端
 tags: Token
 comments: true
-abbrlink: 53014
+abbrlink: java8
 summary: >-
   本文深入解析网络通信中Token（令牌）的核心机制与安全设计。Token作为身份验证和授权访问的凭证，通过加密签名保障信息安全，但过长的过期时间会带来安全风险。为平衡安全性与用户体验，引入双Token机制：accessToken用于频繁请求且过期时间短，refreshToken用于获取新accessToken且不易被滥用。文章详细介绍了双Token的工作流程、三种需要重新登录的场景、响应拦截器处理token过期的代码实现，以及基于OAuth2的单点登录与鉴权原理，为构建安全高效的认证体系提供完整解决方案。
-date: 2024-06-27 23:32:28
+date: 2023-09-19 00:53:54
 ---
 
 # 双 Token

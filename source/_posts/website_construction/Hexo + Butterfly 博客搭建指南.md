@@ -1,14 +1,16 @@
 ---
 title: Hexo + Butterfly 博客搭建指南
-description: 千里之行始于足下，九层之台起于累土
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/366
+description: 千锤万凿出深山，烈火焚烧若等闲
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/231
 categories: 网站搭建
 tags: Hexo
 comments: true
-abbrlink: 17956
+abbrlink: website_construction1
+swiper_index: 67
+swiper_description: 千里之行始于足下，九层之台起于累土
 summary: >-
   本文详细介绍了如何使用Hexo框架配合butterfly主题快速搭建一个美观的个人博客网站。首先讲解了环境准备，包括安装Node.js、Git和VS Code；接着指导创建Hexo项目并本地预览；随后介绍了将博客部署到GitHub Pages和Vercel的完整流程。重点讲解了butterfly主题的安装与配置，涵盖渲染器安装、URL优化、本地搜索功能等实用插件。此外还分享了twikoo评论系统的集成方案，包括Docker部署、Nginx反向代理配置和QQ邮箱通知设置。全程实操，适合初学者按步骤搭建自己的博客。
-date: 2021-12-27 17:32:48
+date: 2024-01-01 10:32:48
 updated: 2024-07-03 20:32:48
 ---
 

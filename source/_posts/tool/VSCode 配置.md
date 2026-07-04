@@ -1,14 +1,14 @@
 ---
 title: VSCode 配置
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/379
+description: 落红不是无情物，化作春泥更护花
 categories: 工具
 tags: VSCode
 comments: true
-abbrlink: 36258
+abbrlink: tool15
 summary: >-
   本文详细介绍 VSCode 的安装卸载、插件推荐、Vue3 插件配置、settings.json 自定义、头部注释自动生成等实用技巧，帮助前端开发者快速搭建高效的开发环境。
-date: 2022-01-01 11:22:21
+date: 2023-10-07 11:48:40
 ---
 
 # 安装

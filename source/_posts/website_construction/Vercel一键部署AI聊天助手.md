@@ -1,15 +1,16 @@
 ---
 title: Vercel一键部署AI聊天助手
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/285
-description: 长风破浪会有时，直挂云帆济沧海
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/370
+description: 粉骨碎身浑不怕，要留清白在人间
 categories: 网站搭建
 tags: ChatGPT
 comments: true
-abbrlink: 41570
-
+abbrlink: website_construction2
+swiper_index: 68
+swiper_description: 长风破浪会有时，直挂云帆济沧海
 summary: >-
   本文详细介绍如何基于开源项目ChatGPT-Next-Web搭建私人AI聊天助手。通过Vercel平台一键部署，配置API密钥和访问密码即可使用。讲解了如何配置自定义域名，通过Vercel添加二级域名并设置DNS解析，实现专属域名访问。
-date: 2023-06-01 11:22:21
+date: 2024-01-08 04:42:42
 updated: 2024-07-03 10:32:48
 ---
 

@@ -1,14 +1,14 @@
 ---
 title: Java后端参数接收方式汇总
-description: 不积跬步无以至千里，不积小流无以成江海
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/289
+description: 业精于勤，荒于嬉；行成于思，毁于随
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/445
 categories: 后端
 tags: Java
 comments: true
-abbrlink: 35818
+abbrlink: java4
 summary: >-
   本篇文章详细介绍了后端代码接收和解析前端请求参数的多种方法，包括GET和POST请求的不同处理方式。文章从基础的URL参数传参、请求体JSON解析、表单数据处理等角度出发，具体讲解了使用@RequestParam、@RequestBody、@PathVariable等注解接收参数的原理和注意事项，例如参数名匹配、必填设置、默认值处理等。同时展示了传统方式如HttpServletRequest获取参数，以及RESTful风格传参和复杂场景如Map接收参数、JSON对象解析、权限校验、日志记录等实际应用示例，涵盖了Spring MVC中常见的参数接收技术和相关框架集成方法，帮助开发者理解并选择适合不同场景的参数处理方式。
-date: 2023-03-10 23:32:28
+date: 2023-08-22 06:50:40
 ---
 
 # 前言

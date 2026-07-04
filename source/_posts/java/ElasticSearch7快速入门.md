@@ -1,14 +1,14 @@
 ---
 title: ElasticSearch7快速入门
-description: 山重水复疑无路，柳暗花明又一村
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/274
+description: 三人行，必有我师焉
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/202
 categories: 后端
 tags: es
 comments: true
-abbrlink: 6184
+abbrlink: java1
 summary: >-
   本文是一篇关于Elasticsearch 7.0.0版本的入门教程，详细介绍了Elasticsearch的基本使用方法，包括环境搭建、索引操作、文档操作和映射操作。首先讲解了如何启动Elasticsearch服务，指出9200端口用于HTTP访问，9300端口用于集群通信，并通过访问localhost:9200确认安装成功。接着介绍了索引的创建、查看、删除等操作，使用Postman发送PUT、GET、DELETE请求管理索引。然后深入讲解了文档的增删改查，包括如何通过POST请求添加JSON格式的文档数据，以及如何修改、查询和删除文档，还提到可以根据条件批量删除文档。最后介绍了映射操作，类比数据库表结构，讲解如何为索引设置字段类型和约束，通过PUT请求创建索引并定义映射属性。整体内容清晰，适合初学者快速上手Elasticsearch的基本操作。
-date: 2023-07-20 13:32:28
+date: 2023-08-01 05:12:59
 ---
 
 # 入门

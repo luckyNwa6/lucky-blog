@@ -1,14 +1,14 @@
 ---
 title: JMeter
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/105
+description: 少年辛苦终身事，莫向光阴惰寸功
 categories: 工具
 tags: JMeter
 comments: true
-abbrlink: 49176
+abbrlink: tool3
 summary: >-
   本文介绍 JMeter 压力测试工具的使用方法，包括线程组配置、HTTP 请求设置、监听器添加、吞吐量查看等操作步骤，帮助开发者快速上手接口性能测试。
-date: 2022-01-01 11:22:21
+date: 2023-07-15 09:37:29
 ---
 
 # 简介

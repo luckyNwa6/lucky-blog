@@ -1,13 +1,13 @@
 ---
 title: IDEA 配置
-cover: 'https://imgs.luckynwa.top/openApi/lucky/yys/364'
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/355
+description: 仰天大笑出门去，我辈岂是蓬蒿人
 categories: 工具
 tags: IDEA
 comments: true
-abbrlink: fc3df3c7
+abbrlink: tool2
 summary: 本文详细介绍 IntelliJ IDEA 的安装激活、插件配置、代码格式化、热部署、字体编码等常用设置，帮助开发者快速搭建高效的 Java 开发环境。
-date: 2022-01-01 11:22:21
+date: 2023-07-08 05:41:22
 ---
 
 # 安装与激活

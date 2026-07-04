@@ -1,15 +1,15 @@
 ---
 title: Git 实战笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 无边落木萧萧下，不尽长江滚滚来
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/116
+description: 俱怀逸兴壮思飞，欲上青天揽明月
 categories: 工具
 tags: Git
 comments: true
-abbrlink: 6724
+abbrlink: tool1
 summary: >-
   本文系统介绍 Git 版本控制工具的使用方法。从工作区、暂存区、仓库三级结构出发，详细讲解环境配置（用户名设置、SSH密钥生成与绑定）、核心命令（文件操作、分支管理、远程协作、版本回退）、日常开发工作流程，以及代理环境下常见的443连接超时和SSH端口22被封问题的排查与解决，适合 Git 初学者系统学习与快速上手。
 
-date: 2022-01-01 11:22:21
+date: 2023-07-01 07:30:33
 ---
 
 # Git 基础概念

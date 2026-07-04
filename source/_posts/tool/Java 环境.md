@@ -1,14 +1,14 @@
 ---
 title: Java 环境
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 工欲善其事，必先利其器
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/180
+description: 读书破万卷，下笔如有神
 categories: 工具
 tags: Java
 comments: true
-abbrlink: 84931
+abbrlink: tool4
 summary: >-
   本文介绍 JDK 8、JDK 11 的安装配置与环境变量设置，包括 JAVA_HOME、CLASSPATH、Path 配置以及多版本切换方法，帮助开发者快速搭建 Java 开发环境。
-date: 2022-01-01 11:22:21
+date: 2023-07-22 10:21:57
 ---
 
 # JDK 8

@@ -1,14 +1,16 @@
 ---
 title: 图床搭建与 CDN 加速指南
-description: 工欲善其事，必先利其器
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/290
+description: 咬定青山不放松，立根原在破岩中
+cover: https://imgs.luckynwa.top/openApi/lucky/yys/140
 categories: 网站搭建
 tags: PicBed
-abbrlink: 51637
+abbrlink: website_construction3
 comments: true
+swiper_index: 66
+swiper_description: 工欲善其事，必先利其器
 summary: >-
   本文详细介绍了四种图床搭建方法及其管理工具的使用。首先讲解了通过 GitHub 创建公开仓库并配置 Personal access tokens 来搭建图床，同时可将仓库同步到 Vercel 配置二级域名访问。接着介绍了使用 PicGo 工具管理上传图片并与 Typora 绑定，需注意 GitHub 仓库分支必须为 main 且大小不超过 1G 以避免封号风险。其次通过 npm 方式搭建图床，包括注册 npm 账号、配置仓库、使用 GitHub Actions 自动发布包并更新版本号。还提到利用 Cloudflare Pages 连接 GitHub 创建图床。最后介绍了多种 CDN 加速访问方式如 jsdelivr、unpkg 等回源引用图片的方法，涵盖从基础搭建到高级加速的全流程操作细节及注意事项。
-date: 2023-01-24 23:12:28
+date: 2024-01-15 07:44:29
 ---
 
 # 前言

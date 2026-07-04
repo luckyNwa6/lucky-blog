@@ -12,10 +12,38 @@ function doStuff() {
     //爬出爬取替换下面,再去配置那inject改成自己data-id
     ap.list.add([
       {
+        name: '未闻花名（钢琴曲纯音乐）',
+        artist: 'nengcd',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
         name: '夜、萤火虫和你',
         artist: 'AniFace',
         url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Night_Fireflies_and_You/Night_Fireflies_and_You.mp3',
         cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Night_Fireflies_and_You/Night_Fireflies_and_You_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
+        name: '千与千寻（钢琴版）',
+        artist: '晨曦',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
+        name: '起风了纯音乐',
+        artist: 'GX',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/qifengle/qifengle.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/qifengle/qifengle_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
+        name: 'My Soul',
+        artist: 'July',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul_cover.webp',
         lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
@@ -37,27 +65,6 @@ function doStuff() {
         artist: '蜻蜓酱',
         url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Meili_de_Shenhua/Meili_de_Shenhua.mp3',
         cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Meili_de_Shenhua/Meili_de_Shenhua_cover.webp',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
-      },
-      {
-        name: 'My Soul',
-        artist: 'July',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/My_Soul/My_Soul_cover.webp',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
-      },
-      {
-        name: '千与千寻（钢琴版）',
-        artist: '晨曦',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Sen_to_Chihiro/Sen_to_Chihiro_cover.webp',
-        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
-      },
-      {
-        name: '未闻花名（钢琴曲纯音乐）',
-        artist: 'nengcd',
-        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename.mp3',
-        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/Weiwensename/Weiwensename_cover.webp',
         lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
     ])
