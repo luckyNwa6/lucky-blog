@@ -1,7 +1,7 @@
 ---
 title: Hexo + Butterfly 博客搭建指南
 description: 千锤万凿出深山，烈火焚烧若等闲
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/231
+cover: /img/lunbo/311.webp
 categories: 网站搭建
 tags: Hexo
 comments: true

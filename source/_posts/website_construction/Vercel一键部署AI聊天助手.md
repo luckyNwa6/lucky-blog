@@ -1,6 +1,6 @@
 ---
 title: Vercel一键部署AI聊天助手
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/370
+cover: /img/lunbo/310.webp
 description: 粉骨碎身浑不怕，要留清白在人间
 categories: 网站搭建
 tags: ChatGPT

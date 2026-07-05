@@ -1,7 +1,7 @@
 ---
 title: 图床搭建与 CDN 加速指南
 description: 咬定青山不放松，立根原在破岩中
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/140
+cover: /img/lunbo/312.webp
 categories: 网站搭建
 tags: PicBed
 abbrlink: website_construction3

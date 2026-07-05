@@ -73,7 +73,8 @@ hexo.extend.filter.register('before_generate', () => {
     snackbar_css: 'https://imgs.luckynwa.top/profile/blog/jscss/snackbar.min.css',
     snackbar: 'https://imgs.luckynwa.top/profile/blog/jscss/snackbar.min.js',
     //下面是图标，需要去阿里那重新找下载到服务器才能用自己的
-    fontawesomeV6: 'https://imgs.luckynwa.top/profile/blog/jscss/tubiaoaili_all/css/tubiaoaili_all.min.css',
+    fontawesomeV6: 'https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css',
+    //自己的，先用第三方的吧快一点 fontawesomeV6: 'https://imgs.luckynwa.top/profile/blog/jscss/tubiaoaili_all/css/tubiaoaili_all.min.css',
     flickr_justified_gallery_js: 'https://imgs.luckynwa.top/profile/blog/jscss/fjGallery.min.js',
     flickr_justified_gallery_css: 'https://imgs.luckynwa.top/profile/blog/jscss/fjGallery.min.css',
     aplayer_css: 'https://imgs.luckynwa.top/profile/blog/jscss/APlayer.min.css',

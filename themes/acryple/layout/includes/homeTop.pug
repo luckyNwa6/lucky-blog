@@ -1,6 +1,8 @@
+link(rel='stylesheet', href=url_for('/css/swiper.min.css') media="print" onload="this.media='all'")
+link(rel='stylesheet', href=url_for('/css/swiperstyle.css') media="print" onload="this.media='all'")
 div(class="top" id="top" style="width:1470px")
     //- include speaks.pug
-    a(id="random2" class="recent-post-item" style="width:100%;height:auto;padding:10px;" href="javascript:toRandomPost()")         
+    a(id="random2" class="recent-post-item" style="width:100%;height:auto;padding:10px;" href="javascript:toRandomPost()")
         div 随便逛逛✈
     .cards
         include random.pug
@@ -14,3 +16,63 @@ div(class="top" id="top" style="width:1470px")
             if theme.categoryBar.enable
                 .mangentContent(style='height:auto;width:100%;padding:0px;')
                 #categoryBar!= list_categories(site.categories,{class: 'categoryBar',depth: 1})
+
+script.
+  (function() {
+    var swiperDiv = document.getElementById('swiper-div');
+    if (!swiperDiv || document.querySelector('.blog-slider__wrp')) return;
+
+    // 轮播图数据（按 swiper_index 从大到小排列）
+    var posts = [
+      { cover: '/img/lunbo/310.webp', title: 'Vercel一键部署AI聊天助手', desc: '长风破浪会有时，直挂云帆济沧海', link: 'posts/website_construction2/' },
+      { cover: '/img/lunbo/311.webp', title: 'Hexo + Butterfly 博客搭建指南', desc: '千里之行始于足下，九层之台起于累土', link: 'posts/website_construction1/' },
+      { cover: '/img/lunbo/312.webp', title: '图床搭建与 CDN 加速指南', desc: '工欲善其事，必先利其器', link: 'posts/website_construction3/' }
+    ];
+
+    // 生成slide HTML
+    var slidesHTML = '';
+    posts.forEach(function(p) {
+      slidesHTML += '<div class="blog-slider__item swiper-slide" style="background:url(' + p.cover + ');border-radius:12px;">'
+        + '<div class="blog-slider__content">'
+        + '<span class="blog-slider__code">' + p.desc + '</span>'
+        + '<a class="blog-slider__title" onclick="pjax.loadUrl(\'' + p.link + '\')" href="javascript:void(0);">' + p.title + '</a>'
+        + '</div></div>';
+    });
+
+    var html = '<div class="blog-slider" id="swiper_container">'
+      + '<div class="blog-slider__wrp swiper-wrapper">' + slidesHTML + '</div>'
+      + '<div class="blog-slider__pagination"></div>'
+      + '<div class="swiper-button-prev"></div>'
+      + '<div class="swiper-button-next"></div>'
+      + '</div>';
+    swiperDiv.insertAdjacentHTML('afterbegin', html);
+
+    // 加载Swiper并初始化
+    function tryInit() {
+      if (typeof Swiper === 'undefined') { setTimeout(tryInit, 100); return; }
+      var el = document.querySelector('.blog-slider');
+      if (!el || el.swiper) return;
+      var s = new Swiper('.blog-slider', {
+        effect: 'fade', fadeEffect: { crossFade: true }, loop: true,
+        autoplay: { disableOnInteraction: false, delay: 3000 },
+        mousewheel: true, observer: true, observeParents: true,
+        preloadImages: false, updateOnImagesReady: true,
+        pagination: { el: '.blog-slider__pagination', clickable: true },
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        on: { init: function(){ this.update(); }, imagesReady: function(){ this.update(); } }
+      });
+      s.el.onmouseenter = function(){ s.autoplay.stop(); };
+      s.el.onmouseleave = function(){ s.autoplay.start(); };
+      el.swiper = s;
+    }
+
+    // 如果Swiper还没加载，动态加载
+    if (typeof Swiper === 'undefined') {
+      var script = document.createElement('script');
+      script.src = '/js/swiper.min.js';
+      script.onload = function() { setTimeout(tryInit, 100); };
+      document.head.appendChild(script);
+    } else {
+      setTimeout(tryInit, 100);
+    }
+  })();

@@ -156,7 +156,7 @@ symbols_count_time:
 # # hexo-butterfly-swiper
 # # see https://akilar.top/posts/8e1264d1/
 swiper:
-  enable: true # 开关
+  enable: false # 关闭插件注入，使用swiperinit.js自定义轮播
   priority: 5 # 过滤器优先权
   enable_page: all # 应用页面
   timemode: date # date/updated
