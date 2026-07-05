@@ -33,6 +33,13 @@ function doStuff() {
         lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
       },
       {
+        name: '林生祥-面会菜',
+        artist: '姓花名花花',
+        url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/mianhuicai/mianhuicai.mp3',
+        cover: 'https://imgs.luckynwa.top/profile/blog/blogMusic/mianhuicai/mianhuicai_cover.webp',
+        lrc: 'https://imgs.luckynwa.top/profile/blog/blogMusic/none.lrc',
+      },
+      {
         name: '起风了纯音乐',
         artist: 'GX',
         url: 'https://imgs.luckynwa.top/profile/blog/blogMusic/qifengle/qifengle.mp3',
