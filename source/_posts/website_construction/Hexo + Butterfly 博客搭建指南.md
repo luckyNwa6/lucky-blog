@@ -9,7 +9,7 @@ abbrlink: website_construction1
 swiper_index: 67
 swiper_description: 千里之行始于足下，九层之台起于累土
 summary: >-
-  本文详细介绍了如何使用Hexo框架配合butterfly主题快速搭建一个美观的个人博客网站。首先讲解了环境准备，包括安装Node.js、Git和VS Code；接着指导创建Hexo项目并本地预览；随后介绍了将博客部署到GitHub Pages和Vercel的完整流程。重点讲解了butterfly主题的安装与配置，涵盖渲染器安装、URL优化、本地搜索功能等实用插件。此外还分享了twikoo评论系统的集成方案，包括Docker部署、Nginx反向代理配置和QQ邮箱通知设置。全程实操，适合初学者按步骤搭建自己的博客。
+  本文详细介绍了如何使用Hexo框架配合butterfly主题快速搭建一个美观的个人博客网站。首先讲解了环境准备，包括安装Node.js、Git和VS Code；接着指导创建Hexo项目并本地预览；随后介绍了将博客部署到GitHub Pages和Vercel的完整流程。重点讲解了butterfly主题的安装与配置，涵盖渲染器安装、URL优化、本地搜索功能等实用插件。
 date: 2024-01-01 10:32:48
 updated: 2024-07-03 20:32:48
 ---
@@ -193,61 +193,3 @@ get-ExecutionPolicy          # 必须是 RemoteSigned 才行
 set-ExecutionPolicy RemoteSigned   # 不是则运行这条
 ```
 
-# Twikoo 评论系统
-
-由于 Docker 大部分镜像源被封，使用了阿里云做代理，用 Docker 部署评论系统：
-
-```shell
-docker run --name twikoo \
-  -e TWIKOO_THROTTLE=1000 \
-  -p 3737:8080 \
-  -v ${PWD}/data:/app/data \
-  -d registry.cn-hangzhou.aliyuncs.com/lucky-warehouse/twikoo
-```
-
-博客主题配置中修改如下：
-
-```yaml
-twikoo:
-  envId: http://xxxxxx:3737/
-  region:
-  visitor: true
-  option:
-```
-
-`use` 也选它，上面连接去浏览器输入有东西出来就配置好了。
-
-## Nginx 反向代理
-
-必须申请一个二级域名，不然会出现跨域情况。
-
-`twikoo.luckynwa.top` 的 Nginx 配置如下（必须带上 IP，不然 tw 设置无法查看访问者具体位置）：
-
-```nginx
-server {
-    listen  443 ssl;
-    server_name  twikoo.luckynwa.top;
-
-    ssl_certificate /etc/nginx/cert/twikoo.luckynwa.top.cer;
-    ssl_certificate_key /etc/nginx/cert/twikoo.luckynwa.top.key;
-
-    ssl_session_timeout  5m;
-
-    ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
-    ssl_ciphers  HIGH:!ADH:!EXPORT56:RC4+RSA:+MEDIUM;
-    ssl_prefer_server_ciphers  on;
-
-    location / {
-        proxy_pass http://xxxxxx:3737;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    }
-}
-```
-
-## 邮箱通知
-
-控制面板在项目中的留言区，可以设置各种功能，比如留言时 QQ 邮箱通知提醒。
-
-QQ 邮箱开启 SMTP 服务，授权码记得保存，配置到控制面板中即可。
