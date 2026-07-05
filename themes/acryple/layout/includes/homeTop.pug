@@ -39,7 +39,7 @@ script.
         + '</div></div>';
     });
 
-    var html = '<div class="blog-slider" id="swiper_container">'
+    var html = '<div class="blog-slider" id="swiper_container" style="opacity:0;transition:opacity 0.3s;">'
       + '<div class="blog-slider__wrp swiper-wrapper">' + slidesHTML + '</div>'
       + '<div class="blog-slider__pagination"></div>'
       + '<div class="swiper-button-prev"></div>'
@@ -59,7 +59,15 @@ script.
         preloadImages: false, updateOnImagesReady: true,
         pagination: { el: '.blog-slider__pagination', clickable: true },
         navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
-        on: { init: function(){ this.update(); }, imagesReady: function(){ this.update(); } }
+        on: {
+          init: function(){
+            this.update();
+            // 初始化完成后渐显
+            var container = document.getElementById('swiper_container');
+            if (container) container.style.opacity = '1';
+          },
+          imagesReady: function(){ this.update(); }
+        }
       });
       s.el.onmouseenter = function(){ s.autoplay.stop(); };
       s.el.onmouseleave = function(){ s.autoplay.start(); };
