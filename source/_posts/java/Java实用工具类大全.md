@@ -8,7 +8,7 @@ comments: true
 abbrlink: java9222
 summary: >-
   本文汇总了Java开发中17个常用工具类，包括Collections集合操作、CollectionUtils集合运算、Lists快速初始化与分页、Objects对象判空、BooleanUtils布尔转换、StringUtils字符串处理、Assert断言、IOUtils文件操作、MDC日志追踪、ClassUtils类操作、BeanUtils属性拷贝、ReflectionUtils反射、Base64Utils编码、DigestUtils加密、SerializationUtils序列化及HttpStatus状态码。掌握这些工具类能大幅简化代码，提升开发效率。
-date: 2022-01-01 11:22:21
+date: 2025-01-01 11:22:21
 ---
 
 ## 1. Collections

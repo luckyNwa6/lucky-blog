@@ -8,7 +8,7 @@ comments: true
 abbrlink: tool223S
 summary: >-
   本文介绍VitePress和VuePress两个Vue.js静态网站生成器的安装配置方法。VitePress要求Node.js v18.16.1以上版本，通过pnpm安装，适合部署静态博客和前端文档；VuePress要求Node.js v16.14以上版本，提供完整的初始化和配置步骤，适合搭建公司UI组件库。文章包含常见问题解决方案，如Node版本过低导致的启动失败问题，以及VSCode中pnpm运行权限设置。
-date: 2022-01-01 11:22:21
+date: 2024-01-01 11:22:21
 ---
 
 # VitePress

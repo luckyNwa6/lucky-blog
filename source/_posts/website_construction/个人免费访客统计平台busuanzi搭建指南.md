@@ -8,7 +8,7 @@ comments: true
 abbrlink: tool224
 summary: >-
   busuanzi是一款轻量级的访客统计工具，本文介绍如何在服务器上搭建个人专属的busuanzi统计平台。通过Docker Compose部署Redis和busuanzi服务，配合Nginx反向代理实现域名访问。文章详细说明了Nginx的SSL证书配置、Docker容器编排配置以及相关环境变量的设置，最后给出了Hexo主题中集成busuanzi统计代码的方法，帮助博主快速搭建属于自己的访客统计系统。
-date: 2022-01-01 11:22:21
+date: 2025-01-01 11:22:21
 ---
 
 ## NG配置

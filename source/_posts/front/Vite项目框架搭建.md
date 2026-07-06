@@ -8,7 +8,7 @@ comments: true
 abbrlink: front11
 summary: >-
   本教程详细介绍如何使用Vite搭建Vue3+TypeScript后台管理系统模板。涵盖环境配置、pnpm包管理工具使用、ESLint代码校验、Prettier代码格式化、Stylelint样式检查、Husky Git钩子、Commitlint提交规范等完整工程化配置。同时集成Element Plus UI组件库、SVG图标封装、Sass预处理器、Axios网络请求封装、环境变量配置等核心功能。通过本教程可快速搭建规范化的Vue3项目开发环境，提升团队协作效率和代码质量。
-date: 2023-12-10 09:59:36
+date: 2025-02-10 09:59:36
 ---
 
 ## 1、搭建后台管理系统模板

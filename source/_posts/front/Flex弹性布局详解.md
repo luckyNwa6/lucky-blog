@@ -8,7 +8,7 @@ comments: true
 abbrlink: front5
 summary: >-
   本文详细介绍了 Flex 弹性布局的核心概念和使用方法。首先讲解了 Flex 的基础概念，包括 flex 容器、flex 项目、主轴和交叉轴等。然后介绍了容器属性，如 flex-direction、flex-wrap、justify-content 等，用于控制子元素的排列方式。最后讲解了项目属性，如 flex-grow、flex-shrink、flex-basis 和 flex 简写属性，用于控制单个子元素在容器中的空间分配。文章配有详细的示意图和代码示例，帮助开发者快速掌握 Flex 布局的使用技巧。
-date: 2023-10-29 10:36:04
+date: 2025-03-29 10:36:04
 ---
 
 ## 前言

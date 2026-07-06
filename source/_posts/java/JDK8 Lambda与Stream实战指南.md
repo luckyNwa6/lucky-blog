@@ -4,12 +4,11 @@ description: 吾生也有涯，而知也无涯
 cover: /img/lunbo/483.webp
 categories: 后端
 tags: Java
-sticky: 99
 comments: true
 abbrlink: java2
 summary: >-
   本文详细介绍JDK8核心新特性，重点讲解Lambda表达式和Stream流的使用。Lambda通过函数式接口实现代码简化，文章通过Runnable线程创建、Comparator集合排序、Consumer消费处理、BiConsumer双参处理、自定义接口及Lambda优化代码等多个案例，展示Lambda如何替代匿名内部类使代码更简洁。同时介绍了方法引用的四种形式及函数式接口概念。Stream流部分涵盖流的创建方式、filter筛选、map映射、flatMap扁平化、reduce聚合、sorted排序等核心操作，以及stream与parallelStream的区别。通过大量实战代码示例，帮助开发者快速掌握JDK8函数式编程核心思想和应用场景，提升开发效率。
-date: 2023-08-08 09:17:06
+date: 2025-08-08 09:17:06
 ---
 
 ## 常用遍历

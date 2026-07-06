@@ -8,7 +8,7 @@ comments: true
 abbrlink: front3
 summary: >-
   本文系统介绍了 ES6（ECMAScript 2015）的核心特性。包括 const 和 let 变量声明、解构赋值、箭头函数、模板字符串、链判断运算符、默认参数与展开运算符、类和继承、Promise 和 async/await 异步处理、模块化 import/export、迭代器和生成器、Map 和 Set 数据结构。每个特性都配有详细的代码示例，帮助开发者理解和掌握这些现代化的 JavaScript 编程工具。
-date: 2023-10-15 01:21:33
+date: 2024-10-15 01:21:33
 ---
 
 ## 前言

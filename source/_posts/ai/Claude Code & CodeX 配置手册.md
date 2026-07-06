@@ -8,7 +8,7 @@ comments: true
 abbrlink: ai1
 summary: >-
   本文介绍了两款主流AI编程助手的配置与使用方法。Claude Code是Anthropic推出的终端原生AI编程工具，支持通过cc-switch管理配置，可接入小米AI的token plan，并集成到VSCode中使用。CodeX是OpenAI的命令行编程工具，支持GPT-5.2-codex模型，具备全权限访问能力。文章详细说明了安装步骤、配置方法和实用技巧，帮助开发者快速上手AI辅助编程。
-date: 2024-06-01 05:44:01
+date: 2026-03-01 05:44:01
 ---
 
 ## Claude Code

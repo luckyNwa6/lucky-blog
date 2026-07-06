@@ -8,7 +8,7 @@ comments: true
 abbrlink: java5
 summary: >-
   本文总结了Java多线程与锁的核心知识。详解synchronized两种加锁方式（代码块锁共享对象、实例方法锁this）及wait/notify机制。讲解线程创建方式、生命周期、常用方法。锁的部分涵盖锁的六大分类（乐观/悲观、独占/共享、公平/非公平、可重入、自旋/阻塞、偏向/轻量/重量）、synchronized底层原理（Monitor、Mark Word、锁升级）、volatile可见性与有序性、CAS原子操作、Lock接口（ReentrantLock、ReadWriteLock）与AQS原理。面试篇精选synchronized与Lock区别、volatile原理、线程池参数与执行流程、死锁条件与避免、ThreadLocal原理等高频考点。
-date: 2023-08-29 08:48:13
+date: 2024-08-29 08:48:13
 ---
 
 ## synchronized关键字

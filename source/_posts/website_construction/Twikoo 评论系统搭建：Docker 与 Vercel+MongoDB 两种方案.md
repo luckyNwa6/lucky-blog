@@ -8,7 +8,7 @@ comments: true
 abbrlink: tool839
 summary: >-
   本文介绍 Twikoo 评论系统的两种部署方案：Docker 部署需通过阿里云代理拉取镜像，配合 Nginx 反向代理解决跨域问题，并配置 X-Real-IP 获取访客位置；Vercel + MongoDB 方案只需在 MongoDB Cloud 创建数据库，复制连接字符串填入 Vercel 环境变量即可一键部署，国内访问需配置自定义域名。此外还介绍了 QQ 邮箱 SMTP 通知的开启方法。
-date: 2022-01-01 11:22:21
+date: 2025-11-01 11:22:21
 ---
 
 # Docker部署

@@ -8,7 +8,7 @@ comments: true
 abbrlink: front10
 summary: >-
   本文介绍了在 Vite 构建的 Vue3 项目中引入本地图片和 jQuery 的方法。针对 Vite 项目没有 require 命令的问题，提供了两种引入图片的方案：静态引入和使用 new URL 动态引入。同时讲解了在芋道框架中遇到 import.meta.url 返回包含查询参数的完整 URL 导致路径拼接错误的解决方案。最后介绍了在 Vue2 项目中安装和全局声明 jQuery 的步骤，以便第三方验证码组件等依赖 jQuery 的场景使用。
-date: 2023-12-03 08:37:32
+date: 2025-02-03 08:37:32
 ---
 
 ## 前言

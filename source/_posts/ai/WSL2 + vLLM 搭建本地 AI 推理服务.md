@@ -8,7 +8,7 @@ comments: true
 abbrlink: ai5
 summary: >-
   本文记录了在 Windows 上通过 WSL2 部署 vLLM 推理服务的完整流程。首先在管理员 PowerShell 中启用 WSL2 功能并安装 Ubuntu，随后配置 SSH 远程连接与端口转发。接着安装 Miniconda 创建 Python 3.10 环境，部署 vLLM 0.8.5 并下载 Qwen3-4B-Instruct 模型进行推理服务搭建。同时详细说明了 Embedding 和 Reranker 服务的部署方法，包括模型下载、服务启动以及通过 systemd 实现开机自启的配置。最后通过端口转发和防火墙规则将服务映射到宿主机，方便局域网访问。
-date: 2024-06-29 03:38:44
+date: 2025-09-29 03:38:44
 ---
 
 # WSL2 和 vLLM 部署指南

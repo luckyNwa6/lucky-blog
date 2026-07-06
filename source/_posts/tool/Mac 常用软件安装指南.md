@@ -8,7 +8,7 @@ comments: true
 abbrlink: tool6
 summary: >-
   Homebrew 是 macOS 上的包管理器，可以方便地安装和管理各种软件。本文介绍了如何安装 Homebrew，以及使用 Homebrew 安装 Git、Maven、NVM 等常用开发工具的方法和步骤。
-date: 2023-08-05 07:45:01
+date: 2025-01-05 07:45:01
 ---
 
 Homebrew 是 macOS 的一个包管理器，使用 Homebrew 安装各种软件。
