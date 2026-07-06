@@ -3,7 +3,7 @@ title: Java IO流详解
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/369
 description: 知己知彼，百战不殆
 categories: 后端
-tags: IO
+tags: Java
 comments: true
 abbrlink: java3
 summary: >-

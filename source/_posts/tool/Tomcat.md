@@ -3,7 +3,7 @@ title: Tomcat 环境
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/463
 description: 苟利国家生死以，岂因祸福避趋之
 categories: 工具
-tags: Tomcat
+tags: Tool
 comments: true
 abbrlink: tool13
 summary: >-

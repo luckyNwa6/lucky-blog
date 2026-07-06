@@ -1,9 +1,9 @@
 ---
 title: Twikoo 评论系统搭建：Docker 与 Vercel+MongoDB 两种方案
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 使用 Docker 部署 Twikoo 评论系统，配置 Nginx 反向代理与邮箱通知
+description: 独学而无友，则孤陋而寡闻
 categories: 网站搭建
-tags: Twikoo
+tags: Docker
 comments: true
 abbrlink: tool839
 summary: >-
@@ -61,8 +61,6 @@ server {
     }
 }
 ```
-
-
 
 # Vercel+MongoDB部署（使用中）
 

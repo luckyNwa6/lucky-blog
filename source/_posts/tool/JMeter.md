@@ -3,7 +3,7 @@ title: JMeter
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/105
 description: 少年辛苦终身事，莫向光阴惰寸功
 categories: 工具
-tags: JMeter
+tags: Tool
 comments: true
 abbrlink: tool3
 summary: >-

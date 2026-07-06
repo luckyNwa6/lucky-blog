@@ -3,7 +3,7 @@ title: Vercel一键部署AI聊天助手
 cover: /img/lunbo/310.webp
 description: 粉骨碎身浑不怕，要留清白在人间
 categories: 网站搭建
-tags: ChatGPT
+tags: Tool
 comments: true
 abbrlink: website_construction2
 swiper_index: 68

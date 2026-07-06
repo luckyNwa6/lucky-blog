@@ -3,7 +3,7 @@ title: Typora 常用语法
 description: 人生自古谁无死，留取丹心照汗青
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/44
 categories: 工具
-tags: Typora
+tags: Doc
 abbrlink: tool14
 comments: true
 summary: >-

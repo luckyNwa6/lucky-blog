@@ -1,7 +1,7 @@
 ---
 title: Vue静态网站生成器：VitePress与VuePress实战指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 详细介绍VitePress和VuePress的安装配置方法，包括环境要求、初始化步骤和常见问题解决
+description: 工欲善其事，必先利其器
 categories: 网站搭建
 tags: Vue
 comments: true

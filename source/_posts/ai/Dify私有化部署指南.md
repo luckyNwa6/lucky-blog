@@ -3,7 +3,7 @@ title: Dify 私有化部署指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/515
 description: 宝剑锋从磨砺出，梅花香自苦寒来
 categories: 人工智能
-tags: tool
+tags: Ops
 comments: true
 abbrlink: ai2
 summary: >-

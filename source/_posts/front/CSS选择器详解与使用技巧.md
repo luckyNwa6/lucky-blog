@@ -3,7 +3,7 @@ title: CSS选择器详解与使用技巧
 description: 不畏浮云遮望眼，自缘身在最高层
 categories: 前端
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/323
-tags: css
+tags: Css
 comments: true
 abbrlink: front1
 summary: >-

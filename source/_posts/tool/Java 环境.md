@@ -3,7 +3,7 @@ title: Java 环境
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/180
 description: 读书破万卷，下笔如有神
 categories: 工具
-tags: Java
+tags: Doc
 comments: true
 abbrlink: tool4
 summary: >-

@@ -3,7 +3,7 @@ title: pnpm包管理器详解
 description: 温故而知新，可以为师矣
 categories: 前端
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/282
-tags: npm
+tags: Tool
 comments: true
 abbrlink: front12
 summary: >-

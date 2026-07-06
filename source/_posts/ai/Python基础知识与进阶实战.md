@@ -1,7 +1,7 @@
 ---
 title: Python基础知识与进阶实战
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/53
-description: 长风破浪会有时，直挂云帆济沧海
+description: 海阔凭鱼跃，天高任鸟飞
 categories: 人工智能
 tags: Python
 comments: true

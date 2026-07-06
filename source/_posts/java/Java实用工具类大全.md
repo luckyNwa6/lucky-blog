@@ -1,7 +1,7 @@
 ---
 title: Java实用工具类大全
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 介绍Java中常用的工具类，包括Collections、CollectionUtils、Lists、Objects等17个实用工具类的使用方法
+description: 假舆马者，非利足也，而致千里
 categories: 后端
 tags: Java
 comments: true

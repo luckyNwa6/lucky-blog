@@ -1,7 +1,7 @@
 ---
 title: Java进阶知识点速查
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 涵盖数据结构、集合框架、JVM、数据库、Spring、JDBC、IO流、网络编程、多线程等核心知识点
+description: 青，取之于蓝，而青于蓝
 categories: 后端
 tags: Java
 comments: true

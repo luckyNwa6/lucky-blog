@@ -3,7 +3,7 @@ title: JavaScript日期格式转换方法详解
 description: 天行健，君子以自强不息
 categories: 前端
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/232
-tags: js
+tags: JavaScript
 comments: true
 abbrlink: front8
 summary: >-

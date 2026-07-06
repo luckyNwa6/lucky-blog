@@ -1,9 +1,9 @@
 ---
 title: 图床搭建与 CDN 加速指南
 description: 咬定青山不放松，立根原在破岩中
-cover: /img/lunbo/312.webp
+cover: /img/lunbo/306.webp
 categories: 网站搭建
-tags: PicBed
+tags: Tool
 abbrlink: website_construction3
 comments: true
 swiper_index: 66

@@ -3,7 +3,7 @@ title: MinIO使用
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/334
 description: 沉舟侧畔千帆过，病树前头万木春
 categories: 后端
-tags: MinIO
+tags: Middleware
 comments: true
 abbrlink: java6
 summary: >-

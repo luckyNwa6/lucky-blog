@@ -3,7 +3,7 @@ title: Vite项目框架搭建
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/62
 description: 学而不思则罔，思而不学则殆
 categories: 前端
-tags: vue
+tags: Vue
 comments: true
 abbrlink: front11
 summary: >-

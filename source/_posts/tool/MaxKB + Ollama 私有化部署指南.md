@@ -1,9 +1,9 @@
 ---
 title: MaxKB 私有化部署：快速搭建本地知识库问答系统
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
+cover: /img/lunbo/713.webp
 description: 长风破浪会有时，直挂云帆济沧海
 categories: 人工智能
-tags: docker
+tags: Ops
 comments: true
 abbrlink: 58234
 summary: >-

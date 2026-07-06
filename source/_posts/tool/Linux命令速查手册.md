@@ -3,7 +3,7 @@ title: Linux命令速查手册
 description: 博学之，审问之，慎思之，明辨之，笃行之
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/487
 categories: 工具
-tags: Linux
+tags: Doc
 comments: true
 abbrlink: tool5
 summary: >-

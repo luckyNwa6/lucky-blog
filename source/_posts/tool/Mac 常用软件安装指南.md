@@ -3,7 +3,7 @@ title: Mac 常用软件安装指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/490
 description: 朝闻道，夕死可矣
 categories: 工具
-tags: Mac
+tags: Tool
 comments: true
 abbrlink: tool6
 summary: >-

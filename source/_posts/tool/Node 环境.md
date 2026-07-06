@@ -3,7 +3,7 @@ title: Node 环境
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/264
 description: 宣父犹能畏后生，丈夫未可轻年少
 categories: 工具
-tags: Node
+tags: Vue
 comments: true
 abbrlink: tool10
 summary: >-

@@ -3,7 +3,7 @@ title: Java 常见案例与排序算法
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/428
 description: 古人学问无遗力，少壮工夫老始成
 categories: 编程基础
-tags: algorithm
+tags: Algorithm
 comments: true
 abbrlink: base1
 summary: >-

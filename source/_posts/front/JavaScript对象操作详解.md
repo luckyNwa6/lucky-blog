@@ -3,7 +3,7 @@ title: JavaScript对象操作详解
 description: 锲而不舍，金石可镂
 categories: 前端
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/371
-tags: js
+tags: JavaScript
 comments: true
 abbrlink: front6
 summary: >-

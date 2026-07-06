@@ -1,7 +1,7 @@
 ---
 title: Java基础入门笔记
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 路漫漫其修远兮，吾将上下而求索；千淘万漉虽辛苦，吹尽狂沙始到金。
+description: 绳锯木断，水滴石穿
 categories: 后端
 tags: Java
 comments: true

@@ -3,7 +3,7 @@ title: Stable Diffusion 环境搭建与使用指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/204
 description: 会当凌绝顶，一览众山小
 categories: 人工智能
-tags: StableDiffusion
+tags: Tool
 comments: true
 abbrlink: ai4
 summary: >-

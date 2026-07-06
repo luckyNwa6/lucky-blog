@@ -3,7 +3,7 @@ title: Hexo + Butterfly 博客搭建指南
 description: 千锤万凿出深山，烈火焚烧若等闲
 cover: /img/lunbo/311.webp
 categories: 网站搭建
-tags: Hexo
+tags: Tool
 comments: true
 abbrlink: website_construction1
 swiper_index: 67
@@ -192,4 +192,3 @@ search:
 get-ExecutionPolicy          # 必须是 RemoteSigned 才行
 set-ExecutionPolicy RemoteSigned   # 不是则运行这条
 ```
-

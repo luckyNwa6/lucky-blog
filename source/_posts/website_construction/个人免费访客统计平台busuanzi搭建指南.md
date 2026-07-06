@@ -1,7 +1,7 @@
 ---
 title: 个人免费访客统计平台busuanzi搭建指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
-description: 使用Docker一键部署busuanzi访客统计平台，支持PV/UV统计、多站点管理，数据持久化存储
+description: 不积跬步，无以至千里
 categories: 网站搭建
 tags: Docker
 comments: true

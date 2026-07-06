@@ -596,6 +596,10 @@ a.blog-slider__title:hover {
 .swiper-div .swiper-loading .swiper-slide {
     opacity: 0 !important;
 }
+/* 加载阶段隐藏阴影伪元素，防止阴影出现在左上角 */
+.swiper-div .swiper-loading .blog-slider__item::after {
+    opacity: 0 !important;
+}
 /* 给swiper容器固定高度，防止加载时塌缩 */
 .swiper-div .blog-slider {
     height: 200px;

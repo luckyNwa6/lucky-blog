@@ -3,7 +3,7 @@ title: llama.cpp、Ollama、LM Studio新手避坑指南
 cover: https://imgs.luckynwa.top/openApi/lucky/yys/19
 description: 黑发不知勤学早，白首方悔读书迟
 categories: 人工智能
-tags: tool
+tags: Tool
 comments: true
 abbrlink: ai7
 summary: >-
@@ -15,7 +15,7 @@ date: 2024-07-13 00:51:15
 
 # 简介
 
- llama.cpp 是"底层推理引擎"，Ollama 和 LM Studio 均是基于它封装的上层应用，Ollama 是"命令行版"，LM Studio 是"图形界面版"，三者本质都是让你在自己电脑上跑大模型，只是封装层级不同。
+llama.cpp 是"底层推理引擎"，Ollama 和 LM Studio 均是基于它封装的上层应用，Ollama 是"命令行版"，LM Studio 是"图形界面版"，三者本质都是让你在自己电脑上跑大模型，只是封装层级不同。
 
 # Ollama
 
@@ -309,8 +309,6 @@ ollama create gemma-4-26b-local -f Modelfile
 出现success 即可
 
 需要科学上网：[国外模型库（huggingface）](https://huggingface.co/models)
-
-
 
 # AI 大模型客户端
 
