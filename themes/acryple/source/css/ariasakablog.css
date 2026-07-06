@@ -3433,10 +3433,6 @@ code {
   -o-border-radius: 10px;
   color: white !important;
 }
-.aplayer.aplayer-fixed .aplayer-body:hover {
-  border: 1px solid var(--lyx-theme) !important;
-  box-shadow: 0 0 3px var(--lyx-theme) !important;
-}
 .aplayer-pic {
   border-radius: 10px;
   -webkit-border-radius: 10px;
