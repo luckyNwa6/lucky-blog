@@ -222,7 +222,7 @@ aside:
       link: https://blog.csdn.net/weixin_44055864?spm=1011.2415.3001.5343
   card_announcement:
     enable: true
-    content: <center><b><span class="anno_content2"">--- 主网站 ---</span><br><a href="https://blog.luckynwa.top/" title="此线路部署于阿里云服务器" class="anno_content"><font color="#5ea6e5">luckynwa.top</font></a>&nbsp;&nbsp;<br><span class="anno_content2">--- 备用网站 ---</span><br><a href="https://luckynwa6.github.io/" title="此线路部署于GitHub" class="anno_content"><font color="#5ea6e5">luckynwa6.github.io</font></a></b></center>
+    content: <center><b><span class="anno_content2"">--- 主网站 ---</span><br><a href="https://blog.luckynwa.top/" title="此线路部署于阿里云服务器" class="anno_content"><font color="#5ea6e5">blog.luckynwa.top</font></a>&nbsp;&nbsp;<br><span class="anno_content2">--- 备用网站 ---</span><br><a href="https://luckynwa6.github.io/lucky-blog/" title="此线路部署于GitHub" class="anno_content"><font color="#5ea6e5">luckynwa6.github.io/lucky-blog</font></a></b></center>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
