@@ -857,7 +857,7 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://cloud.luckynwa.top/profile/blog/jscss//snackbar.min.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="https://cloud.luckynwa.top/profile/blog/jscss/js-sdk-pro.min.js"></script>
     #- '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
-    - <script src="https://cloud.luckynwa.top/profile/blog/jscss/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+    - <script src="https://cloud.luckynwa.top/profile/blog/jscss/js-sdk-perf.min.js"></script>
     - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
     # - <script src="/swReg.js"></script>
     - <span id="fps"></span>

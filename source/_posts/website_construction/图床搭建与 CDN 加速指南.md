@@ -202,6 +202,49 @@ frontend-dist    输出目录
 
 上传不了，服了，还是用java弄一个吧，集成到自己的后台管理系统里
 
+R2对象存储的 跨域策略：
+
+```json
+[
+  {
+    "AllowedOrigins": [
+      "*"
+    ],
+    "AllowedMethods": [
+      "GET",
+      "PUT",
+      "HEAD"
+    ],
+    "AllowedHeaders": [
+      "*"
+    ],
+    "MaxAgeSeconds": 3600
+  }
+]
+```
+
+安全性
+  └── 安全规则
+
+创建规则：非中国访问观察
+
+表达式
+
+```json
+(ip.geoip.country ne "CN" and not http.host in {
+"nextchat.luckynwa.top"
+"tw.luckynwa.top"
+"lobechat.luckynwa.top"
+"calendar.luckynwa.top"
+"cloud.luckynwa.top"
+"imgs.luckynwa.top"
+})
+```
+
+外国人访问要走机器人认证
+
+
+
 # 回源加速
 
 提交完就可以访问了，国内有 CDN 加速访问 [jsdelivr 官网](https://www.jsdelivr.com/)
