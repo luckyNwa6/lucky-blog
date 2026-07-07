@@ -1,7 +1,7 @@
 ---
 title: Java多线程与锁详解
 description: 生当作人杰，死亦为鬼雄
-cover: https://cloud.luckynwa.top/profile/yys/193.webp
+cover: https://imgs.luckynwa.top/profile/yys/193.webp
 categories: 后端
 tags: Java
 comments: true

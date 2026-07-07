@@ -1,7 +1,7 @@
 ---
 title: Java后端参数接收方式汇总
 description: 业精于勤，荒于嬉；行成于思，毁于随
-cover: https://cloud.luckynwa.top/profile/yys/445.webp
+cover: https://imgs.luckynwa.top/profile/yys/445.webp
 categories: 后端
 tags: Java
 comments: true

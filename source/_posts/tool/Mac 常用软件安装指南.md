@@ -1,6 +1,6 @@
 ---
 title: Mac 常用软件安装指南
-cover: https://cloud.luckynwa.top/profile/yys/490.webp
+cover: https://imgs.luckynwa.top/profile/yys/490.webp
 description: 朝闻道，夕死可矣
 categories: 工具
 tags: Tool

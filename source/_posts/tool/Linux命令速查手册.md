@@ -1,7 +1,7 @@
 ---
 title: Linux命令速查手册
 description: 博学之，审问之，慎思之，明辨之，笃行之
-cover: https://cloud.luckynwa.top/profile/yys/487.webp
+cover: https://imgs.luckynwa.top/profile/yys/487.webp
 categories: 工具
 tags: Doc
 comments: true

@@ -169,7 +169,7 @@ swiper:
   swiper_js: /js/swiper.min.js
   custom_css: /css/swiperstyle.css
   custom_js: /js/swiperinit.js
-  error_img: https://cloud.luckynwa.top/profile/blog/loading.gif
+  error_img: https://imgs.luckynwa.top/profile/blog/loading.gif
 butterfly_article_double_row:
   enable: false
 nofollow:
@@ -214,9 +214,9 @@ hexo_submit_urls_to_search_engine:
 #       iteration: 1 #选填项，动画重复的次数
 #     - class: card-widget
 #       style: animate__zoomIn
-animate_css: https://cloud.luckynwa.top/profile/blog/jscss/animate.min.css
-wow_js: https://cloud.luckynwa.top/profile/blog/jscss/wow.min.js
-wow_init_js: https://cloud.luckynwa.top/profile/blog/jscss/wow_init.js
+animate_css: https://imgs.luckynwa.top/profile/blog/jscss/animate.min.css
+wow_js: https://imgs.luckynwa.top/profile/blog/jscss/wow.min.js
+wow_init_js: https://imgs.luckynwa.top/profile/blog/jscss/wow_init.js
 random: true
 markdown:
   render:

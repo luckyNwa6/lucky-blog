@@ -1,6 +1,6 @@
 ---
 title: NumPy 矩阵运算速查手册
-cover: https://cloud.luckynwa.top/profile/yys/139.webp
+cover: https://imgs.luckynwa.top/profile/yys/139.webp
 description: 欲穷千里目，更上一层楼
 categories: 人工智能
 tags: Doc

@@ -116,7 +116,7 @@ API Key 随便填
 
 支持嵌入到第三方应用中，很好用，直接复制到对应项目的前端页面中即可
 
-![image-20260704202116882](https://cloud.luckynwa.top/profile/2026/07/04/image-20260704202116882_20260704202117A007.png)
+![image-20260704202116882](https://imgs.luckynwa.top/profile/2026/07/04/image-20260704202116882_20260704202117A007.png)
 
 # 创建知识库
 
@@ -124,14 +124,14 @@ API Key 随便填
 
 看到列表里的文件状态是成功即可，...的设置里可以改这个
 
-![image-20260704204230785](https://cloud.luckynwa.top/profile/2026/07/04/image-20260704204230785_20260704204231A008.png)
+![image-20260704204230785](https://imgs.luckynwa.top/profile/2026/07/04/image-20260704204230785_20260704204231A008.png)
 
 再去给自己的大模型关联上知识库：
 
 配置参考如下：
 
-![image-20260704204338734](https://cloud.luckynwa.top/profile/2026/07/04/image-20260704204338734_20260704204339A009.png)
+![image-20260704204338734](https://imgs.luckynwa.top/profile/2026/07/04/image-20260704204338734_20260704204339A009.png)
 
-![image-20260704201542011](https://cloud.luckynwa.top/profile/2026/07/04/image-20260704201542011_20260704201542A006.png)
+![image-20260704201542011](https://imgs.luckynwa.top/profile/2026/07/04/image-20260704201542011_20260704201542A006.png)
 
-![image-20260704204422203](https://cloud.luckynwa.top/profile/2026/07/04/image-20260704204422203_20260704204422A010.png)
+![image-20260704204422203](https://imgs.luckynwa.top/profile/2026/07/04/image-20260704204422203_20260704204422A010.png)

@@ -2,7 +2,7 @@
 title: Vite项目中引入文件与jQuery的方法
 description: 知之者不如好之者，好之者不如乐之者
 categories: 前端
-cover: https://cloud.luckynwa.top/profile/yys/211.webp
+cover: https://imgs.luckynwa.top/profile/yys/211.webp
 tags: Vue
 comments: true
 abbrlink: front10

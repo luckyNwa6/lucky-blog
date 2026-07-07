@@ -54,7 +54,7 @@ function _createClass(e, r, t) {
   return (r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), e)
 }
 var config = {
-    src: 'https://cloud.luckynwa.top/profile/blog/6401a7904ff3a.png',
+    src: 'https://imgs.luckynwa.top/profile/blog/6401a7904ff3a.png',
     rows: 15,
     cols: 7,
   },

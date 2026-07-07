@@ -1,6 +1,6 @@
 ---
 title: Python基础知识与进阶实战
-cover: https://cloud.luckynwa.top/profile/yys/53.webp
+cover: https://imgs.luckynwa.top/profile/yys/53.webp
 description: 海阔凭鱼跃，天高任鸟飞
 categories: 人工智能
 tags: Python

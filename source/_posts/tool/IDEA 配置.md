@@ -1,6 +1,6 @@
 ---
 title: IDEA 配置
-cover: https://cloud.luckynwa.top/profile/yys/355.webp
+cover: https://imgs.luckynwa.top/profile/yys/355.webp
 description: 仰天大笑出门去，我辈岂是蓬蒿人
 categories: 工具
 tags: Tool
@@ -63,7 +63,7 @@ echo %IDEA_VM_OPTIONS%
 
 切换到别的软件，就开始热部署了 🙂
 
-![热部署配置](http://cloud.luckynwa.top/profile/mdS/2fc4d2d3139d44cd9e9d4dbed7477d55.png)
+![热部署配置](http://imgs.luckynwa.top/profile/mdS/2fc4d2d3139d44cd9e9d4dbed7477d55.png)
 
 # 设置头文件自动生成
 
@@ -76,7 +76,7 @@ echo %IDEA_VM_OPTIONS%
  */
 ```
 
-![头文件配置](http://cloud.luckynwa.top/profile/mdS/beb3718241de46edb65d6318bb41cc8d.png)
+![头文件配置](http://imgs.luckynwa.top/profile/mdS/beb3718241de46edb65d6318bb41cc8d.png)
 
 # 滚轮设置编辑区字体大小
 
@@ -84,7 +84,7 @@ echo %IDEA_VM_OPTIONS%
 
 > ⚠️ 临时生效，第二次进入会恢复默认
 
-![滚轮字体设置](http://cloud.luckynwa.top/profile/mdS/716b4cb25e7846b183789a8fe9929f37.png)
+![滚轮字体设置](http://imgs.luckynwa.top/profile/mdS/716b4cb25e7846b183789a8fe9929f37.png)
 
 # 自动导包
 
@@ -93,31 +93,31 @@ echo %IDEA_VM_OPTIONS%
 - 上面：自动导包
 - 下面：自动删除无用包
 
-![自动导包](http://cloud.luckynwa.top/profile/mdS/b6b87225fce343e581a931e8598e7fa8.png)
+![自动导包](http://imgs.luckynwa.top/profile/mdS/b6b87225fce343e581a931e8598e7fa8.png)
 
 # 显示行号和方法的分隔符
 
 `Settings` → `Editor` → `General` → `Appearance`
 
-![行号设置](http://cloud.luckynwa.top/profile/mdS/901142a1dfc5430eb280aff4f1bd0ca7.png)
+![行号设置](http://imgs.luckynwa.top/profile/mdS/901142a1dfc5430eb280aff4f1bd0ca7.png)
 
 # 设置鼠标悬浮提示
 
 `Settings` → `Editor` → `General` → `Code Completion` → 勾选显示标题功能
 
-![悬浮提示](http://cloud.luckynwa.top/profile/mdS/0fe541133367443db67f435fa38b4f09.png)
+![悬浮提示](http://imgs.luckynwa.top/profile/mdS/0fe541133367443db67f435fa38b4f09.png)
 
 # 忽略字母大小写的提示
 
 `Settings` → `Editor` → `General` → `Code Completion` → 取消勾选 `Match case`
 
-![忽略大小写](http://cloud.luckynwa.top/profile/mdS/e6c08d5733cd4b65ab0678fdebf07a07.png)
+![忽略大小写](http://imgs.luckynwa.top/profile/mdS/e6c08d5733cd4b65ab0678fdebf07a07.png)
 
 # 设置编码
 
 `Settings` → `Editor` → `File Encodings` → 全部设置为 `UTF-8`，影响 i18n 里中文，必配，BOM 勾选也记得。
 
-![编码设置](http://cloud.luckynwa.top/profile/mdS/63b5b37ebdec4731b6c8378569275851.png)
+![编码设置](http://imgs.luckynwa.top/profile/mdS/63b5b37ebdec4731b6c8378569275851.png)
 
 # 取消 Tab 页单行显示
 
@@ -125,13 +125,13 @@ echo %IDEA_VM_OPTIONS%
 
 2023 版 IDEA 选择单选 **Multiple rows**
 
-![Tab设置](http://cloud.luckynwa.top/profile/mdS/5fe98091ba9246ee8f48156bfcc16687.png)
+![Tab设置](http://imgs.luckynwa.top/profile/mdS/5fe98091ba9246ee8f48156bfcc16687.png)
 
 # 设置字体、字体大小、行间距
 
 `Settings` → `Editor` → `Font`
 
-![字体设置](http://cloud.luckynwa.top/profile/mdS/85de093acf034b0da65581b18c330e06.png)
+![字体设置](http://imgs.luckynwa.top/profile/mdS/85de093acf034b0da65581b18c330e06.png)
 
 # 推荐插件
 

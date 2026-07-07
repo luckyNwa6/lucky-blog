@@ -1,6 +1,6 @@
 ---
 title: Tomcat 环境
-cover: https://cloud.luckynwa.top/profile/yys/463.webp
+cover: https://imgs.luckynwa.top/profile/yys/463.webp
 description: 苟利国家生死以，岂因祸福避趋之
 categories: 工具
 tags: Tool

@@ -1,6 +1,6 @@
 ---
 title: 个人免费访客统计平台busuanzi搭建指南
-cover: https://cloud.luckynwa.top/profile/yys/364.webp
+cover: https://imgs.luckynwa.top/profile/yys/364.webp
 description: 不积跬步，无以至千里
 categories: 网站搭建
 tags: Docker

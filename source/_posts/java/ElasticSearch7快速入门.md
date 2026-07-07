@@ -1,7 +1,7 @@
 ---
 title: ElasticSearch7快速入门
 description: 三人行，必有我师焉
-cover: https://cloud.luckynwa.top/profile/yys/202.webp
+cover: https://imgs.luckynwa.top/profile/yys/202.webp
 categories: 后端
 tags: ElasticSearch
 comments: true
@@ -78,7 +78,7 @@ health status index uuid                   pri rep docs.count docs.deleted store
 yellow open   start 9cGmSfZ_TxyUiI1Gl9BiAw   1   1          0            0       230b           230b
 ```
 
-![Snipaste_2023-07-20_10-01-23](https://cloud.luckynwa.top/profile/mdS/Snipaste_2023-07-20_10-01-23.png)
+![Snipaste_2023-07-20_10-01-23](https://imgs.luckynwa.top/profile/mdS/Snipaste_2023-07-20_10-01-23.png)
 
 ### 查看单个索引
 

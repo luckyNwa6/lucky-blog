@@ -1,6 +1,6 @@
 ---
 title: Java 环境
-cover: https://cloud.luckynwa.top/profile/yys/180.webp
+cover: https://imgs.luckynwa.top/profile/yys/180.webp
 description: 读书破万卷，下笔如有神
 categories: 工具
 tags: Doc

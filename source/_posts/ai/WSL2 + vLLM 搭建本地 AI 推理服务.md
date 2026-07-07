@@ -1,6 +1,6 @@
 ---
 title: WSL2 + vLLM 搭建本地 AI 推理服务
-cover: https://cloud.luckynwa.top/profile/yys/206.webp
+cover: https://imgs.luckynwa.top/profile/yys/206.webp
 description: 粗缯大布裹生涯，腹有诗书气自华
 categories: 人工智能
 tags: Ops

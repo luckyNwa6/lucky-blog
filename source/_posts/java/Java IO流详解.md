@@ -1,6 +1,6 @@
 ---
 title: Java IO流详解
-cover: https://cloud.luckynwa.top/profile/yys/369.webp
+cover: https://imgs.luckynwa.top/profile/yys/369.webp
 description: 知己知彼，百战不殆
 categories: 后端
 tags: Java

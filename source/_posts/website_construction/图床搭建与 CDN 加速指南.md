@@ -160,7 +160,7 @@ git push
 
 再去[Cloudflare 官网](https://dash.cloudflare.com/) 用luckywei015@gmail.com|1656213092@qq.com登录，密码N..@
 
-![image-20260706173327016](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706173327016_20260706173328A001.png)
+![image-20260706173327016](https://imgs.luckynwa.top/profile/2026/07/06/image-20260706173327016_20260706173328A001.png)
 
 开始使用，导入现有Git存储库，开始使用，连接GitHub
 
@@ -174,17 +174,17 @@ npm install      构建命令
 frontend-dist    输出目录
 ```
 
-![image-20260706173927373](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706173927373_20260706173928A002.png)
+![image-20260706173927373](https://imgs.luckynwa.top/profile/2026/07/06/image-20260706173927373_20260706173928A002.png)
 
 保存并部署
 
-![image-20260706174132156](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706174132156_20260706174132A003.png)
+![image-20260706174132156](https://imgs.luckynwa.top/profile/2026/07/06/image-20260706174132156_20260706174132A003.png)
 
 命名空间：cloud
 
 再去worker 和pages下找到项目里的设置，去绑定这个kv空间
 
-![image-20260706174355941](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706174355941_20260706174356A004.png)
+![image-20260706174355941](https://imgs.luckynwa.top/profile/2026/07/06/image-20260706174355941_20260706174356A004.png)
 
 变量名：img_url (必须是这个)
 
@@ -198,7 +198,7 @@ frontend-dist    输出目录
 
 重新部署，等待部署完，点击域名查看
 
-![image-20260706194341275](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706194341275_20260706194343A005.png)
+![image-20260706194341275](https://imgs.luckynwa.top/profile/2026/07/06/image-20260706194341275_20260706194343A005.png)
 
 上传不了，服了，还是用java弄一个吧，集成到自己的后台管理系统里
 
@@ -207,24 +207,16 @@ R2对象存储的 跨域策略：
 ```json
 [
   {
-    "AllowedOrigins": [
-      "*"
-    ],
-    "AllowedMethods": [
-      "GET",
-      "PUT",
-      "HEAD"
-    ],
-    "AllowedHeaders": [
-      "*"
-    ],
+    "AllowedOrigins": ["*"],
+    "AllowedMethods": ["GET", "PUT", "HEAD"],
+    "AllowedHeaders": ["*"],
     "MaxAgeSeconds": 3600
   }
 ]
 ```
 
 安全性
-  └── 安全规则
+└── 安全规则
 
 创建规则：非中国访问观察
 
@@ -236,14 +228,12 @@ R2对象存储的 跨域策略：
 "tw.luckynwa.top"
 "lobechat.luckynwa.top"
 "calendar.luckynwa.top"
-"cloud.luckynwa.top"
+"imgs.luckynwa.top"
 "imgs.luckynwa.top"
 })
 ```
 
 外国人访问要走机器人认证
-
-
 
 # 回源加速
 

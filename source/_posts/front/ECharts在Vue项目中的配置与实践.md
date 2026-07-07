@@ -1,6 +1,6 @@
 ---
 title: ECharts在Vue项目中的配置与实践
-cover: https://cloud.luckynwa.top/profile/yys/205.webp
+cover: https://imgs.luckynwa.top/profile/yys/205.webp
 description: 博观而约取，厚积而薄发
 categories: 前端
 tags: ECharts

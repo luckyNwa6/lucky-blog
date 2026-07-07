@@ -2,7 +2,7 @@
 title: JavaScript对象操作详解
 description: 锲而不舍，金石可镂
 categories: 前端
-cover: https://cloud.luckynwa.top/profile/yys/371.webp
+cover: https://imgs.luckynwa.top/profile/yys/371.webp
 tags: JavaScript
 comments: true
 abbrlink: front6

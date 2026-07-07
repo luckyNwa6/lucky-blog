@@ -1,7 +1,7 @@
 ---
 title: MySQL核心知识点总结
 description: 春风得意马蹄疾，一日看尽长安花
-cover: https://cloud.luckynwa.top/profile/yys/296.webp
+cover: https://imgs.luckynwa.top/profile/yys/296.webp
 categories: 后端
 tags: Mysql
 comments: true

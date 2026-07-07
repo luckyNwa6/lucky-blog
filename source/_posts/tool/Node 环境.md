@@ -1,6 +1,6 @@
 ---
 title: Node 环境
-cover: https://cloud.luckynwa.top/profile/yys/264.webp
+cover: https://imgs.luckynwa.top/profile/yys/264.webp
 description: 宣父犹能畏后生，丈夫未可轻年少
 categories: 工具
 tags: Vue

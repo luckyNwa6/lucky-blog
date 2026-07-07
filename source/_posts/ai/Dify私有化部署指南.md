@@ -1,6 +1,6 @@
 ---
 title: Dify 私有化部署指南
-cover: https://cloud.luckynwa.top/profile/yys/515.webp
+cover: https://imgs.luckynwa.top/profile/yys/515.webp
 description: 宝剑锋从磨砺出，梅花香自苦寒来
 categories: 人工智能
 tags: Ops

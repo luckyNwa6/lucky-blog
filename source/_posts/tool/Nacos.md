@@ -1,6 +1,6 @@
 ---
 title: Nacos
-cover: https://cloud.luckynwa.top/profile/yys/327.webp
+cover: https://imgs.luckynwa.top/profile/yys/327.webp
 description: 时人不识凌云木，直待凌云始道高
 categories: 工具
 tags: Middleware

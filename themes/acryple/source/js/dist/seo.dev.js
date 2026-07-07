@@ -4,9 +4,9 @@
   var curProtocol = window.location.protocol.split(':')[0]
 
   if (curProtocol === 'https') {
-    bp.src = 'https://cloud.luckynwa.top/profile/blog/jscss/push.js'
+    bp.src = 'https://imgs.luckynwa.top/profile/blog/jscss/push.js'
   } else {
-    bp.src = 'https://cloud.luckynwa.top/profile/blog/jscss/push2.js'
+    bp.src = 'https://imgs.luckynwa.top/profile/blog/jscss/push2.js'
   }
 
   var s = document.getElementsByTagName('script')[0]

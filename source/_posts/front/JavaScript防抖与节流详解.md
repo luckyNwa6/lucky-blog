@@ -2,7 +2,7 @@
 title: JavaScript防抖与节流详解
 description: 学如逆水行舟，不进则退
 categories: 前端
-cover: https://cloud.luckynwa.top/profile/yys/242.webp
+cover: https://imgs.luckynwa.top/profile/yys/242.webp
 tags: JavaScript
 comments: true
 abbrlink: front9

@@ -1,6 +1,6 @@
 ---
 title: Java进阶知识点速查
-cover: https://cloud.luckynwa.top/profile/yys/364.webp
+cover: https://imgs.luckynwa.top/profile/yys/364.webp
 description: 青，取之于蓝，而青于蓝
 categories: 后端
 tags: Java
@@ -115,7 +115,7 @@ class TreeNode {
 
 整个集合框架围绕一组标准接口而设计。你可以直接使用这些接口的标准实现，诸如 `LinkedList`、`HashSet` 和 `TreeSet` 等。
 
-![](https://cloud.luckynwa.top/profile/mdS/java10.png)
+![](https://imgs.luckynwa.top/profile/mdS/java10.png)
 
 **Collection** 接口有 3 种子类型，List、Set 和 Queue，再下面是一些抽象类，最后是具体实现类，常用的有 `ArrayList`、`LinkedList`、`HashSet`、`LinkedHashSet`、`HashMap`、`LinkedHashMap` 等。
 

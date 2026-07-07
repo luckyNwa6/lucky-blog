@@ -1,7 +1,7 @@
 ---
 title: Typora 常用语法
 description: 人生自古谁无死，留取丹心照汗青
-cover: https://cloud.luckynwa.top/profile/yys/44.webp
+cover: https://imgs.luckynwa.top/profile/yys/44.webp
 categories: 工具
 tags: Doc
 abbrlink: tool14
@@ -36,7 +36,7 @@ date: 2025-04-30 03:32:52
 
 效果如下：
 
-![](https://cloud.luckynwa.top/profile/blog/loading.gif)
+![](https://imgs.luckynwa.top/profile/blog/loading.gif)
 
 ### 超链接跳转
 

@@ -1,6 +1,6 @@
 ---
 title: Vite项目框架搭建
-cover: https://cloud.luckynwa.top/profile/yys/62.webp
+cover: https://imgs.luckynwa.top/profile/yys/62.webp
 description: 学而不思则罔，思而不学则殆
 categories: 前端
 tags: Vue
