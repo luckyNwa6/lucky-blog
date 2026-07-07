@@ -2,7 +2,7 @@
 title: pnpm包管理器详解
 description: 温故而知新，可以为师矣
 categories: 前端
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/282
+cover: https://cloud.luckynwa.top/profile/yys/282.webp
 tags: Tool
 comments: true
 abbrlink: front12

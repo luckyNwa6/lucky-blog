@@ -1,6 +1,6 @@
 ---
 title: JMeter
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/105
+cover: https://cloud.luckynwa.top/profile/yys/105.webp
 description: 少年辛苦终身事，莫向光阴惰寸功
 categories: 工具
 tags: Tool

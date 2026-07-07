@@ -1,6 +1,6 @@
 ---
 title: RAG 学习笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
+cover: https://cloud.luckynwa.top/profile/yys/364.webp
 description: 路漫漫其修远兮，吾将上下而求索
 categories: 人工智能
 tags: Python

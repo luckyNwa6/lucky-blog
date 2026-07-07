@@ -1,6 +1,6 @@
 ---
 title: Twikoo 评论系统搭建：Docker 与 Vercel+MongoDB 两种方案
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
+cover: https://cloud.luckynwa.top/profile/yys/364.webp
 description: 独学而无友，则孤陋而寡闻
 categories: 网站搭建
 tags: Docker
@@ -90,7 +90,7 @@ https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tre
 
 提示 100 运行正常就可以了，得配置域名国内才能访问
 
-![image-20260705200259539](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705200259539_20260705200301A036.png)
+![image-20260705200259539](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705200259539_20260705200301A036.png)
 
 # 邮箱通知
 
@@ -98,7 +98,7 @@ https://vercel.com/import/project?template=https://github.com/imaegoo/twikoo/tre
 
 默认在--昵称--输入admin 展示这个设置 现在昵称这个LuckyNwa 展示设置，密7...
 
-![image-20260705191529997](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705191529997_20260705191531A035.png)
+![image-20260705191529997](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705191529997_20260705191531A035.png)
 
 QQ 邮箱开启 SMTP 服务，授权码记得保存，配置到控制面板中即可。
 

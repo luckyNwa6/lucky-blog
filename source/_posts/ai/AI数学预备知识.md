@@ -1,6 +1,6 @@
 ---
 title: AI数学预备知识
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/389
+cover: https://cloud.luckynwa.top/profile/yys/389.webp
 description: 路漫漫其修远兮，吾将上下而求索
 categories: 人工智能
 tags: Python

@@ -19,8 +19,8 @@ function _unsupportedIterableToArray(e, r) {
       'Map' === t || 'Set' === t
         ? Array.from(e)
         : 'Arguments' === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t)
-        ? _arrayLikeToArray(e, r)
-        : void 0
+          ? _arrayLikeToArray(e, r)
+          : void 0
     )
   }
 }
@@ -46,15 +46,15 @@ function _classCallCheck(e, r) {
 function _defineProperties(e, r) {
   for (var t = 0; t < r.length; t++) {
     var a = r[t]
-    ;(a.enumerable = a.enumerable || !1), (a.configurable = !0), 'value' in a && (a.writable = !0), Object.defineProperty(e, a.key, a)
+    ;((a.enumerable = a.enumerable || !1), (a.configurable = !0), 'value' in a && (a.writable = !0), Object.defineProperty(e, a.key, a))
   }
 }
 
 function _createClass(e, r, t) {
-  return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), e
+  return (r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), e)
 }
 var config = {
-    src: 'https://imgs.luckynwa.top/profile/blog/6401a7904ff3a.png',
+    src: 'https://cloud.luckynwa.top/profile/blog/6401a7904ff3a.png',
     rows: 15,
     cols: 7,
   },
@@ -130,34 +130,34 @@ var config = {
     function a(e) {
       var r = e.image,
         t = e.rect
-      _classCallCheck(this, a),
+      ;(_classCallCheck(this, a),
         (this.image = r),
         this.setRect(t),
         (this.x = 0),
         (this.y = 0),
         (this.anchorY = 0),
         (this.scaleX = 1),
-        (this.walk = null)
+        (this.walk = null))
     }
     return (
       _createClass(a, [
         {
           key: 'setRect',
           value: function (e) {
-            ;(this.rect = e),
+            ;((this.rect = e),
               (this.width = e[2]),
               (this.height = e[3]),
-              (this.drawArgs = [this.image].concat(_toConsumableArray(e), [0, 0, this.width, this.height]))
+              (this.drawArgs = [this.image].concat(_toConsumableArray(e), [0, 0, this.width, this.height])))
           },
         },
         {
           key: 'render',
           value: function (e) {
-            e.save(),
+            ;(e.save(),
               e.translate(this.x, this.y),
               e.scale(this.scaleX, 1),
               e.drawImage.apply(e, _toConsumableArray(this.drawArgs)),
-              e.restore()
+              e.restore())
           },
         },
       ]),
@@ -165,7 +165,7 @@ var config = {
     )
   })(),
   img = document.createElement('img')
-;(img.onload = init), (img.src = config.src)
+;((img.onload = init), (img.src = config.src))
 var canvas = document.querySelector('#canvas'),
   ctx = canvas.getContext('2d'),
   stage = {
@@ -177,7 +177,7 @@ var canvas = document.querySelector('#canvas'),
   crowd = []
 
 function init() {
-  createPeeps(), resize(), gsap.ticker.add(render), window.addEventListener('resize', resize)
+  ;(createPeeps(), resize(), gsap.ticker.add(render), window.addEventListener('resize', resize))
 }
 
 function createPeeps() {
@@ -191,7 +191,7 @@ function createPeeps() {
 }
 
 function resize() {
-  ;(stage.width = canvas.clientWidth),
+  ;((stage.width = canvas.clientWidth),
     (stage.height = canvas.clientHeight),
     (canvas.width = stage.width * devicePixelRatio),
     (canvas.height = stage.height * devicePixelRatio),
@@ -201,7 +201,7 @@ function resize() {
     (crowd.length = 0),
     (availablePeeps.length = 0),
     availablePeeps.push.apply(availablePeeps, allPeeps),
-    initCrowd()
+    initCrowd())
 }
 
 function initCrowd() {
@@ -217,7 +217,7 @@ function addPeepToCrowd() {
         stage: stage,
       }),
     }).eventCallback('onComplete', function () {
-      removePeepFromCrowd(e), addPeepToCrowd()
+      ;(removePeepFromCrowd(e), addPeepToCrowd())
     })
   return (
     (e.walk = r),
@@ -230,15 +230,15 @@ function addPeepToCrowd() {
 }
 
 function removePeepFromCrowd(e) {
-  removeItemFromArray(crowd, e), availablePeeps.push(e)
+  ;(removeItemFromArray(crowd, e), availablePeeps.push(e))
 }
 
 function render() {
-  ;(canvas.width = canvas.width),
+  ;((canvas.width = canvas.width),
     ctx.save(),
     ctx.scale(devicePixelRatio, devicePixelRatio),
     crowd.forEach(function (e) {
       e.render(ctx)
     }),
-    ctx.restore()
+    ctx.restore())
 }

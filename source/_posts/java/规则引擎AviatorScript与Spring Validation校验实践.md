@@ -1,6 +1,6 @@
 ---
 title: 规则引擎AviatorScript与Spring Validation校验实践
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/228
+cover: https://cloud.luckynwa.top/profile/yys/228.webp
 description: 雄关漫道真如铁，而今迈步从头越
 categories: 后端
 tags: Java

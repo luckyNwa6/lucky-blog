@@ -1,6 +1,6 @@
 ---
 title: Maven 环境
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/130
+cover: https://cloud.luckynwa.top/profile/yys/130.webp
 description: 欲穷千里目，更上一层楼
 categories: 工具
 tags: Maven

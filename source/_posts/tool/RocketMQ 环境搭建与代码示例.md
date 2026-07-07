@@ -1,7 +1,7 @@
 ---
 title: RocketMQ 环境搭建与代码示例
 description: 黄沙百战穿金甲，不破楼兰终不还
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/444
+cover: https://cloud.luckynwa.top/profile/yys/444.webp
 categories: 工具
 tags: Middleware
 abbrlink: tool11

@@ -1,6 +1,6 @@
 ---
 title: Stable Diffusion 环境搭建与使用指南
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/204
+cover: https://cloud.luckynwa.top/profile/yys/204.webp
 description: 会当凌绝顶，一览众山小
 categories: 人工智能
 tags: Tool

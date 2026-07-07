@@ -1,6 +1,6 @@
 ---
 title: Vue静态网站生成器：VitePress与VuePress实战指南
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
+cover: https://cloud.luckynwa.top/profile/yys/364.webp
 description: 工欲善其事，必先利其器
 categories: 网站搭建
 tags: Vue
@@ -38,9 +38,9 @@ pnpm vitepress init
 
 用来部署静态博客或者前端文档很不错
 
-![image-20260705154825453](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705154825453_20260705154826A015.png)
+![image-20260705154825453](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705154825453_20260705154826A015.png)
 
-![image-20260705154917198](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705154917198_20260705154917A016.png)
+![image-20260705154917198](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705154917198_20260705154917A016.png)
 
 # VuePress
 
@@ -92,9 +92,9 @@ pnpm docs:dev
 
 可以搭建公司的UI组件库
 
-![image-20260705152448812](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705152448812_20260705152449A014.png)
+![image-20260705152448812](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705152448812_20260705152449A014.png)
 
-![image-20260705152353176](https://imgs.luckynwa.top/profile/2026/07/05/image-20260705152353176_20260705152353A013.png)
+![image-20260705152353176](https://cloud.luckynwa.top/profile/2026/07/05/image-20260705152353176_20260705152353A013.png)
 
 ## 常见问题
 

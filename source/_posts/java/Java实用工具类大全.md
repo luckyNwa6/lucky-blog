@@ -1,6 +1,6 @@
 ---
 title: Java实用工具类大全
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/364
+cover: https://cloud.luckynwa.top/profile/yys/364.webp
 description: 假舆马者，非利足也，而致千里
 categories: 后端
 tags: Java
@@ -140,21 +140,21 @@ Exception in thread "main" java.lang.UnsupportedOperationException
 
 当然Collections工具类中还有很多常用的方法，在这里就不一一介绍了，需要你自己去探索。
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640_20260705182427A018.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640_20260705182427A018.png)
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-17479907433513_20260705182606A033.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-17479907433513_20260705182606A033.png)
 
 ## 2. CollectionUtils
 
 对集合操作，除了前面说的`Collections`工具类之后，`CollectionUtils`工具类也非常常用。
 
-目前比较主流的是`spring`的`org.springframework.util`包下的CollectionUtils工具类。![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-17479907630086_20260705182432A019.png)
+目前比较主流的是`spring`的`org.springframework.util`包下的CollectionUtils工具类。![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-17479907630086_20260705182432A019.png)
 
 和`apache`的`org.apache.commons.collections`包下的CollectionUtils工具类。
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-17479907693119_20260705182453A020.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-17479907693119_20260705182453A020.png)
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799077484712_20260705182617A034.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799077484712_20260705182617A034.png)
 
 > 我个人更推荐使用apache的包下的CollectionUtils工具类，因为它的工具更多更全面。
 
@@ -320,7 +320,7 @@ System.out.println(reverseList);
 
 list的原始顺序是312，使用`reverse`方法颠倒顺序之后，变成了213。
 
-Lists还有其他的好用的工具，我在这里只是抛砖引玉，有兴趣的朋友，可以仔细研究一下。![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799078520715_20260705182458A021.png)
+Lists还有其他的好用的工具，我在这里只是抛砖引玉，有兴趣的朋友，可以仔细研究一下。![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799078520715_20260705182458A021.png)
 
 ## 4. Objects
 
@@ -403,7 +403,7 @@ System.out.println(Objects.hashCode(str));
 96354
 ```
 
-Objects的内容先介绍到这里，有兴趣的小伙们，可以看看下面更多的方法：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799079008918_20260705182506A022.png)
+Objects的内容先介绍到这里，有兴趣的小伙们，可以看看下面更多的方法：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799079008918_20260705182506A022.png)
 
 ## 5. BooleanUtils
 
@@ -481,7 +481,7 @@ System.out.println(BooleanUtils.toBooleanDefaultIfNull(aBoolean1, false));
 
 我们无需额外的判空了，而且还可以设置Boolean对象为空时返回的默认值。
 
-BooleanUtils类的方法还有很多，有兴趣的小伙伴可以看看下面的内容：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799079862821_20260705182511A023.png)
+BooleanUtils类的方法还有很多，有兴趣的小伙伴可以看看下面的内容：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799079862821_20260705182511A023.png)
 
 ## 6. StringUtils
 
@@ -612,9 +612,9 @@ a,b,c
 1 2 3
 ```
 
-当然还有很多实用的方法，我在这里就不一一介绍了。![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799080945524_20260705182516A024.png)
+当然还有很多实用的方法，我在这里就不一一介绍了。![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799080945524_20260705182516A024.png)
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799081270227_20260705182523A025.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799081270227_20260705182523A025.png)
 
 ## 7. Assert
 
@@ -661,7 +661,7 @@ Assert.isTrue(CollectionUtils.isNotEmpty(list), "list不能为空");
 Assert.isTrue(CollectionUtils.isNotEmpty(list), () -> "list不能为空");
 ```
 
-当然Assert类还有一些其他的功能，这里就不多介绍了。![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799081647530_20260705182528A026.png)
+当然Assert类还有一些其他的功能，这里就不多介绍了。![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799081647530_20260705182528A026.png)
 
 ## 8. IOUtils
 
@@ -705,7 +705,7 @@ IOUtils.copy(new FileInputStream("/temp/a.txt"), new FileOutputStream("/temp/b.t
 byte[] bytes = IOUtils.toByteArray(new FileInputStream("/temp/a.txt"));
 ```
 
-IOUtils类非常实用，感兴趣的小伙们，可以看看下面内容。![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799082101833_20260705182533A027.png)
+IOUtils类非常实用，感兴趣的小伙们，可以看看下面内容。![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799082101833_20260705182533A027.png)
 
 ## 9. MDC
 
@@ -836,7 +836,7 @@ System.out.println(ClassUtils.isInnerClass(User.class));
 System.out.println(ClassUtils.isCglibProxy(new User()));
 ```
 
-ClassUtils还有很多有用的方法，等待着你去发掘。感兴趣的朋友，可以看看下面内容：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799082569836_20260705182538A028.png)
+ClassUtils还有很多有用的方法，等待着你去发掘。感兴趣的朋友，可以看看下面内容：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799082569836_20260705182538A028.png)
 
 ## 11. BeanUtils
 
@@ -887,7 +887,7 @@ PropertyDescriptor propertyForMethod = BeanUtils.findPropertyForMethod(declaredM
 System.out.println(propertyForMethod.getName());
 ```
 
-如果你对BeanUtils比较感兴趣，可以看看下面内容：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799082880539_20260705182540A029.png)
+如果你对BeanUtils比较感兴趣，可以看看下面内容：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799082880539_20260705182540A029.png)
 
 ## 12. ReflectionUtils
 
@@ -937,7 +937,7 @@ Method method = ReflectionUtils.findMethod(User.class, "getId");
 System.out.println(ReflectionUtils.isEqualsMethod(method));
 ```
 
-当然这个类还有不少有趣的方法，感兴趣的朋友，可以看看下面内容：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799083134142_20260705182543A030.png)
+当然这个类还有不少有趣的方法，感兴趣的朋友，可以看看下面内容：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799083134142_20260705182543A030.png)
 
 ## 13. Base64Utils
 
@@ -1007,7 +1007,7 @@ String md5Hex = DigestUtils.sha256Hex("苏三说技术");
 System.out.println(md5Hex);
 ```
 
-当然这个工具还有很多其他的加密方法：![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799083647945_20260705182549A031.png)
+当然这个工具还有很多其他的加密方法：![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799083647945_20260705182549A031.png)
 
 ## 16. SerializationUtils
 
@@ -1039,4 +1039,4 @@ private int NOT_FOUND_CODE = 404;
 
 其实`org.springframework.http`包下的HttpStatus枚举，或者`org.apache.http`包下的`HttpStatus`接口，已经把常用的http返回码给我们定义好了，直接拿来用就可以了，真的不用再重复定义了。
 
-![图片](https://imgs.luckynwa.top/profile/2026/07/05/640-174799083940548_20260705182551A032.png)
+![图片](https://cloud.luckynwa.top/profile/2026/07/05/640-174799083940548_20260705182551A032.png)

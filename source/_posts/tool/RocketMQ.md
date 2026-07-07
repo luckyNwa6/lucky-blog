@@ -1,6 +1,6 @@
 ---
 title: RocketMQ
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/236
+cover: https://cloud.luckynwa.top/profile/yys/236.webp
 description: 男儿何不带吴钩，收取关山五十州
 categories: 工具
 tags: Middleware

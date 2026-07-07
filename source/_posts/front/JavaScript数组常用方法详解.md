@@ -2,7 +2,7 @@
 title: JavaScript数组常用方法详解
 description: 千里之行，始于足下
 categories: 前端
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/213
+cover: https://cloud.luckynwa.top/profile/yys/213.webp
 tags: JavaScript
 comments: true
 abbrlink: front7

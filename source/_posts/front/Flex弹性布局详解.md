@@ -2,7 +2,7 @@
 title: Flex弹性布局详解
 description: 立志欲坚不欲锐，成功在久不在速
 categories: 前端
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/222
+cover: https://cloud.luckynwa.top/profile/yys/222.webp
 tags: Css
 comments: true
 abbrlink: front5
@@ -30,7 +30,7 @@ Flex 布局发生在父和子容器之间，父一旦被声明为 Flex 布局（
 
 ## 容器属性
 
-![flex容器属性](https://imgs.luckynwa.top/profile/mdS/flex1.png)
+![flex容器属性](https://cloud.luckynwa.top/profile/mdS/flex1.png)
 
 ```css
 .box {
@@ -41,9 +41,9 @@ Flex 布局发生在父和子容器之间，父一旦被声明为 Flex 布局（
 
 **垂直换行：** `flex-direction: column` 加 `flex-wrap: wrap`，如果有 2 列，就从 1 列开始从上到下，多了就第二列
 
-![flex布局示例1](https://imgs.luckynwa.top/profile/mdS/flex2.png)
+![flex布局示例1](https://cloud.luckynwa.top/profile/mdS/flex2.png)
 
-![flex布局示例2](https://imgs.luckynwa.top/profile/mdS/flex3.png)
+![flex布局示例2](https://cloud.luckynwa.top/profile/mdS/flex3.png)
 
 **justify-content 属性说明：**
 
@@ -52,7 +52,7 @@ Flex 布局发生在父和子容器之间，父一旦被声明为 Flex 布局（
 
 ## 项目属性
 
-![flex项目属性](https://imgs.luckynwa.top/profile/mdS/flex4.png)
+![flex项目属性](https://cloud.luckynwa.top/profile/mdS/flex4.png)
 
 ### flex-grow
 

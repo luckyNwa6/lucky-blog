@@ -2,7 +2,7 @@
 title: CSS选择器详解与使用技巧
 description: 不畏浮云遮望眼，自缘身在最高层
 categories: 前端
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/323
+cover: https://cloud.luckynwa.top/profile/yys/323.webp
 tags: Css
 comments: true
 abbrlink: front1
@@ -166,7 +166,7 @@ date: 2023-10-01 02:40:10
 
 ## 常用居中方式
 
-![flex居中示意图](https://imgs.luckynwa.top/profile/mdS/cssCenter.png)
+![flex居中示意图](https://cloud.luckynwa.top/profile/mdS/cssCenter.png)
 
 ### 方案一：绝对定位
 

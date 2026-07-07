@@ -2,7 +2,7 @@
 title: ES6核心特性详解
 description: 操千曲而后晓声，观千剑而后识器
 categories: 前端
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/243
+cover: https://cloud.luckynwa.top/profile/yys/243.webp
 tags: JavaScript
 comments: true
 abbrlink: front3

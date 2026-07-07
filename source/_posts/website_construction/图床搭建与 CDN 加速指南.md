@@ -156,10 +156,51 @@ git push
 
 # Cloudflare 图床
 
-[Cloudflare 官网](https://dash.cloudflare.com/) 用苹果账号扫码登录。
+先去GitHub上fork，https://github.com/MarSeventh/CloudFlare-ImgBed
 
-1. 找到 **Pages** → 创建 → 连接到 GitHub
-2. 访问初始域名 + 资源路径
+再去[Cloudflare 官网](https://dash.cloudflare.com/) 用luckywei015@gmail.com|1656213092@qq.com登录，密码N..@
+
+![image-20260706173327016](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706173327016_20260706173328A001.png)
+
+开始使用，导入现有Git存储库，开始使用，连接GitHub
+
+(1)找到 **Pages** → 创建 → 连接到 GitHub
+
+(2)登录发现往下看，可以选择仓库，选刚刚fork过来的那个
+
+```shell
+npm install      构建命令
+
+frontend-dist    输出目录
+```
+
+![image-20260706173927373](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706173927373_20260706173928A002.png)
+
+保存并部署
+
+![image-20260706174132156](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706174132156_20260706174132A003.png)
+
+命名空间：cloud
+
+再去worker 和pages下找到项目里的设置，去绑定这个kv空间
+
+![image-20260706174355941](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706174355941_20260706174356A004.png)
+
+变量名：img_url (必须是这个)
+
+再去部署--->最下面下面...，重新部署
+
+再去存储和数据库那，点击R2存储里概述，闲鱼买了个邮箱转移的，不然没卡绑定
+
+桶名字：cloud 创建
+
+再去和绑定kv一样，绑定-->添加，R2，变量名：cloudR2
+
+重新部署，等待部署完，点击域名查看
+
+![image-20260706194341275](https://cloud.luckynwa.top/profile/2026/07/06/image-20260706194341275_20260706194343A005.png)
+
+上传不了，服了，还是用java弄一个吧，集成到自己的后台管理系统里
 
 # 回源加速
 

@@ -1,6 +1,6 @@
 ---
 title: VSCode 配置
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/379
+cover: https://cloud.luckynwa.top/profile/yys/379.webp
 description: 落红不是无情物，化作春泥更护花
 categories: 工具
 tags: Tool

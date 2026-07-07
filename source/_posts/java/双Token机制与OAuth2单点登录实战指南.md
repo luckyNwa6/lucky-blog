@@ -1,7 +1,7 @@
 ---
 title: 双Token机制与OAuth2单点登录实战指南
 description: 大鹏一日同风起，扶摇直上九万里
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/67
+cover: https://cloud.luckynwa.top/profile/yys/67.webp
 categories: 后端
 tags: Token
 comments: true

@@ -1,6 +1,6 @@
 ---
 title: Claude Code & CodeX 配置手册
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/385
+cover: https://cloud.luckynwa.top/profile/yys/385.webp
 description: 千淘万漉虽辛苦，吹尽狂沙始到金
 categories: 人工智能
 tags: Ops

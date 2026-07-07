@@ -1,6 +1,6 @@
 ---
 title: MinIO使用
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/334
+cover: https://cloud.luckynwa.top/profile/yys/334.webp
 description: 沉舟侧畔千帆过，病树前头万木春
 categories: 后端
 tags: Middleware

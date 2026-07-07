@@ -1,6 +1,6 @@
 ---
 title: llama.cpp、Ollama、LM Studio新手避坑指南
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/19
+cover: https://cloud.luckynwa.top/profile/yys/19.webp
 description: 黑发不知勤学早，白首方悔读书迟
 categories: 人工智能
 tags: Tool

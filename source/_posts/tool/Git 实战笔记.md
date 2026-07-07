@@ -1,6 +1,6 @@
 ---
 title: Git 实战笔记
-cover: https://imgs.luckynwa.top/openApi/lucky/yys/116
+cover: https://cloud.luckynwa.top/profile/yys/116.webp
 description: 俱怀逸兴壮思飞，欲上青天揽明月
 categories: 工具
 tags: Git
