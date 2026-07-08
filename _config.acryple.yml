@@ -18,6 +18,7 @@ menu:
   工具 || fa-fw fas fa-tools:
     网站: /tools/ || fa fa-tasks
     木鱼: /muyu/ || fa fa-cog
+    兔子钟: /fanqiezhong/ || fa fa-clock
   线路 || fas fa-link:
     主站（阿里云）: https://luckynwa.top/
     分站（Github）: https://luckynwa6.github.io
