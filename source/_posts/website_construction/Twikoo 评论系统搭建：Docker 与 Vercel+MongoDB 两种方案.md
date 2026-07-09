@@ -1,6 +1,6 @@
 ---
 title: Twikoo 评论系统搭建：Docker 与 Vercel+MongoDB 两种方案
-cover: https://imgs.luckynwa.top/profile/yys/364.webp
+cover: https://imgs.luckynwa.top/profile/yys/803.webp
 description: 独学而无友，则孤陋而寡闻
 categories: 网站搭建
 tags: Docker

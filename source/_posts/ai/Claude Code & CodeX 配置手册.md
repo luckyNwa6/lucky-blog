@@ -1,7 +1,7 @@
 ---
 title: Claude Code & CodeX 配置手册
 cover: https://imgs.luckynwa.top/profile/yys/385.webp
-description: 千淘万漉虽辛苦，吹尽狂沙始到金
+description: 大鹏一日同风起，扶摇直上九万里
 categories: 人工智能
 tags: Ops
 comments: true

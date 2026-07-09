@@ -1,6 +1,6 @@
 ---
 title: ES6核心特性详解
-description: 操千曲而后晓声，观千剑而后识器
+description: 不入虎穴，焉得虎子
 categories: 前端
 cover: https://imgs.luckynwa.top/profile/yys/243.webp
 tags: JavaScript

@@ -1,11 +1,11 @@
 ---
 title: Java基础入门笔记
-cover: https://imgs.luckynwa.top/profile/yys/364.webp
+cover: https://imgs.luckynwa.top/profile/yys/805.webp
 description: 绳锯木断，水滴石穿
 categories: 后端
 tags: Java
 comments: true
-abbrlink: jva382
+abbrlink: java382
 summary: >-
   本文是Java基础知识的学习笔记，涵盖环境配置、IDEA快捷键、命名规范、数据类型与类型转换、运算符、条件与循环语句、数组的使用、函数方法、面向对象（封装、继承、多态）、接口、包装类、修饰符、枚举类、IO流（File类、字节流、字符流、缓冲流、转换流）、异常处理以及常用API（Random、Scanner、Date、Calendar、Math、String、StringBuffer/StringBuilder）等内容，配有丰富的代码示例和实际运行效果说明，适合Java初学者系统学习和快速查阅。
 date: 2023-08-10 14:12:00

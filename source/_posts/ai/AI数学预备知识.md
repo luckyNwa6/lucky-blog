@@ -1,7 +1,7 @@
 ---
 title: AI数学预备知识
 cover: https://imgs.luckynwa.top/profile/yys/389.webp
-description: 路漫漫其修远兮，吾将上下而求索
+description: 博学之，审问之，慎思之，明辨之，笃行之
 categories: 人工智能
 tags: Python
 comments: true

@@ -1,7 +1,7 @@
 ---
 title: MinIO 集群搭建
 cover: https://imgs.luckynwa.top/profile/yys/375.webp
-description: 路漫漫其修远兮，吾将上下而求索
+description: 长风破浪会有时，直挂云帆济沧海
 categories: 工具
 tags: Docker
 comments: true

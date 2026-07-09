@@ -1,7 +1,7 @@
 ---
 title: Element UI开发指南
 cover: https://imgs.luckynwa.top/profile/yys/283.webp
-description: 千磨万击还坚劲，任尔东西南北风
+description: 精诚所至，金石为开
 categories: 前端
 tags: UI
 comments: true

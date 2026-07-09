@@ -1,7 +1,7 @@
 ---
 title: NumPy 矩阵运算速查手册
 cover: https://imgs.luckynwa.top/profile/yys/139.webp
-description: 欲穷千里目，更上一层楼
+description: 操千曲而后晓声，观千剑而后识器
 categories: 人工智能
 tags: Doc
 comments: true

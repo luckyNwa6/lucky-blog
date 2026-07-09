@@ -1,7 +1,7 @@
 ---
 title: MinIO使用
 cover: https://imgs.luckynwa.top/profile/yys/334.webp
-description: 沉舟侧畔千帆过，病树前头万木春
+description: 读万卷书，行万里路
 categories: 后端
 tags: Middleware
 comments: true

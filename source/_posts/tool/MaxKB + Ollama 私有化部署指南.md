@@ -1,7 +1,7 @@
 ---
 title: MaxKB 私有化部署：快速搭建本地知识库问答系统
 cover: /img/lunbo/713.webp
-description: 长风破浪会有时，直挂云帆济沧海
+description: 世上无难事，只怕有心人
 categories: 人工智能
 tags: Ops
 comments: true

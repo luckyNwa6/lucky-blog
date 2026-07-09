@@ -1,7 +1,7 @@
 ---
 title: Typora 常用语法
-description: 人生自古谁无死，留取丹心照汗青
-cover: https://imgs.luckynwa.top/profile/yys/44.webp
+description: 青出于蓝而胜于蓝
+cover: https://imgs.luckynwa.top/profile/yys/819.webp
 categories: 工具
 tags: Doc
 abbrlink: tool14

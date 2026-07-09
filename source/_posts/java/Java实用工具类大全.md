@@ -1,6 +1,6 @@
 ---
 title: Java实用工具类大全
-cover: https://imgs.luckynwa.top/profile/yys/364.webp
+cover: https://imgs.luckynwa.top/profile/yys/804.webp
 description: 假舆马者，非利足也，而致千里
 categories: 后端
 tags: Java

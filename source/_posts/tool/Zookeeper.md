@@ -1,7 +1,7 @@
 ---
 title: Zookeeper
-cover: https://imgs.luckynwa.top/profile/yys/355.webp
-description: 路漫漫其修远兮，吾将上下而求索
+cover: https://imgs.luckynwa.top/profile/yys/809.webp
+description: 勿以恶小而为之，勿以善小而不为
 categories: 工具
 tags: Docker
 comments: true

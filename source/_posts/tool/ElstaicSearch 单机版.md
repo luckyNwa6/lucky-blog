@@ -1,7 +1,7 @@
 ---
 title: ElstaicSearch 单机版
-cover: https://imgs.luckynwa.top/profile/yys/355.webp
-description: 学而无友，则孤陋而寡闻
+cover: https://imgs.luckynwa.top/profile/yys/811.webp
+description: 玉不琢，不成器；人不学，不知道
 categories: 工具
 tags: Docker
 comments: true

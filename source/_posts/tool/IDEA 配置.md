@@ -1,6 +1,6 @@
 ---
 title: IDEA 配置
-cover: https://imgs.luckynwa.top/profile/yys/355.webp
+cover: https://imgs.luckynwa.top/profile/yys/807.webp
 description: 仰天大笑出门去，我辈岂是蓬蒿人
 categories: 工具
 tags: Tool

@@ -1,7 +1,7 @@
 ---
 title: Maven依赖和工具类
 description: 少壮不努力，老大徒伤悲
-cover: https://imgs.luckynwa.top/profile/yys/470.webp
+cover: https://imgs.luckynwa.top/profile/yys/818.webp
 categories: 工具
 tags: Maven
 comments: true

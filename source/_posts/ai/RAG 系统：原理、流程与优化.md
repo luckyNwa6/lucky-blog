@@ -1,7 +1,7 @@
 ---
 title: RAG 学习笔记
 cover: https://imgs.luckynwa.top/profile/yys/364.webp
-description: 路漫漫其修远兮，吾将上下而求索
+description: 千淘万漉虽辛苦，吹尽狂沙始到金
 categories: 人工智能
 tags: Python
 comments: true
