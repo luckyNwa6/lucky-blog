@@ -1,6 +1,6 @@
 ---
 title: 1Panel面板安装
-cover: https://imgs.luckynwa.top/profile/yys/629.webp
+cover: https://imgs.luckynwa.top/profile/yys/75.webp
 description: 问渠那得清如许，为有源头活水来
 categories: 工具
 tags: Tool

@@ -3,7 +3,7 @@ title: Git 实战笔记
 cover: https://imgs.luckynwa.top/profile/yys/116.webp
 description: 俱怀逸兴壮思飞，欲上青天揽明月
 categories: 工具
-tags: Git
+tags: Tool
 comments: true
 abbrlink: tool1
 summary: >-
@@ -17,8 +17,6 @@ date: 2023-07-01 07:30:33
 ```shell
 git commit --amend -m "新的提交信息"          #提交的文案想重新修改
 ```
-
-
 
 # Git 基础概念
 

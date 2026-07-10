@@ -3,7 +3,7 @@ title: Element UI开发指南
 cover: https://imgs.luckynwa.top/profile/yys/283.webp
 description: 精诚所至，金石为开
 categories: 前端
-tags: UI
+tags: Vue
 comments: true
 abbrlink: front4
 summary: >-

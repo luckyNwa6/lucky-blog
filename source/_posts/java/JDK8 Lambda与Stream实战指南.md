@@ -1,7 +1,7 @@
 ---
 title: JDK8 Lambda与Stream实战指南
 description: 吾生也有涯，而知也无涯
-cover: /img/lunbo/483.webp
+cover: https://imgs.luckynwa.top/profile/yys/77.webp
 categories: 后端
 tags: Java
 comments: true

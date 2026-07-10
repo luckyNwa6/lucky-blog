@@ -3,7 +3,7 @@ title: 双Token机制与OAuth2单点登录实战指南
 description: 风声雨声读书声，声声入耳；家事国事天下事，事事关心
 cover: https://imgs.luckynwa.top/profile/yys/67.webp
 categories: 后端
-tags: Token
+tags: Java
 comments: true
 abbrlink: java8
 summary: >-

@@ -3,7 +3,7 @@ title: ElasticSearch7快速入门
 description: 三人行，必有我师焉
 cover: https://imgs.luckynwa.top/profile/yys/202.webp
 categories: 后端
-tags: ElasticSearch
+tags: Tool
 comments: true
 abbrlink: java1
 summary: >-

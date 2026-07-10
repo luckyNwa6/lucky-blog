@@ -2,7 +2,7 @@
 title: 从零搭建Python深度学习环境
 description: 读书不觉已春深，一寸光阴一寸金
 categories: 人工智能
-cover: https://imgs.luckynwa.top/profile/yys/75.webp
+cover: /img/lunbo/483.webp
 tags: Python
 comments: true
 sticky: 37
