@@ -1,6 +1,6 @@
 ---
 title: MinIO 集群搭建
-cover: https://imgs.luckynwa.top/profile/yys/375.webp
+cover: https://imgs.luckynwa.top/profile/yys/678.webp
 description: 长风破浪会有时，直挂云帆济沧海
 categories: 工具
 tags: Docker

@@ -1,6 +1,6 @@
 ---
 title: Milvus 部署指南
-cover: https://imgs.luckynwa.top/profile/yys/355.webp
+cover: https://imgs.luckynwa.top/profile/yys/734.webp
 description: 山重水复疑无路，柳暗花明又一村
 categories: 人工智能
 tags: Docker

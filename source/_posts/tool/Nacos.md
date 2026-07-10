@@ -17,7 +17,7 @@ date: 2024-08-26 03:19:26
 ## 简介
 ​		Nacos 是阿里巴巴开源的动态服务发现、配置管理和服务管理平台，用于微服务架构中替代 Eureka 作为注册中心，同时提供集中式配置管理，支持配置动态刷新、灰度发布和版本回滚，自带可视化控制台，开箱即用。
 
-## 安装
+## Linux版
 
 将 `E:\other\装机必备软件\SSSS开发相关` 下的 `nacos-server-2.3.0.tar.gz` 压缩包拖到 `/nwa/nacos` 文件夹，然后解压：
 
@@ -41,7 +41,7 @@ sh startup.sh -m standalone
 sh shutdown.sh
 ```
 
-## 改用 MySQL 存储
+**改用 MySQL 存储**
 
 使用 MySQL 5.7 数据库，数据库名 `nacos`，执行以下建表 SQL：
 
@@ -272,7 +272,7 @@ INSERT INTO `users` VALUES ('nacos', '$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2ku
 SET FOREIGN_KEY_CHECKS = 1;
 ```
 
-## 修改 Nacos 配置
+**修改 Nacos 配置**
 
 编辑 `nacos/conf/application.properties`，替换为以下配置：
 
@@ -292,7 +292,7 @@ db.user.0=root
 db.password.0=123456
 ```
 
-## 启动 Nacos
+**启动 Nacos**
 
 ```shell
 cd /usr/local/nacos/nacos/bin
@@ -302,7 +302,53 @@ sh startup.sh -m standalone
 
 记得打开 8848 端口，访问：http://ip:8848/nacos/index.html
 
+## Docker版
 
+新建 `/work` 目录，再从 [最新稳定版本 (opens new window)](https://github.com/alibaba/nacos/releases)下载 `nacos-server-$version.zip` 包。
+
+② 执行 `unzip nacos-server-$version.zip` 解压缩，它最终在 `/work/nacos/` 目录如下
+
+```
+cd /work
+unzip nacos-server-2.3.2.zip
+```
+
+修改 `conf/application.properties` 配置文件，主要是修改数据库、认证相关的配置。如下所示
+
+```yml
+### 数据库配置（直接添加）
+spring.datasource.platform=mysql
+db.num=1
+db.url.0=jdbc:mysql://IP:3308/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+db.user=root
+db.password=123456
+
+### 认证配置（需要检索到对应的配置项，进行修改）
+nacos.core.auth.enabled=true
+# 自定义用于生成 JWT 令牌的密钥，注意：原始密钥长度不得低于 32 字符，且一定要进行 Base64 编码，否则无法启动节点
+nacos.core.auth.plugin.nacos.token.secret.key=RTF0SE41WFRDbEQybXN0SXBibmhQQjZ5bWpUWG9Bc1Y=
+# 配置自定义身份识别的 key 和 value，这两个属性是 auth 的白名单，用于标识来自其它服务器的请求。具体实现见 com.alibaba.nacos.core.auth.AuthFilter
+nacos.core.auth.server.identity.key=admin
+nacos.core.auth.server.identity.value=admin
+```
+
+① `db.url.0`、`db.user`、`db.password` 修改为你的 MySQL 数据库地址、用户名、密码。
+
+同时，需要使用 Navicat 把 `conf/mysql-schema.sql` 导入到 MySQL 数据库中。
+
+② `nacos.core.auth.server.identity.key` 和 `nacos.core.auth.server.identity.key` 可以使用随机的字符串。
+
+`nacos.core.auth.plugin.nacos.token.secret.key` 可以随机一个 32 位的字符串，然后使用 [Base64 (opens new window)](https://tool.oschina.net/encrypt?type=3)编码。
+
+```shell
+docker run --name nacos-standalone \
+-e MODE=standalone \
+-v /work/nacos/conf/application.properties:/home/nacos/conf/application.properties \
+-p 8848:8848 \
+-p 9848:9848 \
+-d \
+docker.m.daocloud.io/nacos/nacos-server
+```
 
 ## win版
 
